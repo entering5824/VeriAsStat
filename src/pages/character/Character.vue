@@ -88,17 +88,14 @@
 <script lang="ts">
 import { defineComponent, ref, nextTick, watch, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
-import { useCharacters } from '../composables/useCharacters'
-import { useCharacterSort } from '../composables/useCharacterSort'
-import { useSearchDebounce } from '../composables/useSearchDebounce'
-import { useScrollRestore } from '../composables/useScrollRestore'
-import { useImagePreloader } from '../composables/useImagePreloader'
-import { API_GAMES as GAMES } from '../config/games'
-import { ENABLE_CRUD } from '../utils/common'
-import Character_Grid from '../components/character/Character_Grid.vue'
-import CharacterFilterToolbar from '../components/character/CharacterFilterToolbar.vue'
-import BuildGuideModal from '../components/character/BuildGuideModal.vue'
-import PageNavigation from '../components/common/PageNavigation.vue'
+import { useCharacters, useCharacterSort } from '../../composables/character'
+import { useSearchDebounce, useScrollRestore, useImagePreloader } from '../../composables/ui'
+import { API_GAMES as GAMES } from '../../config/games'
+import { ENABLE_CRUD } from '../../utils/common'
+import Character_Grid from '../../components/character/Character_Grid.vue'
+import CharacterFilterToolbar from '../../components/character/CharacterFilterToolbar.vue'
+import BuildGuideModal from '../../components/character/BuildGuideModal.vue'
+import PageNavigation from '../../components/common/PageNavigation.vue'
 
 export default defineComponent({
   name: 'CharacterPage',

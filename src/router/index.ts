@@ -2,13 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 // Lazy load pages for code splitting
 const HomePage = () => import('../pages/Home.vue')
-const VersionPage = () => import('../pages/VersionPage.vue')
-const Character = () => import('../pages/Character.vue')
-const CharacterDetail = () => import('../pages/CharacterDetail.vue')
-const Weapon = () => import('../pages/Weapon.vue')
-const WeaponDetail = () => import('../pages/WeaponDetail.vue')
-const Artifact = () => import('../pages/Artifact.vue')
-const GamePage = () => import('../pages/GamePage.vue')
+const VersionPage = () => import('../pages/version/VersionPage.vue')
+const Character = () => import('../pages/character/Character.vue')
+const CharacterDetail = () => import('../pages/character/CharacterDetail.vue')
+const Weapon = () => import('../pages/weapon/Weapon.vue')
+const WeaponDetail = () => import('../pages/weapon/WeaponDetail.vue')
+const Artifact = () => import('../pages/artifact/Artifact.vue')
+const GamePage = () => import('../pages/game/GamePage.vue')
 
 const routes = [
   {

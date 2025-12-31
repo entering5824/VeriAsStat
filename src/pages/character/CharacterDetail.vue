@@ -277,12 +277,12 @@
 <script lang="ts">
 import { defineComponent, ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import BuildGuideTabs from '../components/character/BuildGuideTabs.vue'
-import SkeletonDetail from '../components/character/SkeletonDetail.vue'
-import type { Character } from '../types/character'
-import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, getCharacterImageCandidates, type Game } from '../utils/character'
-import { characterService } from '../services/character'
-import { useScrollRestore } from '../composables/useScrollRestore'
+import BuildGuideTabs from '../../components/character/BuildGuideTabs.vue'
+import SkeletonDetail from '../../components/character/SkeletonDetail.vue'
+import type { Character } from '../../types/character'
+import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, getCharacterImageCandidates, type Game } from '../../utils/character'
+import { characterService } from '../../services/character'
+import { useScrollRestore } from '../../composables/ui'
 
 export default defineComponent({
   name: 'CharacterDetail',

@@ -146,14 +146,13 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, reactive, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import type { Weapon, PassiveEffect } from '../types/weapon'
-import { weaponService } from '../services'
-import { useWeaponScaling } from '../composables/useWeaponScaling'
-import { provideWeaponContext } from '../composables/useWeapon'
-import { useImagePreloader } from '../composables/useImagePreloader'
-import WeaponStatsTable from '../components/weapon/WeaponStatsTable.vue'
-import PassiveRenderer from '../components/weapon/PassiveRenderer.vue'
-import { isGenshinWeapon, isHSRLightCone, isZZZWEngine } from '../utils/weapon'
+import type { Weapon, PassiveEffect } from '../../types/weapon'
+import { weaponService } from '../../services'
+import { useWeaponScaling, provideWeaponContext } from '../../composables/weapon'
+import { useImagePreloader } from '../../composables/ui'
+import WeaponStatsTable from '../../components/weapon/WeaponStatsTable.vue'
+import PassiveRenderer from '../../components/weapon/PassiveRenderer.vue'
+import { isGenshinWeapon, isHSRLightCone, isZZZWEngine } from '../../utils/weapon'
 
 const route = useRoute()
 const router = useRouter()

@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { getImageUrlWithWebp } from '../../utils/common/imageHelpers'
+import { getImageUrlWithWebp } from '../../utils/common'
 
 interface Props {
   src: string

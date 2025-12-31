@@ -1,6 +1,5 @@
 import type { Character } from '../../types/character'
-import { fetchWithRetry } from '../../utils/fetchWithRetry'
-import { LRUCache } from '../../utils/lruCache'
+import { fetchWithRetry, LRUCache } from '../../utils/common'
 import { validateCharacters } from '../../schemas/character.schema'
 
 // LRU Cache with TTL (1 hour default)

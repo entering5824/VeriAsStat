@@ -1,5 +1,5 @@
 import { computed, type Ref } from 'vue'
-import type { Weapon } from '../types/weapon'
+import type { Weapon } from '../../types/weapon'
 
 interface CalculatedStats {
   baseATK?: number

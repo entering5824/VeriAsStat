@@ -26,7 +26,7 @@
 
 <script lang="ts">
 import { defineComponent, computed, ref, watch } from 'vue'
-import { getImageUrlWithWebp } from '../../utils/common/imageHelpers'
+import { getImageUrlWithWebp } from '../../utils/common'
 
 export default defineComponent({
   props: {

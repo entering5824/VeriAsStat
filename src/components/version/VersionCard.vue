@@ -92,7 +92,7 @@
 import { computed, defineComponent, ref, watchEffect } from 'vue'
 import type { PropType } from 'vue'
 import ImageFull from '../ui/ImageFull.vue'
-import { useGameConfig } from '../../composables/useGameConfig'
+import { useGameConfig } from '../../composables/game'
 import { ENABLE_CRUD } from '../../utils/common'
 import { characterService } from '../../services'
 import { getCharacterSplashUrl } from '../../utils/character'

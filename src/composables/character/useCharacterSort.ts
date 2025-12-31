@@ -1,5 +1,5 @@
 import { computed, type Ref } from 'vue'
-import type { Character } from '../types/character'
+import type { Character } from '../../types/character'
 
 export type SortOption = 
   | 'name-asc' 

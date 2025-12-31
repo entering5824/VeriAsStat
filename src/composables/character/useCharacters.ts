@@ -1,6 +1,6 @@
 import { ref, computed, watch } from 'vue'
-import type { Character } from '../types/character'
-import { characterService } from '../services/character'
+import type { Character } from '../../types/character'
+import { characterService } from '../../services/character'
 
 export function useCharacters() {
   const characters = ref<Character[]>([])

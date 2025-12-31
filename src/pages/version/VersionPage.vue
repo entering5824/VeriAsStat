@@ -135,16 +135,15 @@
 <script setup lang="ts">
 import { ref, watch, onMounted, nextTick } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import GameColumn from '../components/game/GameColumn.vue'
-import VersionCard from '../components/version/VersionCard.vue'
-import VersionModal from '../components/version/VersionModal.vue'
-import { useVersionPage } from '../composables/useVersionPage'
-import { useImagePreloader } from '../composables/useImagePreloader'
-import { GAMES as GAME_CFG } from '../config/games'
-import { ENABLE_CRUD, getSafeErrorMessage } from '../utils/common'
-import { useNotifications } from '../composables/useNotifications'
-import { useConflictResolution } from '../composables/useConflictResolution'
-import ConflictResolutionDialog from '../components/common/ConflictResolutionDialog.vue'
+import GameColumn from '../../components/game/GameColumn.vue'
+import VersionCard from '../../components/version/VersionCard.vue'
+import VersionModal from '../../components/version/VersionModal.vue'
+import { useVersionPage } from '../../composables/useVersionPage'
+import { useImagePreloader, useNotifications } from '../../composables/ui'
+import { GAMES as GAME_CFG } from '../../config/games'
+import { ENABLE_CRUD, getSafeErrorMessage } from '../../utils/common'
+import { useConflictResolution } from '../../composables/ui'
+import ConflictResolutionDialog from '../../components/common/ConflictResolutionDialog.vue'
 
 const route = useRoute()
 const router = useRouter()

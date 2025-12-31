@@ -53,13 +53,13 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
-import { weaponService } from '../services'
-import type { BaseWeapon } from '../types/weapon'
-import { useWeaponFilter } from '../composables/useWeaponFilter'
-import { useImagePreloader } from '../composables/useImagePreloader'
-import WeaponGrid from '../components/weapon/WeaponGrid.vue'
-import WeaponFilters from '../components/weapon/WeaponFilters.vue'
-import PageNavigation from '../components/common/PageNavigation.vue'
+import { weaponService } from '../../services'
+import type { BaseWeapon } from '../../types/weapon'
+import { useWeaponFilter } from '../../composables/weapon'
+import { useImagePreloader } from '../../composables/ui'
+import WeaponGrid from '../../components/weapon/WeaponGrid.vue'
+import WeaponFilters from '../../components/weapon/WeaponFilters.vue'
+import PageNavigation from '../../components/common/PageNavigation.vue'
 
 const router = useRouter()
 const route = useRoute()

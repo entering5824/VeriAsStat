@@ -50,11 +50,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
-import type { ArtifactSet } from '../types/artifact'
-import { artifactSetService } from '../services'
-import { useImagePreloader } from '../composables/useImagePreloader'
-import ArtifactGrid from '../components/artifact/ArtifactGrid.vue'
-import PageNavigation from '../components/common/PageNavigation.vue'
+import type { ArtifactSet } from '../../types/artifact'
+import { artifactSetService } from '../../services'
+import { useImagePreloader } from '../../composables/ui'
+import ArtifactGrid from '../../components/artifact/ArtifactGrid.vue'
+import PageNavigation from '../../components/common/PageNavigation.vue'
 
 const route = useRoute()
 const selectedGame = ref<'GI' | 'HSR' | 'ZZZ'>('GI')

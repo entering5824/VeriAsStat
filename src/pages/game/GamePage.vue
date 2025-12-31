@@ -45,9 +45,9 @@
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import { useGamePage } from '../composables/useGamePage'
-import VersionCard from '../components/version/VersionCard.vue'
-import PageNavigation from '../components/common/PageNavigation.vue'
+import { useGamePage } from '../../composables/game'
+import VersionCard from '../../components/version/VersionCard.vue'
+import PageNavigation from '../../components/common/PageNavigation.vue'
 
 const {
   loading,

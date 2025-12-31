@@ -1,5 +1,5 @@
 import { ref, computed, type Ref } from 'vue'
-import type { BaseWeapon } from '../types/weapon'
+import type { BaseWeapon } from '../../types/weapon'
 
 export interface WeaponFilters {
   game: string

@@ -91,7 +91,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { WeaponFilters, SortOption } from '../../composables/useWeaponFilter'
+import type { WeaponFilters, SortOption } from '../../composables/weapon'
 
 interface Props {
   filters: WeaponFilters

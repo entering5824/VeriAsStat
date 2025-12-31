@@ -1,5 +1,5 @@
 import { provide, inject, type Ref } from 'vue'
-import type { Weapon } from '../types/weapon'
+import type { Weapon } from '../../types/weapon'
 
 const WeaponContextKey = Symbol('weapon')
 const WeaponRefinementKey = Symbol('weapon-refinement')

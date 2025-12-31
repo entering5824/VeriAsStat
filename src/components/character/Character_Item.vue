@@ -123,7 +123,7 @@ import { defineComponent, computed, ref, onMounted, onUnmounted, nextTick } from
 import { useRouter } from 'vue-router'
 import type { PropType } from 'vue'
 import type { Character } from '../../types/character'
-import { useCharacterStats } from '../../composables/useCharacterStats'
+import { useCharacterStats } from '../../composables/character'
 import { 
   getCharacterIconUrl, 
   getCharacterSplashUrl, 
