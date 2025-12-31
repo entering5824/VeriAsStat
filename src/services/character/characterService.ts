@@ -1,7 +1,7 @@
-import type { Character } from '../types/character'
-import { fetchWithRetry } from '../utils/fetchWithRetry'
-import { LRUCache } from '../utils/lruCache'
-import { validateCharacters } from '../schema/character.schema'
+import type { Character } from '../../types/character'
+import { fetchWithRetry } from '../../utils/fetchWithRetry'
+import { LRUCache } from '../../utils/lruCache'
+import { validateCharacters } from '../../schema/character.schema'
 
 // LRU Cache with TTL (1 hour default)
 const CACHE_TTL = 60 * 60 * 1000 // 1 hour in milliseconds

@@ -1,4 +1,4 @@
-import type { BaseWeapon, Weapon } from '../types/weapon'
+import type { BaseWeapon, Weapon } from '../../types/weapon'
 
 // Cache for loaded weapons
 const weaponCache = new Map<string, BaseWeapon[]>()

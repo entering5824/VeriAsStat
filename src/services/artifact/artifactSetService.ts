@@ -1,5 +1,5 @@
-import type { ArtifactSet } from '../types/artifact'
-import { fetchWithRetry } from '../utils/fetchWithRetry'
+import type { ArtifactSet } from '../../types/artifact'
+import { fetchWithRetry } from '../../utils/fetchWithRetry'
 
 /**
  * Service for fetching artifact set data from JSON files

@@ -281,7 +281,7 @@ import BuildGuideTabs from '../components/character/BuildGuideTabs.vue'
 import SkeletonDetail from '../components/character/SkeletonDetail.vue'
 import type { Character } from '../types/character'
 import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, getCharacterImageCandidates, type Game } from '../utils/character'
-import { characterService } from '../services/characterService'
+import { characterService } from '../services/character'
 import { useScrollRestore } from '../composables/useScrollRestore'
 
 export default defineComponent({

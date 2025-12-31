@@ -1,7 +1,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useGameConfig } from './useGameConfig'
-import { characterService } from '../services/characterService'
+import { characterService } from '../services/character'
 
 interface GameConfig {
   code: string
