@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 /**
  * Zod schema for validating character JSON data
- * Matches the structure in public/data/characters/{game}/characters.json
+ * Matches the structure in public/data/{game}/characters.json
  */
 
 // Schema for section items (weapons, artifacts, etc.)

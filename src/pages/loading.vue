@@ -2,7 +2,7 @@
   <transition name="fade">
     <div v-if="show" class="loading-overlay">
       <div class="loading-container">
-        <img src="/images/loading.png" alt="Loading..." class="loading-image">
+        <img src="/images/shared/loading.png" alt="Loading..." class="loading-image">
         <p class="loading-text">Đang tải...</p>
       </div>
     </div>

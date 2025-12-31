@@ -24,9 +24,9 @@ export const GAME_FORMAT_PRIORITY: Record<Game, string[]> = {
  * @returns Full image path
  */
 function buildPath(game: Game, type: 'icon' | 'splash', name: string, ext: string): string {
-  const gameUpper = game.toUpperCase()
+  const gameLower = game.toLowerCase()
   const typeFolder = type === 'icon' ? 'icon' : 'splashart'
-  return `/images/characters/${gameUpper}/${typeFolder}/${encodeURIComponent(name)}.${ext}`
+  return `/images/${gameLower}/characters/${typeFolder}/${encodeURIComponent(name)}.${ext}`
 }
 
 /**
@@ -122,9 +122,9 @@ export function makeSrcSet(
   
   return widths
     .map(w => {
-      const gameUpper = game.toUpperCase()
+      const gameLower = game.toLowerCase()
       const typeFolder = type === 'icon' ? 'icon' : 'splashart'
-      const path = `/images/characters/${gameUpper}/${typeFolder}/${encodeURIComponent(name)}@${w}.${chosen}`
+      const path = `/images/${gameLower}/characters/${typeFolder}/${encodeURIComponent(name)}@${w}.${chosen}`
       return `${path} ${w}w`
     })
     .join(', ')
@@ -138,7 +138,7 @@ export function makeSrcSet(
  * @returns Placeholder image URL
  */
 export function placeholderFor(game: Game, type: 'icon' | 'splash'): string {
-  return `/images/placeholders/${type}-${game.toLowerCase()}.png`
+  return `/images/shared/placeholder/${type}-${game.toLowerCase()}.png`
 }
 
 /**
@@ -164,8 +164,8 @@ export function getCharacterIconUrl(char: any): string {
     const name = extractCharacterName(char)
     if (!name) return getFallbackIconUrl()
     
-    const gamePath = game.toUpperCase()
-    basePath = `/images/characters/${gamePath}/icon/${name}`
+    const gamePath = game.toLowerCase()
+    basePath = `/images/${gamePath}/characters/icon/${name}`
   }
   
   // Get format based on game
@@ -197,8 +197,8 @@ export function getCharacterSplashUrl(char: any): string {
     const name = extractCharacterName(char)
     if (!name) return ''
     
-    const gamePath = game.toUpperCase()
-    basePath = `/images/characters/${gamePath}/splashart/${name}`
+    const gamePath = game.toLowerCase()
+    basePath = `/images/${gamePath}/characters/splashart/${name}`
   }
   
   // Get format based on game
@@ -212,7 +212,7 @@ export function getCharacterSplashUrl(char: any): string {
  * @returns Fallback placeholder URL
  */
 export function getFallbackIconUrl(): string {
-  return '/images/placeholder/character.png'
+  return '/images/shared/placeholder/character.png'
 }
 
 // Build guide helpers

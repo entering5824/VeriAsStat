@@ -49,7 +49,7 @@ const props = defineProps<{
 
 defineEmits<{ click: [] }>()
 
-const iconFallback = '/images/gi_icon.jpeg'
+const iconFallback = '/images/gi/icons/gi_icon.jpeg'
 const iconSrc = computed(() => props.game.icon || iconFallback)
 const displayBuildCount = computed(() => {
   if (typeof props.buildCount === 'number' && props.buildCount >= 0) {

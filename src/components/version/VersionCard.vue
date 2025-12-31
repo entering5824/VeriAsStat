@@ -218,9 +218,9 @@ export default defineComponent({
         basePath = iconPath.replace(/\.(png|jpg|jpeg|webp)$/i, '')
       } else {
         // Fallback: construct path from name and game
-        const gamePath = (props.version.game || 'GI') === 'GI' ? 'GI' : (props.version.game || 'GI') === 'HSR' ? 'HSR' : 'ZZZ'
+        const game = (props.version.game || 'GI').toLowerCase()
         const cleanNameForPath = cleanName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '')
-        basePath = `/images/characters/${gamePath}/icon/${cleanNameForPath}`
+        basePath = `/images/${game}/characters/icon/${cleanNameForPath}`
       }
       
       return basePath
@@ -362,7 +362,7 @@ export default defineComponent({
       
       // Mark as attempted and use placeholder
       img.dataset.fallbackAttempted = 'true'
-      const placeholderUrl = '/images/placeholder/character.png'
+      const placeholderUrl = '/images/shared/placeholder/character.png'
       if (img.src !== placeholderUrl) {
         img.src = placeholderUrl
       } else {

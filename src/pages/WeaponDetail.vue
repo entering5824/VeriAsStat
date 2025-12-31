@@ -177,7 +177,8 @@ const iconUrl = computed(() => {
   if (!weapon.value) return ''
   const gamePath = weapon.value.game === 'GI' ? 'GI' : weapon.value.game === 'HSR' ? 'HSR' : 'ZZZ'
   const cleanName = weapon.value.name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '')
-  return `/images/weapons/${gamePath}/icon/${cleanName}.png`
+  const gameLower = game.toLowerCase()
+  return `/images/${gameLower}/weapons/${cleanName}.png`
 })
 
 const { calculatedStats } = useWeaponScaling(weapon, level)

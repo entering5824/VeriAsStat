@@ -3,13 +3,13 @@ export function useGameConfig() {
     const gameUpper = (game || '').toUpperCase()
     switch (gameUpper) {
       case 'GI':
-        return '/images/gi_icon.jpeg'
+        return '/images/gi/icons/gi_icon.jpeg'
       case 'HSR':
-        return '/images/hsr_icon.png'
+        return '/images/hsr/icons/hsr_icon.png'
       case 'ZZZ':
-        return '/images/zzz_icon.png'
+        return '/images/zzz/icons/zzz_icon.png'
       default:
-        return '/images/gi_icon.jpeg'
+        return '/images/gi/icons/gi_icon.jpeg'
     }
   }
 

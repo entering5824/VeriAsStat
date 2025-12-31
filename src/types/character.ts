@@ -77,8 +77,8 @@ export interface Character {
   graduation_stats?: GraduationStatsByGame | null
   teammate?: string[]
   // Primary image paths (relative paths from public root)
-  iconPath?: string  // e.g., "/images/characters/GI/icon/name.png"
-  splashPath?: string  // e.g., "/images/characters/GI/splashart/name.png"
+  iconPath?: string  // e.g., "/images/gi/characters/icon/name.png"
+  splashPath?: string  // e.g., "/images/gi/characters/splashart/name.png"
   // Deprecated: Firebase Storage URLs (kept for backward compatibility)
   imageUrlIcon?: string    // @deprecated Use iconPath instead
   imageUrlSplash?: string  // @deprecated Use splashPath instead

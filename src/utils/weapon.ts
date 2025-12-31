@@ -22,8 +22,8 @@ export function getWeaponIconUrl(weapon: any): string {
   
   if (!name) return ''
   
-  // Weapon images are typically in /images/weapons/
-  return `/images/weapons/${name}.png`
+  // Weapon images are typically in /images/gi/weapons/
+  return `/images/gi/weapons/${name}.png`
 }
 
 /**

@@ -632,7 +632,7 @@ export default defineComponent({
       
       // Prevent infinite loop
       if (target.dataset.fallbackAttempted === 'true') {
-        target.src = '/images/placeholder/character.png'
+        target.src = '/images/shared/placeholder/character.png'
         return
       }
       

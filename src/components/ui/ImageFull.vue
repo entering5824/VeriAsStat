@@ -58,7 +58,8 @@ export default defineComponent({
       // Fallback: construct path from name
       const cleanName = props.characterName.replace(/\s*\d+★.*$/i, '').replace(/\s*\(.*?\)\s*/g, '').trim()
       const sanitizedName = cleanName.toLowerCase().replace(/\s+/g, '_')
-      const basePath = `/images/characters/full/${sanitizedName}`
+      // Note: full character images path - may need to be updated based on actual structure
+      const basePath = `/images/gi/characters/full/${sanitizedName}`
       // Use WebP with PNG fallback
       return getImageUrlWithWebp(basePath)
     })

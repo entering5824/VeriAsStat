@@ -41,7 +41,7 @@ async function loadCharactersForGame(game: string): Promise<Character[]> {
 
   try {
     const gameLower = game.toLowerCase()
-    const url = `/data/characters/${gameLower}/characters.json`
+    const url = `/data/${gameLower}/characters.json`
     
     // Fetch with retry and timeout
     const response = await fetchWithRetry(

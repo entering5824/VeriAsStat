@@ -23,9 +23,9 @@ except Exception:
     HAS_JSONSCHEMA = False
 
 DEFAULT_FILES = [
-    "public/data/characters/gi/characters.json",
-    "public/data/characters/hsr/characters.json",
-    "public/data/characters/zzz/characters.json",
+    "public/data/gi/characters.json",
+    "public/data/hsr/characters.json",
+    "public/data/zzz/characters.json",
     "public/data/versions.json",
     "public/data/gi/weapons.json",
     "public/data/hsr/lightcones.json",
