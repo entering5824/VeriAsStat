@@ -1,0 +1,395 @@
+[
+  {
+    "game": "GI",
+    "version": "6.0",
+    "release_date": "2025-09-10",
+    "description": "Mở đầu chương Nod-Krai (phía nam Snezhnaya). Ra mắt cơ chế Phản ứng Nguyệt Tộc (Lunar Reactions).",
+    "_id": "1",
+    "characters_rateup": [
+      { "name": "Lauma", "rarity": "5" },
+      { "name": "Flins", "rarity": "5" },
+      { "name": "Nahida", "rarity": "5(rerun)" },
+      { "name": "Yelan", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "gone"
+  },
+  {
+    "game": "GI",
+    "version": "6.1",
+    "release_date": "2025-10-22",
+    "description": "Ra mắt Nefer. Rerun Arlecchino, Zhongli và Furina.",
+    "_id": "2",
+    "characters_rateup": [
+      { "name": "Nefer", "rarity": "5" },
+      { "name": "Arlecchino", "rarity": "5(rerun)" },
+      { "name": "Zhongli", "rarity": "5(rerun)" },
+      { "name": "Furina", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "gone"
+  },
+  {
+    "game": "HSR",
+    "version": "3.7",
+    "release_date": "2025-11-05",
+    "description": "Kết thúc cốt truyện tại Amphoreus. Ra mắt Cyrene.",
+    "_id": "12",
+    "characters_rateup": [
+      { "name": "Cyrene", "rarity": "5" }
+    ],
+    "event_region_main": "Amphoreus",
+    "status": "gone"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.4",
+    "release_date": "2025-11-26",
+    "description": "Ra mắt Dialyn và Banyue. (Ngày cũ: 2025-11-28 được chỉnh về Thứ 4)",
+    "_id": "23",
+    "characters_rateup": [
+      { "name": "Dialyn", "rarity": "5" },
+      { "name": "Banyue", "rarity": "5" }
+    ],
+    "event_region_main": "New Eridu",
+    "status": "gone"
+  },
+  {
+    "game": "GI",
+    "version": "6.2",
+    "release_date": "2025-12-03",
+    "description": "Sự kiện mùa đông 'Soulblazers: Snowbound Journey'. Ra mắt Durin (Pyro Sword) và Jahoda (4★ Anemo Bow).",
+    "_id": "3",
+    "characters_rateup": [
+      { "name": "Durin", "rarity": "5" },
+      { "name": "Venti", "rarity": "5(rerun)" },
+      { "name": "Varesa", "rarity": "5(rerun)" },
+      { "name": "Xilonen", "rarity": "5(rerun)" },
+      { "name": "Jahoda", "rarity": "4" }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "confirmed"
+  },
+  {
+    "game": "HSR",
+    "version": "3.8",
+    "release_date": "2025-12-17",
+    "description": "Quay lại Penacony. Ra mắt The Dahlia (Nihility: Fire). Rerun Firefly.",
+    "_id": "13",
+    "characters_rateup": [
+      { "name": "The Dahlia", "rarity": "5" },
+      { "name": "Firefly", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Penacony",
+    "status": "confirmed"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.5",
+    "release_date": "2026-01-07",
+    "description": "Cao trào Season 2. Ra mắt Void Hunter Ye Shunguang và tặng miễn phí S-Rank Zhao. (Đã chỉnh lại chu kỳ 6 tuần)",
+    "_id": "24",
+    "characters_rateup": [
+      { "name": "Ye Shunguang", "rarity": "5" },
+      { "name": "Zhao", "rarity": "5" }
+    ],
+    "event_region_main": "Waifei Peninsula",
+    "status": "confirmed"
+  },
+  {
+    "game": "GI",
+    "version": "6.3",
+    "release_date": "2026-01-14",
+    "description": "Ra mắt Quan Chấp Hành Fatui Columbina (Hydro Catalyst) và Zibai (Geo Sword).",
+    "_id": "4",
+    "characters_rateup": [
+      { "name": "Columbina", "rarity": "5" },
+      { "name": "Zibai", "rarity": "5" },
+      { "name": "Illuga", "rarity": "4" },
+      { "name": "Ineffa", "rarity": "5(rerun)" },
+      { "name": "Neuvillette", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "3.9",
+    "release_date": "2026-01-28",
+    "description": "Sự kiện 'Echoes of Amphoreus'. Ra mắt Pháp sư không gian Lys (5★). (Đã sắp xếp lại thứ tự trước 4.0)",
+    "_id": "30",
+    "characters_rateup": [
+      { "name": "Lys", "rarity": "5" },
+      { "name": "Cyrene", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Amphoreus",
+    "status": "confirmed"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.6",
+    "release_date": "2026-02-18",
+    "description": "Ra mắt nhóm nhạc thần tượng Angels of Delusion: Summer, Aria và Nangong Yu.",
+    "_id": "25",
+    "characters_rateup": [
+      { "name": "Summer", "rarity": "5" },
+      { "name": "Aria", "rarity": "5" },
+      { "name": "Nangong Yu", "rarity": "5" }
+    ],
+    "event_region_main": "New Eridu",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.4",
+    "release_date": "2026-02-25",
+    "description": "Dự kiến ra mắt Đại Công Tước Varka (Anemo Claymore) và mở rộng khu vực Cảng Dornman tại Mondstadt.",
+    "_id": "5",
+    "characters_rateup": [
+      { "name": "Varka", "rarity": "5" }
+    ],
+    "event_region_main": "Mondstadt",
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "3.10",
+    "release_date": "2026-03-11",
+    "description": "Tập trung vào hệ Fervor. Ra mắt DPS Sora (Flame Lance).",
+    "_id": "31",
+    "characters_rateup": [
+      { "name": "Sora", "rarity": "5" },
+      { "name": "Firefly", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Penacony",
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.7",
+    "release_date": "2026-04-01",
+    "description": "Sự kiện 'Penumbra Nights'. Ra mắt assassin Kairo (5★) và rerun Dialyn.",
+    "_id": "37",
+    "characters_rateup": [
+      { "name": "Kairo", "rarity": "5" },
+      { "name": "Dialyn", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Waifei Peninsula",
+    "status": "confirmed"
+  },
+  {
+    "game": "GI",
+    "version": "6.5",
+    "release_date": "2026-04-08",
+    "description": "Sự kiện lễ hội 'Aurora Revel' tại Nod-Krai. Ra mắt nhân vật hỗ trợ kỹ thuật: Eirlys (Cryo Polearm).",
+    "_id": "26",
+    "characters_rateup": [
+      { "name": "Eirlys", "rarity": "4" },
+      { "name": "Lauma", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "confirmed"
+  },
+  {
+    "game": "HSR",
+    "version": "3.11",
+    "release_date": "2026-04-22",
+    "description": "Crossover ngắn với một thế giới song song, ra mắt nhân vật khách mời Arion.",
+    "_id": "32",
+    "characters_rateup": [
+      { "name": "Arion", "rarity": "5" }
+    ],
+    "event_region_main": "Crossover Event",
+    "status": "planned"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.8",
+    "release_date": "2026-05-13",
+    "description": "Tập trung vào chế độ idol. Ra mắt producer Rem (4★) và sự kiện minigame.",
+    "_id": "38",
+    "characters_rateup": [
+      { "name": "Rem", "rarity": "4" },
+      { "name": "Banyue", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "New Eridu",
+    "status": "planned"
+  },
+  {
+    "game": "GI",
+    "version": "6.6",
+    "release_date": "2026-05-20",
+    "description": "Cốt truyện ngắn 'The Frozen Edict'. Ra mắt Đạo sĩ tối thượng Krynn (Geo Catalyst).",
+    "_id": "27",
+    "characters_rateup": [
+      { "name": "Krynn", "rarity": "5" },
+      { "name": "Zibai", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Snezhnaya Outskirts",
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "4.0",
+    "release_date": "2026-06-03",
+    "description": "Ra mắt hành tinh Planarcadia (Edo Star). Giới thiệu vận mệnh mới: Vui Vẻ (The Elation).",
+    "_id": "14",
+    "characters_rateup": [
+      { "name": "Yao Guang", "rarity": "5" },
+      { "name": "Hanami", "rarity": "5" }
+    ],
+    "event_region_main": "Planarcadia",
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.9",
+    "release_date": "2026-06-24",
+    "description": "Cốt truyện mở rộng 'Shadows Over Eridu'. Ra mắt Void Hunter Lysandra.",
+    "_id": "39",
+    "characters_rateup": [
+      { "name": "Lysandra", "rarity": "5" }
+    ],
+    "event_region_main": "New Eridu",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.7",
+    "release_date": "2026-07-01",
+    "description": "Sự kiện 'Voyage of the White Seas'. Ra mắt thủy thủ Anke (4★ Hydro Sword) và rerun Durin.",
+    "_id": "28",
+    "characters_rateup": [
+      { "name": "Anke", "rarity": "4" },
+      { "name": "Durin", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "White Seas",
+    "status": "planned"
+  },
+  {
+    "game": "HSR",
+    "version": "4.1",
+    "release_date": "2026-07-15",
+    "description": "Mở rộng Planarcadia, tính năng Guild Expedition. Ra mắt hỗ trợ Healtech Mira.",
+    "_id": "33",
+    "characters_rateup": [
+      { "name": "Mira", "rarity": "4" },
+      { "name": "Yao Guang", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Planarcadia",
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.0",
+    "release_date": "2026-08-05",
+    "description": "Bước sang Season 3, cập nhật hệ thống progression. Ra mắt hỗ trợ tech: Qin (4★).",
+    "_id": "40",
+    "characters_rateup": [
+      { "name": "Qin", "rarity": "4" },
+      { "name": "Ye Shunguang", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Waifei Peninsula",
+    "status": "planned"
+  },
+  {
+    "game": "GI",
+    "version": "6.8",
+    "release_date": "2026-08-12",
+    "description": "Sự kiện kết thúc mùa 'Frost & Flame'. Ra mắt boss raid mới và nhân vật hỗ trợ Valt (Anemo Polearm).",
+    "_id": "29",
+    "characters_rateup": [
+      { "name": "Valt", "rarity": "5" },
+      { "name": "Varka", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Mondstadt",
+    "status": "planned"
+  },
+  {
+    "game": "HSR",
+    "version": "4.2",
+    "release_date": "2026-08-26",
+    "description": "Sự kiện mùa lễ 'Starlit Promenade'. Ra mắt tanker Atlas (5★).",
+    "_id": "34",
+    "characters_rateup": [
+      { "name": "Atlas", "rarity": "5" },
+      { "name": "Hanami", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Edo Star Plaza",
+    "status": "planned"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.1",
+    "release_date": "2026-09-16",
+    "description": "Sự kiện lễ hội 'Neon Carnival'. Ra mắt DPS Eiko (5★).",
+    "_id": "41",
+    "characters_rateup": [
+      { "name": "Eiko", "rarity": "5" },
+      { "name": "Zhao", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Neon Quarter",
+    "status": "planned"
+  },
+  {
+    "game": "GI",
+    "version": "7.0",
+    "release_date": "2026-09-23",
+    "description": "Chính thức ra mắt quốc gia Snezhnaya và cốt truyện về Băng Thần Tsaritsa. (Khớp hoàn hảo với chu kỳ 6.0)",
+    "_id": "9",
+    "characters_rateup": [],
+    "event_region_main": "Snezhnaya",
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "4.3",
+    "release_date": "2026-10-07",
+    "description": "Sự kiện hậu mùa, giới thiệu hệ thống Awakening. Ra mắt DPS Nebu.",
+    "_id": "35",
+    "characters_rateup": [
+      { "name": "Nebu", "rarity": "5" }
+    ],
+    "event_region_main": "Outer Rings",
+    "status": "planned"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.2",
+    "release_date": "2026-10-28",
+    "description": "Ra mắt chế độ co-op mới và một unit healer: Mei-Lu.",
+    "_id": "42",
+    "characters_rateup": [
+      { "name": "Mei-Lu", "rarity": "4" }
+    ],
+    "event_region_main": "Coastal Ruins",
+    "status": "planned"
+  },
+  {
+    "game": "HSR",
+    "version": "4.4",
+    "release_date": "2026-11-18",
+    "description": "Cặp sự kiện liên kết tính năng và PvP thử nghiệm. Rerun The Dahlia.",
+    "_id": "36",
+    "characters_rateup": [
+      { "name": "The Dahlia", "rarity": "5(rerun)" },
+      { "name": "Sora", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "Central Colosseum",
+    "status": "planned"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.3",
+    "release_date": "2026-12-09",
+    "description": "Sự kiện kết hợp lore lớn, giới thiệu antagonist mới và rerun Angels of Delusion.",
+    "_id": "43",
+    "characters_rateup": [
+      { "name": "Summer", "rarity": "5(rerun)" },
+      { "name": "Aria", "rarity": "5(rerun)" },
+      { "name": "Nangong Yu", "rarity": "5(rerun)" }
+    ],
+    "event_region_main": "New Eridu",
+    "status": "planned"
+  }
+]

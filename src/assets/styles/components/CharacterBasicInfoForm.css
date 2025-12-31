@@ -1,0 +1,79 @@
+/**
+ * Character Basic Info Form Component Styles
+ * 
+ * Structure: Base → Elements → Form Fields → Responsive
+ * Approach: Mobile-First
+ */
+
+/* ============================================================================
+   BASE: Form Card Container
+   ============================================================================ */
+
+.character-form-card {
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  border-radius: var(--glass-radius, 1rem);
+  backdrop-filter: blur(var(--glass-blur, 12px));
+  box-shadow: var(--glass-shadow, 0 0.25rem 1.5rem rgba(0, 0, 0, 0.6));
+}
+
+/* ============================================================================
+   ELEMENTS: Form Sections
+   ============================================================================ */
+
+.character-form-header {
+  background: transparent;
+  padding: var(--space-4, 1rem) var(--card-padding, 1.5rem);
+}
+
+.character-form-content {
+  padding: var(--card-padding, 1.5rem);
+}
+
+.game-attributes-section {
+  margin-top: var(--space-4, 1rem);
+}
+
+/* ============================================================================
+   FORM FIELD OVERRIDES: Vuetify Field Styling
+   ============================================================================ */
+
+/* Using higher specificity instead of !important */
+.character-form-content :deep(.v-label) {
+  font-weight: var(--font-medium);
+}
+
+.character-form-content :deep(.v-field--variant-filled) {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.character-form-content :deep(.v-field--variant-filled .v-field__outline) {
+  border-color: var(--color-bg-card-hover);
+}
+
+.character-form-content :deep(.v-field--variant-filled:focus-within .v-field__outline) {
+  border-color: var(--color-primary, #646cff);
+}
+
+/* ============================================================================
+   RESPONSIVE: Mobile-First Breakpoints
+   ============================================================================ */
+
+/* Mobile: Base styles already mobile-first */
+
+/* Mobile only: Force full width columns */
+@media (max-width: 37.5rem) {
+  .character-form-content {
+    padding: var(--card-padding-sm, 1rem);
+  }
+  
+  .character-form-header {
+    padding: var(--space-4, 1rem);
+  }
+  
+  /* Force full width columns on mobile using higher specificity */
+  .character-form-content :deep(.v-col) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

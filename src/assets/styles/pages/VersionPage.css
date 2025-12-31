@@ -1,0 +1,245 @@
+/**
+ * Version Page Styles
+ * 
+ * Structure: Base → Layout → Components → States → Responsive
+ * Approach: Mobile-First
+ */
+
+/* ============================================================================
+   BASE: Page Container
+   ============================================================================ */
+
+.version-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: var(--page-radial-bg);
+  padding: var(--space-3);
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Dynamic Background Orbs */
+.version-page::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -10%;
+  width: 600px;
+  height: 600px;
+  background: var(--orb-purple);
+  border-radius: 50%;
+  animation: orbFloat1 20s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.version-page::after {
+  content: '';
+  position: fixed;
+  bottom: -15%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: var(--orb-cyan);
+  border-radius: 50%;
+  animation: orbFloat2 25s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.version-page > * {
+  flex: 1 1 auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================================================
+   LAYOUT: Page Header
+   ============================================================================ */
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  padding: var(--space-4) 0;
+  position: relative;
+  z-index: 1;
+}
+
+.page-title {
+  font-size: var(--text-3xl, 1.875rem);
+  font-weight: var(--font-weight-bold, 700);
+  color: var(--color-text-primary);
+  margin: 0;
+  line-height: var(--leading-tight);
+}
+
+.page-subtitle {
+  font-size: var(--text-base, 1rem);
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: var(--leading-normal);
+}
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+/* ============================================================================
+   LAYOUT: Game Toolbar
+   ============================================================================ */
+
+.game-toolbar {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+  position: relative;
+  z-index: 1;
+}
+
+.toolbar-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+/* ============================================================================
+   LAYOUT: Game Grid Versions
+   ============================================================================ */
+
+.game-grid-versions {
+  margin-top: var(--space-4);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6, 1.5rem);
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================================================
+   STATES: Loading and Empty States
+   ============================================================================ */
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12, 48px);
+  text-align: center;
+  color: var(--color-text-muted);
+  position: relative;
+  z-index: 1;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--color-border-primary);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--space-4);
+}
+
+.version-card--empty {
+  text-align: center;
+  padding: var(--space-8, 32px);
+  color: var(--color-text-muted);
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border-radius: var(--glass-radius, 1rem);
+  backdrop-filter: blur(var(--glass-blur, 12px));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+}
+
+/* ============================================================================
+   RESPONSIVE: Mobile-First Breakpoints
+   ============================================================================ */
+
+/* Tablet: 768px and up */
+@media (min-width: 48rem) {
+  .version-page {
+    flex-direction: row;
+    gap: var(--space-8);
+    padding: var(--space-6);
+  }
+  
+  .version-page > * {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  
+  .page-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .game-toolbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .toolbar-actions {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+  
+  .game-grid-versions {
+    grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+    gap: var(--space-6, 1.5rem);
+  }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 64rem) {
+  .version-page {
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .game-grid-versions {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+
+/* Large Desktop: 1280px and up */
+@media (min-width: 80rem) {
+  .game-grid-versions {
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  }
+}
+
+/* ============================================================================
+   ACCESSIBILITY: Reduced Motion
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .version-page::before,
+  .version-page::after {
+    animation: none;
+  }
+  
+  .loading-spinner {
+    animation: none;
+  }
+}
+

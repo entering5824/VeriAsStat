@@ -1,0 +1,34 @@
+[
+  {
+    "id": "zzz-24-7",
+    "game": "ZZZ",
+    "name": "24/7",
+    "rarity": 5,
+    "role": "DPS",
+    "corePassive": {
+      "id": "24-7-passive",
+      "type": "trigger",
+      "params": {
+        "atkPct": 0.24,
+        "critRate": 0.12
+      },
+      "conditions": [
+        {
+          "type": "action",
+          "value": "skill_use"
+        }
+      ],
+      "text": "When the agent uses a Skill, increases ATK by 24% and CRIT Rate by 12% for 12s. This effect can stack up to 2 times."
+    },
+    "meta": {
+      "isSignature": true,
+      "releaseVersion": "1.0",
+      "powerTier": "S",
+      "validFrom": "1.0"
+    },
+    "description": "A W-Engine that operates 24/7, never stopping.",
+    "source": "W-Engine Banner",
+    "tags": ["Signature", "Meta", "DPS"]
+  }
+]
+

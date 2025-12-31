@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "hsr-acheron",
+    "title": "Honkai: Star Rail Acheron Build",
+    "character": {
+      "name": "Acheron",
+      "avatar": "Acheron.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Lightning"
+        },
+        {
+          "key": "role",
+          "label": "Main DPS"
+        },
+        {
+          "key": "path",
+          "label": "Nihility"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Acheron",
+      "splashPath": "/images/characters/HSR/splash/Acheron"
+    },
+    "base_stats": {
+      "hp": 1280,
+      "atk": 1930,
+      "def": 706,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmgbonus": 27.97
+    },
+    "graduation_stats": {
+      "hp": 2525,
+      "atk": 3408,
+      "def": 1529,
+      "speed": 134,
+      "crit_rate": 80,
+      "crit_dmg": 160,
+      "dmgbonus": 40.67
+    }
+  },
+  {
+    "id": "hsr-aglaea",
+    "title": "Honkai: Star Rail Aglaea Build",
+    "character": {
+      "name": "Aglaea",
+      "avatar": "Aglaea.png",
+      "iconPath": "/images/characters/HSR/icon/Aglaea",
+      "splashPath": "/images/characters/HSR/splash/Aglaea"
+    }
+  },
+  {
+    "id": "hsr-anaxa",
+    "title": "Honkai: Star Rail Anaxa Build",
+    "character": {
+      "name": "Anaxa",
+      "avatar": "Anaxa.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Wind"
+        },
+        {
+          "key": "role",
+          "label": "DPS"
+        },
+        {
+          "key": "path",
+          "label": "The Erudition"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Anaxa",
+      "splashPath": "/images/characters/HSR/splashart/Anaxa"
+    },
+    "base_stats": {
+      "hp": 16840,
+      "atk": 960,
+      "def": 590,
+      "speed": 102,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19860,
+      "atk": 1140,
+      "def": 710,
+      "speed": 102,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "energy_recharge": 100
+    },
+    "sections": [
+      {
+        "key": "light_cones",
+        "title": "Best Light Cones",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "name": "Life Should Be Cast to Flames"
+          },
+          {
+            "rank": 2,
+            "name": "Into the Unreachable Veil"
+          },
+          {
+            "rank": 3,
+            "name": "Night on the Milky Way"
+          },
+          {
+            "rank": 4,
+            "name": "The Great Cosmic Enterprise"
+          },
+          {
+            "rank": 5,
+            "name": "Today is Another Peaceful Day"
+          }
+        ]
+      },
+      {
+        "key": "relics",
+        "title": "Best Relics",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "sets": [
+              {
+                "name": "Genius of Brilliant Stars",
+                "pieces": 4
+              },
+              {
+                "name": "Rutilant Arena",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "sets": [
+              {
+                "name": "Scholar Lost in Erudition",
+                "pieces": 4
+              },
+              {
+                "name": "Izumo Gensei and Takama Divine Realm",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "sets": [
+              {
+                "name": "Pioneer Diver of Dead Waters",
+                "pieces": 4
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "sets": [
+              {
+                "name": "Rutilant Arena",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "sets": [
+              {
+                "name": "Izumo Gensei and Takama Divine Realm",
+                "pieces": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsr-archer",
+    "title": "Honkai: Star Rail Archer Build",
+    "character": {
+      "name": "Archer",
+      "avatar": "Archer.png",
+      "iconPath": "/images/characters/HSR/icon/Archer",
+      "splashPath": "/images/characters/HSR/splash/Archer"
+    }
+  },
+  {
+    "id": "hsr-argenti",
+    "title": "Honkai: Star Rail Argenti Build",
+    "character": {
+      "name": "Argenti",
+      "avatar": "Argenti.png",
+      "iconPath": "/images/characters/HSR/icon/Argenti",
+      "splashPath": "/images/characters/HSR/splash/Argenti"
+    }
+  },
+  {
+    "id": "hsr-arlan",
+    "title": "Honkai: Star Rail Arlan Build",
+    "character": {
+      "name": "Arlan",
+      "avatar": "Arlan.png",
+      "iconPath": "/images/characters/HSR/icon/Arlan",
+      "splashPath": "/images/characters/HSR/splash/Arlan"
+    }
+  },
+  {
+    "id": "hsr-asta",
+    "title": "Honkai: Star Rail Asta Build",
+    "character": {
+      "name": "Asta",
+      "avatar": "Asta.png",
+      "iconPath": "/images/characters/HSR/icon/Asta",
+      "splashPath": "/images/characters/HSR/splash/Asta"
+    }
+  },
+  {
+    "id": "hsr-aventurine",
+    "title": "Honkai: Star Rail Aventurine Build",
+    "character": {
+      "name": "Aventurine",
+      "avatar": "Aventurine.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Imaginary"
+        },
+        {
+          "key": "role",
+          "label": "Sub-DPS"
+        },
+        {
+          "key": "path",
+          "label": "Sustain"
+        },
+        {
+          "key": "path",
+          "label": "Sub-DPS"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Aventurine",
+      "splashPath": "/images/characters/HSR/splash/Aventurine"
+    },
+    "base_stats": {
+      "hp": 317,
+      "atk": 1629,
+      "def": 2480,
+      "energy_recharge": 17.96,
+      "dmgbonus": 46.78
+    },
+    "graduation_stats": {
+      "hp": 1113,
+      "atk": 2257,
+      "def": 722,
+      "energy_recharge": 24.37,
+      "dmgbonus": 15.88
+    }
+  },
+  {
+    "id": "hsr-bailu",
+    "title": "Honkai: Star Rail Bailu Build",
+    "character": {
+      "name": "Bailu",
+      "avatar": "Bailu.png",
+      "iconPath": "/images/characters/HSR/icon/Bailu",
+      "splashPath": "/images/characters/HSR/splash/Bailu"
+    }
+  },
+  {
+    "id": "hsr-black-swan",
+    "title": "Honkai: Star Rail Black Swan Build",
+    "character": {
+      "name": "Black Swan",
+      "avatar": "Black Swan.png",
+      "iconPath": "/images/characters/HSR/icon/Black Swan",
+      "splashPath": "/images/characters/HSR/splash/Black Swan"
+    }
+  },
+  {
+    "id": "hsr-blade",
+    "title": "Honkai: Star Rail Blade Build",
+    "character": {
+      "name": "Blade",
+      "avatar": "Blade.png",
+      "iconPath": "/images/characters/HSR/icon/Blade",
+      "splashPath": "/images/characters/HSR/splash/Blade"
+    }
+  },
+  {
+    "id": "hsr-boothill",
+    "title": "Honkai: Star Rail Boothill Build",
+    "character": {
+      "name": "Boothill",
+      "avatar": "Boothill.png",
+      "iconPath": "/images/characters/HSR/icon/Boothill",
+      "splashPath": "/images/characters/HSR/splash/Boothill"
+    }
+  },
+  {
+    "id": "hsr-bronya",
+    "title": "Honkai: Star Rail Bronya Build",
+    "character": {
+      "name": "Bronya",
+      "avatar": "Bronya.png",
+      "iconPath": "/images/characters/HSR/icon/Bronya",
+      "splashPath": "/images/characters/HSR/splash/Bronya"
+    }
+  },
+  {
+    "id": "hsr-castorice",
+    "title": "Honkai: Star Rail Castorice Build",
+    "character": {
+      "name": "Castorice",
+      "avatar": "Castorice.png",
+      "iconPath": "/images/characters/HSR/icon/Castorice",
+      "splashPath": "/images/characters/HSR/splash/Castorice"
+    }
+  },
+  {
+    "id": "hsr-cerydra",
+    "title": "Honkai: Star Rail Cerydra Build",
+    "character": {
+      "name": "Cerydra",
+      "avatar": "Cerydra.png",
+      "iconPath": "/images/characters/HSR/icon/Cerydra",
+      "splashPath": "/images/characters/HSR/splash/Cerydra"
+    }
+  },
+  {
+    "id": "hsr-cipher",
+    "title": "Honkai: Star Rail Cipher Build",
+    "character": {
+      "name": "Cipher",
+      "avatar": "Cipher.png",
+      "iconPath": "/images/characters/HSR/icon/Cipher",
+      "splashPath": "/images/characters/HSR/splash/Cipher"
+    }
+  },
+  {
+    "id": "hsr-clara",
+    "title": "Honkai: Star Rail Clara Build",
+    "character": {
+      "name": "Clara",
+      "avatar": "Clara.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Physical"
+        },
+        {
+          "key": "role",
+          "label": "Main DPS"
+        },
+        {
+          "key": "path",
+          "label": "Destruction"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Clara",
+      "splashPath": "/images/characters/HSR/splash/Clara"
+    },
+    "base_stats": {
+      "hp": 1241.9,
+      "atk": 737.35,
+      "def": 485.1,
+      "speed": 90,
+      "energy_recharge": 110
+    },
+    "graduation_stats": {
+      "hp": 3200,
+      "atk": 3700,
+      "def": 820,
+      "speed": 90,
+      "crit_rate": 70,
+      "crit_dmg": 150
+    },
+    "sections": [
+      {
+        "key": "light_cones",
+        "title": "Best Light Cones",
+        "type": "list",
+        "items": [
+          {
+            "name": "Something Irreplaceable"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsr-cyrene",
+    "title": "Honkai: Star Rail Cyrene Build",
+    "character": {
+      "name": "Cyrene",
+      "avatar": "Cyrene.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Ice"
+        },
+        {
+          "key": "role",
+          "label": "Support"
+        },
+        {
+          "key": "path",
+          "label": "Remembrance"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Cyrene",
+      "splashPath": "/images/characters/HSR/splashart/Cyrene"
+    },
+    "base_stats": {
+      "hp": 18720,
+      "atk": 820,
+      "def": 650,
+      "speed": 107,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 21980,
+      "atk": 990,
+      "def": 780,
+      "speed": 107,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "energy_recharge": 100
+    },
+    "sections": [
+      {
+        "key": "light_cones",
+        "title": "Best Light Cones",
+        "type": "list",
+        "items": [
+          {
+            "name": "This Love, Forever"
+          }
+        ]
+      },
+      {
+        "key": "relics",
+        "title": "Best Relics",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "sets": [
+              {
+                "name": "Messenger Traversing Hackerspace",
+                "pieces": 2
+              },
+              {
+                "name": "Sprightly Vonwacq",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "sets": [
+              {
+                "name": "Warrior Goddess of Sun and Thunder",
+                "pieces": 2
+              },
+              {
+                "name": "Amphoreus, The Eternal Land",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "sets": [
+              {
+                "name": "Eagle of Twilight Line",
+                "pieces": 4
+              }
+            ]
+          },
+          {
+            "rank": 4,
+            "sets": [
+              {
+                "name": "World-Remaking Deliverer",
+                "pieces": 4
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "sets": [
+              {
+                "name": "Sprightly Vonwacq",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 6,
+            "sets": [
+              {
+                "name": "Amphoreus, The Eternal Land",
+                "pieces": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hsr-dan-heng",
+    "title": "Honkai: Star Rail Dan Heng Build",
+    "character": {
+      "name": "Dan Heng",
+      "avatar": "Dan Heng.png",
+      "iconPath": "/images/characters/HSR/icon/Dan Heng",
+      "splashPath": "/images/characters/HSR/splash/Dan Heng"
+    }
+  },
+  {
+    "id": "hsr-dan-heng---imbibitor-lunae",
+    "title": "Honkai: Star Rail Dan Heng - Imbibitor Lunae Build",
+    "character": {
+      "name": "Dan Heng - Imbibitor Lunae",
+      "avatar": "Dan Heng - Imbibitor Lunae.png",
+      "iconPath": "/images/characters/HSR/icon/Dan Heng - Imbibitor Lunae",
+      "splashPath": "/images/characters/HSR/splash/Dan Heng - Imbibitor Lunae"
+    }
+  },
+  {
+    "id": "hsr-dan-heng---permansor-terrae",
+    "title": "Honkai: Star Rail Dan Heng - Permansor Terrae Build",
+    "character": {
+      "name": "Dan Heng - Permansor Terrae",
+      "avatar": "Dan Heng - Permansor Terrae.png",
+      "iconPath": "/images/characters/HSR/icon/Dan Heng - Permansor Terrae",
+      "splashPath": "/images/characters/HSR/splash/Dan Heng - Permansor Terrae"
+    }
+  },
+  {
+    "id": "hsr-dr-ratio",
+    "title": "Honkai: Star Rail Dr. Ratio Build",
+    "character": {
+      "name": "Dr. Ratio",
+      "avatar": "Dr. Ratio",
+      "iconPath": "/images/characters/HSR/icon/Dr. Ratio",
+      "splashPath": "/images/characters/HSR/splash/Dr. Ratio"
+    }
+  },
+  {
+    "id": "hsr-evernight",
+    "title": "Honkai: Star Rail Evernight Build",
+    "character": {
+      "name": "Evernight",
+      "avatar": "Evernight.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Ice"
+        },
+        {
+          "key": "role",
+          "label": "Sub-DPS"
+        },
+        {
+          "key": "path",
+          "label": "Sup-DPS"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Evernight",
+      "splashPath": "/images/characters/HSR/splash/Evernight"
+    },
+    "base_stats": {
+      "hp": 3254,
+      "atk": 1301,
+      "def": 1906,
+      "energy_recharge": 26.28,
+      "dmgbonus": 46.24
+    },
+    "graduation_stats": {
+      "hp": 1978,
+      "atk": 3370,
+      "def": 1966,
+      "energy_recharge": 39.61,
+      "dmgbonus": 7.71
+    }
+  },
+  {
+    "id": "hsr-feixiao",
+    "title": "Honkai: Star Rail Feixiao Build",
+    "character": {
+      "name": "Feixiao",
+      "avatar": "Feixiao.png",
+      "iconPath": "/images/characters/HSR/icon/Feixiao",
+      "splashPath": "/images/characters/HSR/splash/Feixiao"
+    }
+  },
+  {
+    "id": "hsr-firefly",
+    "title": "Honkai: Star Rail Firefly Build",
+    "character": {
+      "name": "Firefly",
+      "avatar": "Firefly.png",
+      "iconPath": "/images/characters/HSR/icon/Firefly",
+      "splashPath": "/images/characters/HSR/splash/Firefly"
+    }
+  },
+  {
+    "id": "hsr-fu-xuan",
+    "title": "Honkai: Star Rail Fu Xuan Build",
+    "character": {
+      "name": "Fu Xuan",
+      "avatar": "Fu Xuan.png",
+      "iconPath": "/images/characters/HSR/icon/Fu Xuan",
+      "splashPath": "/images/characters/HSR/splash/Fu Xuan"
+    }
+  },
+  {
+    "id": "hsr-fugue",
+    "title": "Honkai: Star Rail Fugue Build",
+    "character": {
+      "name": "Fugue",
+      "avatar": "Fugue.png",
+      "iconPath": "/images/characters/HSR/icon/Fugue",
+      "splashPath": "/images/characters/HSR/splash/Fugue"
+    }
+  },
+  {
+    "id": "hsr-gallagher",
+    "title": "Honkai: Star Rail Gallagher Build",
+    "character": {
+      "name": "Gallagher",
+      "avatar": "Gallagher.png",
+      "iconPath": "/images/characters/HSR/icon/Gallagher",
+      "splashPath": "/images/characters/HSR/splash/Gallagher"
+    }
+  },
+  {
+    "id": "hsr-gepard",
+    "title": "Honkai: Star Rail Gepard Build",
+    "character": {
+      "name": "Gepard",
+      "avatar": "Gepard.png",
+      "iconPath": "/images/characters/HSR/icon/Gepard",
+      "splashPath": "/images/characters/HSR/splash/Gepard"
+    }
+  },
+  {
+    "id": "hsr-guinaifen",
+    "title": "Honkai: Star Rail Guinaifen Build",
+    "character": {
+      "name": "Guinaifen",
+      "avatar": "Guinaifen.png",
+      "iconPath": "/images/characters/HSR/icon/Guinaifen",
+      "splashPath": "/images/characters/HSR/splash/Guinaifen"
+    }
+  },
+  {
+    "id": "hsr-hanya",
+    "title": "Honkai: Star Rail Hanya Build",
+    "character": {
+      "name": "Hanya",
+      "avatar": "Hanya.png",
+      "iconPath": "/images/characters/HSR/icon/Hanya",
+      "splashPath": "/images/characters/HSR/splash/Hanya"
+    }
+  },
+  {
+    "id": "hsr-herta",
+    "title": "Honkai: Star Rail Herta Build",
+    "character": {
+      "name": "Herta",
+      "avatar": "Herta.png",
+      "iconPath": "/images/characters/HSR/icon/Herta",
+      "splashPath": "/images/characters/HSR/splash/Herta"
+    }
+  },
+  {
+    "id": "hsr-himeko",
+    "title": "Honkai: Star Rail Himeko Build",
+    "character": {
+      "name": "Himeko",
+      "avatar": "Himeko.png",
+      "iconPath": "/images/characters/HSR/icon/Himeko",
+      "splashPath": "/images/characters/HSR/splash/Himeko"
+    }
+  },
+  {
+    "id": "hsr-hook",
+    "title": "Honkai: Star Rail Hook Build",
+    "character": {
+      "name": "Hook",
+      "avatar": "Hook.png",
+      "iconPath": "/images/characters/HSR/icon/Hook",
+      "splashPath": "/images/characters/HSR/splash/Hook"
+    }
+  },
+  {
+    "id": "hsr-huohuo",
+    "title": "Honkai: Star Rail Huohuo Build",
+    "character": {
+      "name": "Huohuo",
+      "avatar": "Huohuo.png",
+      "iconPath": "/images/characters/HSR/icon/Huohuo",
+      "splashPath": "/images/characters/HSR/splash/Huohuo"
+    }
+  },
+  {
+    "id": "hsr-hyacine",
+    "title": "Honkai: Star Rail Hyacine Build",
+    "character": {
+      "name": "Hyacine",
+      "avatar": "Hyacine.png",
+      "iconPath": "/images/characters/HSR/icon/Hyacine",
+      "splashPath": "/images/characters/HSR/splash/Hyacine"
+    }
+  },
+  {
+    "id": "hsr-hysilens",
+    "title": "Honkai: Star Rail Hysilens Build",
+    "character": {
+      "name": "Hysilens",
+      "avatar": "Hysilens.png",
+      "iconPath": "/images/characters/HSR/icon/Hysilens",
+      "splashPath": "/images/characters/HSR/splash/Hysilens"
+    }
+  },
+  {
+    "id": "hsr-jade",
+    "title": "Honkai: Star Rail Jade Build",
+    "character": {
+      "name": "Jade",
+      "avatar": "Jade.png",
+      "iconPath": "/images/characters/HSR/icon/Jade",
+      "splashPath": "/images/characters/HSR/splash/Jade"
+    }
+  },
+  {
+    "id": "hsr-jiaoqiu",
+    "title": "Honkai: Star Rail Jiaoqiu Build",
+    "character": {
+      "name": "Jiaoqiu",
+      "avatar": "Jiaoqiu.png",
+      "iconPath": "/images/characters/HSR/icon/Jiaoqiu",
+      "splashPath": "/images/characters/HSR/splash/Jiaoqiu"
+    }
+  },
+  {
+    "id": "hsr-jing-yuan",
+    "title": "Honkai: Star Rail Jing Yuan Build",
+    "character": {
+      "name": "Jing Yuan",
+      "avatar": "Jing Yuan.png",
+      "iconPath": "/images/characters/HSR/icon/Jing Yuan",
+      "splashPath": "/images/characters/HSR/splash/Jing Yuan"
+    }
+  },
+  {
+    "id": "hsr-jingliu",
+    "title": "Honkai: Star Rail Jingliu Build",
+    "character": {
+      "name": "Jingliu",
+      "avatar": "Jingliu.png",
+      "iconPath": "/images/characters/HSR/icon/Jingliu",
+      "splashPath": "/images/characters/HSR/splash/Jingliu"
+    }
+  },
+  {
+    "id": "hsr-kafka",
+    "title": "Honkai: Star Rail Kafka Build",
+    "character": {
+      "name": "Kafka",
+      "avatar": "Kafka.png",
+      "iconPath": "/images/characters/HSR/icon/Kafka",
+      "splashPath": "/images/characters/HSR/splash/Kafka"
+    }
+  },
+  {
+    "id": "hsr-lingsha",
+    "title": "Honkai: Star Rail Lingsha Build",
+    "character": {
+      "name": "Lingsha",
+      "avatar": "Lingsha.png",
+      "iconPath": "/images/characters/HSR/icon/Lingsha",
+      "splashPath": "/images/characters/HSR/splash/Lingsha"
+    }
+  },
+  {
+    "id": "hsr-luka",
+    "title": "Honkai: Star Rail Luka Build",
+    "character": {
+      "name": "Luka",
+      "avatar": "Luka.png",
+      "iconPath": "/images/characters/HSR/icon/Luka",
+      "splashPath": "/images/characters/HSR/splash/Luka"
+    }
+  },
+  {
+    "id": "hsr-luocha",
+    "title": "Honkai: Star Rail Luocha Build",
+    "character": {
+      "name": "Luocha",
+      "avatar": "Luocha.png",
+      "iconPath": "/images/characters/HSR/icon/Luocha",
+      "splashPath": "/images/characters/HSR/splash/Luocha"
+    }
+  },
+  {
+    "id": "hsr-lynx",
+    "title": "Honkai: Star Rail Lynx Build",
+    "character": {
+      "name": "Lynx",
+      "avatar": "Lynx.png",
+      "iconPath": "/images/characters/HSR/icon/Lynx",
+      "splashPath": "/images/characters/HSR/splash/Lynx"
+    }
+  },
+  {
+    "id": "hsr-march-7th",
+    "title": "Honkai: Star Rail March 7th Build",
+    "character": {
+      "name": "March 7th",
+      "avatar": "March 7th.png",
+      "iconPath": "/images/characters/HSR/icon/March 7th",
+      "splashPath": "/images/characters/HSR/splash/March 7th"
+    }
+  },
+  {
+    "id": "hsr-march-7th-the-hunt",
+    "title": "Honkai: Star Rail March 7th (The Hunt) Build",
+    "character": {
+      "name": "March 7th (The Hunt)",
+      "avatar": "March 7th (The Hunt).png",
+      "iconPath": "/images/characters/HSR/icon/March 7th (The Hunt)",
+      "splashPath": "/images/characters/HSR/splash/March 7th (The Hunt)"
+    }
+  },
+  {
+    "id": "hsr-misha",
+    "title": "Honkai: Star Rail Misha Build",
+    "character": {
+      "name": "Misha",
+      "avatar": "Misha.png",
+      "iconPath": "/images/characters/HSR/icon/Misha",
+      "splashPath": "/images/characters/HSR/splash/Misha"
+    }
+  },
+  {
+    "id": "hsr-moze",
+    "title": "Honkai: Star Rail Moze Build",
+    "character": {
+      "name": "Moze",
+      "avatar": "Moze.png",
+      "iconPath": "/images/characters/HSR/icon/Moze",
+      "splashPath": "/images/characters/HSR/splash/Moze"
+    }
+  },
+  {
+    "id": "hsr-mydei",
+    "title": "Honkai: Star Rail Mydei Build",
+    "character": {
+      "name": "Mydei",
+      "avatar": "Mydei.png",
+      "iconPath": "/images/characters/HSR/icon/Mydei",
+      "splashPath": "/images/characters/HSR/splash/Mydei"
+    }
+  },
+  {
+    "id": "hsr-natasha",
+    "title": "Honkai: Star Rail Natasha Build",
+    "character": {
+      "name": "Natasha",
+      "avatar": "Natasha.png",
+      "iconPath": "/images/characters/HSR/icon/Natasha",
+      "splashPath": "/images/characters/HSR/splash/Natasha"
+    }
+  },
+  {
+    "id": "hsr-pela",
+    "title": "Honkai: Star Rail Pela Build",
+    "character": {
+      "name": "Pela",
+      "avatar": "Pela.png",
+      "iconPath": "/images/characters/HSR/icon/Pela",
+      "splashPath": "/images/characters/HSR/splash/Pela"
+    }
+  },
+  {
+    "id": "hsr-phainon",
+    "title": "Honkai: Star Rail Phainon Build",
+    "character": {
+      "name": "Phainon",
+      "avatar": "Phainon.png",
+      "iconPath": "/images/characters/HSR/icon/Phainon",
+      "splashPath": "/images/characters/HSR/splash/Phainon"
+    }
+  },
+  {
+    "id": "hsr-qingque",
+    "title": "Honkai: Star Rail Qingque Build",
+    "character": {
+      "name": "Qingque",
+      "avatar": "Qingque.png",
+      "iconPath": "/images/characters/HSR/icon/Qingque",
+      "splashPath": "/images/characters/HSR/splash/Qingque"
+    }
+  },
+  {
+    "id": "hsr-rappa",
+    "title": "Honkai: Star Rail Rappa Build",
+    "character": {
+      "name": "Rappa",
+      "avatar": "Rappa.png",
+      "iconPath": "/images/characters/HSR/icon/Rappa",
+      "splashPath": "/images/characters/HSR/splash/Rappa"
+    }
+  },
+  {
+    "id": "hsr-robin",
+    "title": "Honkai: Star Rail Robin Build",
+    "character": {
+      "name": "Robin",
+      "avatar": "Robin.png",
+      "iconPath": "/images/characters/HSR/icon/Robin",
+      "splashPath": "/images/characters/HSR/splash/Robin"
+    }
+  },
+  {
+    "id": "hsr-ruan-mei",
+    "title": "Honkai: Star Rail Ruan Mei Build",
+    "character": {
+      "name": "Ruan Mei",
+      "avatar": "Ruan Mei.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Ice"
+        },
+        {
+          "key": "role",
+          "label": "Support"
+        },
+        {
+          "key": "path",
+          "label": "Support"
+        },
+        {
+          "key": "path",
+          "label": "Buffer"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Ruan Mei",
+      "splashPath": "/images/characters/HSR/splash/Ruan Mei"
+    },
+    "base_stats": {
+      "hp": 1556,
+      "atk": 996,
+      "def": 1797,
+      "energy_recharge": 47.81,
+      "dmgbonus": 32.82
+    },
+    "graduation_stats": {
+      "hp": 103,
+      "atk": 3985,
+      "def": 1937,
+      "energy_recharge": 31.64,
+      "dmgbonus": 9.47
+    }
+  },
+  {
+    "id": "hsr-saber",
+    "title": "Honkai: Star Rail Saber Build",
+    "character": {
+      "name": "Saber",
+      "avatar": "Saber.png",
+      "iconPath": "/images/characters/HSR/icon/Saber",
+      "splashPath": "/images/characters/HSR/splash/Saber"
+    }
+  },
+  {
+    "id": "hsr-sampo",
+    "title": "Honkai: Star Rail Sampo Build",
+    "character": {
+      "name": "Sampo",
+      "avatar": "Sampo.png",
+      "iconPath": "/images/characters/HSR/icon/Sampo",
+      "splashPath": "/images/characters/HSR/splash/Sampo"
+    }
+  },
+  {
+    "id": "hsr-seele",
+    "title": "Honkai: Star Rail Seele Build",
+    "character": {
+      "name": "Seele",
+      "avatar": "Seele.png",
+      "iconPath": "/images/characters/HSR/icon/Seele",
+      "splashPath": "/images/characters/HSR/splash/Seele"
+    }
+  },
+  {
+    "id": "hsr-serval",
+    "title": "Honkai: Star Rail Serval Build",
+    "character": {
+      "name": "Serval",
+      "avatar": "Serval.png",
+      "iconPath": "/images/characters/HSR/icon/Serval",
+      "splashPath": "/images/characters/HSR/splash/Serval"
+    }
+  },
+  {
+    "id": "hsr-silver-wolf",
+    "title": "Honkai: Star Rail Silver Wolf Build",
+    "character": {
+      "name": "Silver Wolf",
+      "avatar": "Silver Wolf.png",
+      "iconPath": "/images/characters/HSR/icon/Silver Wolf",
+      "splashPath": "/images/characters/HSR/splash/Silver Wolf"
+    }
+  },
+  {
+    "id": "hsr-sparkle",
+    "title": "Honkai: Star Rail Sparkle Build",
+    "character": {
+      "name": "Sparkle",
+      "avatar": "Sparkle.png",
+      "iconPath": "/images/characters/HSR/icon/Sparkle",
+      "splashPath": "/images/characters/HSR/splash/Sparkle"
+    }
+  },
+  {
+    "id": "hsr-sunday",
+    "title": "Honkai: Star Rail Sunday Build",
+    "character": {
+      "name": "Sunday",
+      "avatar": "Sunday.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Imaginary"
+        },
+        {
+          "key": "role",
+          "label": "Support"
+        },
+        {
+          "key": "path",
+          "label": "Support"
+        },
+        {
+          "key": "path",
+          "label": "Buffer"
+        }
+      ],
+      "iconPath": "/images/characters/HSR/icon/Sunday",
+      "splashPath": "/images/characters/HSR/splash/Sunday"
+    },
+    "base_stats": {
+      "hp": 2264,
+      "atk": 3322,
+      "def": 3862,
+      "energy_recharge": 39.57,
+      "dmgbonus": 6.37
+    },
+    "graduation_stats": {
+      "hp": 3191,
+      "atk": 2452,
+      "def": 2691,
+      "energy_recharge": 28.01,
+      "dmgbonus": 9.84
+    }
+  },
+  {
+    "id": "hsr-sushang",
+    "title": "Honkai: Star Rail Sushang Build",
+    "character": {
+      "name": "Sushang",
+      "avatar": "Sushang.png",
+      "iconPath": "/images/characters/HSR/icon/Sushang",
+      "splashPath": "/images/characters/HSR/splash/Sushang"
+    }
+  },
+  {
+    "id": "hsr-the-herta",
+    "title": "Honkai: Star Rail The Herta Build",
+    "character": {
+      "name": "The Herta",
+      "avatar": "The Herta.png",
+      "iconPath": "/images/characters/HSR/icon/The Herta",
+      "splashPath": "/images/characters/HSR/splash/The Herta"
+    }
+  },
+  {
+    "id": "hsr-tingyun",
+    "title": "Honkai: Star Rail Tingyun Build",
+    "character": {
+      "name": "Tingyun",
+      "avatar": "Tingyun.png",
+      "iconPath": "/images/characters/HSR/icon/Tingyun",
+      "splashPath": "/images/characters/HSR/splash/Tingyun"
+    }
+  },
+  {
+    "id": "hsr-topaz-and-numby",
+    "title": "Honkai: Star Rail Topaz and Numby Build",
+    "character": {
+      "name": "Topaz and Numby",
+      "avatar": "Topaz and Numby.png",
+      "iconPath": "/images/characters/HSR/icon/Topaz and Numby",
+      "splashPath": "/images/characters/HSR/splash/Topaz and Numby"
+    }
+  },
+  {
+    "id": "hsr-trailblazer-fire",
+    "title": "Honkai: Star Rail Trailblazer (Fire) Build",
+    "character": {
+      "name": "Trailblazer (Fire)",
+      "avatar": "Trailblazer (Fire).png",
+      "iconPath": "/images/characters/HSR/icon/Trailblazer (Fire)",
+      "splashPath": "/images/characters/HSR/splash/Trailblazer (Fire)"
+    }
+  },
+  {
+    "id": "hsr-trailblazer-ice",
+    "title": "Honkai: Star Rail Trailblazer (Ice) Build",
+    "character": {
+      "name": "Trailblazer (Ice)",
+      "avatar": "Trailblazer (Ice).png",
+      "iconPath": "/images/characters/HSR/icon/Trailblazer (Ice)",
+      "splashPath": "/images/characters/HSR/splash/Trailblazer (Ice)"
+    }
+  },
+  {
+    "id": "hsr-trailblazer-imaginary",
+    "title": "Honkai: Star Rail Trailblazer (Imaginary) Build",
+    "character": {
+      "name": "Trailblazer (Imaginary)",
+      "avatar": "Trailblazer (Imaginary).png",
+      "iconPath": "/images/characters/HSR/icon/Trailblazer (Imaginary)",
+      "splashPath": "/images/characters/HSR/splash/Trailblazer (Imaginary)"
+    }
+  },
+  {
+    "id": "hsr-trailblazer-physical",
+    "title": "Honkai: Star Rail Trailblazer (Physical) Build",
+    "character": {
+      "name": "Trailblazer (Physical)",
+      "avatar": "Trailblazer (Physical).png",
+      "iconPath": "/images/characters/HSR/icon/Trailblazer (Physical)",
+      "splashPath": "/images/characters/HSR/splash/Trailblazer (Physical)"
+    }
+  },
+  {
+    "id": "hsr-tribbie",
+    "title": "Honkai: Star Rail Tribbie Build",
+    "character": {
+      "name": "Tribbie",
+      "avatar": "Tribbie.png",
+      "iconPath": "/images/characters/HSR/icon/Tribbie",
+      "splashPath": "/images/characters/HSR/splash/Tribbie"
+    }
+  },
+  {
+    "id": "hsr-welt",
+    "title": "Honkai: Star Rail Welt Build",
+    "character": {
+      "name": "Welt",
+      "avatar": "Welt.png",
+      "iconPath": "/images/characters/HSR/icon/Welt",
+      "splashPath": "/images/characters/HSR/splash/Welt"
+    }
+  },
+  {
+    "id": "hsr-xueyi",
+    "title": "Honkai: Star Rail Xueyi Build",
+    "character": {
+      "name": "Xueyi",
+      "avatar": "Xueyi.png",
+      "iconPath": "/images/characters/HSR/icon/Xueyi",
+      "splashPath": "/images/characters/HSR/splash/Xueyi"
+    }
+  },
+  {
+    "id": "hsr-yanqing",
+    "title": "Honkai: Star Rail Yanqing Build",
+    "character": {
+      "name": "Yanqing",
+      "avatar": "Yanqing.png",
+      "iconPath": "/images/characters/HSR/icon/Yanqing",
+      "splashPath": "/images/characters/HSR/splash/Yanqing"
+    }
+  },
+  {
+    "id": "hsr-yukong",
+    "title": "Honkai: Star Rail Yukong Build",
+    "character": {
+      "name": "Yukong",
+      "avatar": "Yukong.png",
+      "iconPath": "/images/characters/HSR/icon/Yukong",
+      "splashPath": "/images/characters/HSR/splash/Yukong"
+    }
+  },
+  {
+    "id": "hsr-yunli",
+    "title": "Honkai: Star Rail Yunli Build",
+    "character": {
+      "name": "Yunli",
+      "avatar": "Yunli.png",
+      "iconPath": "/images/characters/HSR/icon/Yunli",
+      "splashPath": "/images/characters/HSR/splash/Yunli"
+    }
+  }
+]

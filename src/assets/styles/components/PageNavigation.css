@@ -1,0 +1,116 @@
+/* Page Navigation Component */
+.page-navigation {
+  display: flex;
+  gap: var(--space-2, 8px);
+  margin-bottom: var(--space-6, 24px);
+  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
+  border-radius: var(--glass-radius, 1rem);
+  padding: var(--space-2, 8px);
+  backdrop-filter: blur(var(--glass-blur, 12px));
+  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-btn {
+  flex: 1;
+  min-width: 120px;
+  padding: var(--space-3, 12px) var(--space-5, 20px);
+  border-radius: var(--radius-md, 8px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: var(--font-size-sm, 14px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: var(--radius-md, 8px);
+}
+
+.nav-btn:hover::before {
+  opacity: 1;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: var(--color-text-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-btn.active {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(102, 126, 234, 0.15));
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 
+    0 4px 12px rgba(102, 126, 234, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.nav-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #667eea, transparent);
+  border-radius: 3px 3px 0 0;
+  animation: tabIndicator 0.3s ease;
+}
+
+@keyframes tabIndicator {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 60%;
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-navigation {
+    flex-wrap: wrap;
+    gap: var(--space-2, 8px);
+    padding: var(--space-2, 8px);
+  }
+  
+  .nav-btn {
+    min-width: calc(50% - 4px);
+    flex: 1 1 auto;
+    padding: var(--space-2, 8px) var(--space-3, 12px);
+    font-size: var(--font-size-sm, 14px);
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-btn {
+    min-width: calc(50% - 4px);
+    font-size: var(--font-size-xs, 13px);
+    padding: var(--space-2, 8px) var(--space-3, 12px);
+  }
+}
+

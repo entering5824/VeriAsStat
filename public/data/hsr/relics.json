@@ -1,0 +1,1108 @@
+[
+  {
+    "name": "Passerby of Wandering Cloud",
+    "2pc_bonus": {
+      "stat": "Increases Outgoing Healing by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Outgoing Healing by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "the battle, immediately regenerates",
+            "value": 1,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "At the start of the battle, immediately regenerates 1 Skill Point."
+  },
+  {
+    "name": "Musketeer of Wild Wheat",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases ATK by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "SPD",
+            "value": 6,
+            "type": "percent"
+          },
+          {
+            "stat": "ATK",
+            "value": 10,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "The wearer's SPD increases by 6% and DMG dealt by Basic ATK increases by 10%."
+  },
+  {
+    "name": "Knight of Purity Palace",
+    "2pc_bonus": {
+      "stat": "DEF",
+      "value": 15,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases DEF by 15%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "by the wearer by",
+            "value": 20,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%."
+  },
+  {
+    "name": "Hunter of Glacial Forest",
+    "2pc_bonus": {
+      "stat": "Ice DMG",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Ice DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses their Ultimate",
+        "effect": [
+          {
+            "stat": "CRIT DMG",
+            "value": 25,
+            "type": "percent",
+            "duration": 2,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s)."
+  },
+  {
+    "name": "Champion of Streetwise Boxing",
+    "2pc_bonus": {
+      "stat": "Physical DMG",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Physical DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": [
+          "the wearer attacks",
+          "is hit"
+        ],
+        "effect": [
+          {
+            "stat": "ATK",
+            "value": 5,
+            "type": "percent"
+          },
+          {
+            "stat": "can stack up to",
+            "value": 5,
+            "type": "flat",
+            "stacking": "up to 5 stacks"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+  },
+  {
+    "name": "Guard of Wuthering Snow",
+    "2pc_bonus": {
+      "stat": "Reduces DMG taken by",
+      "value": 8,
+      "type": "percent"
+    },
+    "raw_2pc": "Reduces DMG taken by 8%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "to or less than",
+            "value": 50,
+            "type": "percent",
+            "condition": "if the wearer's HP percentage is equal to or less than 50%"
+          },
+          {
+            "stat": "regenerates",
+            "value": 5,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "At the beginning of the turn, if the wearer's HP percentage is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
+  },
+  {
+    "name": "Firesmith of Lava-Forging",
+    "2pc_bonus": {
+      "stat": "Fire DMG",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Fire DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "unleashing Ultimate",
+        "effect": [
+          {
+            "stat": "Fire DMG",
+            "value": 12,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases DMG by the wearer's Skill by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack."
+  },
+  {
+    "name": "Genius of Brilliant Stars",
+    "2pc_bonus": {
+      "stat": "Increases Quantum DMG by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Quantum DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer deals DMG to the target enemy",
+        "effect": [
+          {
+            "stat": "ignores",
+            "value": 10,
+            "type": "percent"
+          },
+          {
+            "stat": "the wearer additionally ignores",
+            "value": 10,
+            "type": "percent",
+            "condition": "If the target enemy has Quantum Weakness"
+          }
+        ],
+        "condition": "If the target enemy has Quantum Weakness"
+      }
+    ],
+    "raw_4pc": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
+  },
+  {
+    "name": "Band of Sizzling Thunder",
+    "2pc_bonus": {
+      "stat": "Increases Lightning DMG by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Lightning DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses their Skill",
+        "effect": [
+          {
+            "stat": "ATK",
+            "value": 20,
+            "type": "percent",
+            "duration": 1,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s)."
+  },
+  {
+    "name": "Eagle of Twilight Line",
+    "2pc_bonus": {
+      "stat": "Increases Wind DMG by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Wind DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses their Ultimate",
+        "effect": [
+          {
+            "stat": "is Advanced Forward by",
+            "value": 25,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "After the wearer uses their Ultimate, their action is Advanced Forward by 25%."
+  },
+  {
+    "name": "Thief of Shooting Meteor",
+    "2pc_bonus": {
+      "stat": "Break Effect",
+      "value": 16,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Break Effect by 16%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer inflicts Weakness Break on an enemy",
+        "effect": [
+          {
+            "stat": "regenerates",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
+  },
+  {
+    "name": "Wastelander of Banditry Desert",
+    "2pc_bonus": {
+      "stat": "Increases Imaginary DMG by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Imaginary DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "dealing DMG to debuffed enemy targets",
+        "effect": [
+          {
+            "stat": "CRIT Rate",
+            "value": 10,
+            "type": "percent"
+          }
+        ]
+      },
+      {
+        "trigger": "they deal DMG to Imprisoned enemy targets",
+        "effect": [
+          {
+            "stat": "CRIT DMG",
+            "value": 20,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by 10%. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by 20%."
+  },
+  {
+    "name": "Longevous Disciple",
+    "2pc_bonus": {
+      "stat": "HP",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Max HP by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": [
+          "the wearer is hit",
+          "has their HP consumed by an ally",
+          "themselves"
+        ],
+        "effect": [
+          {
+            "stat": "CRIT Rate",
+            "value": 8,
+            "type": "percent",
+            "duration": 2,
+            "unit": "turn"
+          },
+          {
+            "stat": "up to",
+            "value": 2,
+            "type": "flat",
+            "stacking": "stacks"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+  },
+  {
+    "name": "Messenger Traversing Hackerspace",
+    "2pc_bonus": {
+      "stat": "SPD",
+      "value": 6,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases SPD by 6%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses their Ultimate on an ally",
+        "effect": [
+          {
+            "stat": "SPD",
+            "value": 12,
+            "type": "percent",
+            "duration": 1,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+  },
+  {
+    "name": "The Ashblazing Grand Duke",
+    "2pc_bonus": {
+      "stat": "Follow-Up ATK",
+      "value": 20,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases the DMG dealt by Follow-Up ATK by 20%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses a Follow-Up ATK",
+        "effect": [
+          {
+            "stat": "Follow-Up ATK",
+            "value": 6,
+            "type": "percent"
+          },
+          {
+            "stat": "can stack up to",
+            "value": 8,
+            "type": "flat",
+            "stacking": "up to 8 stacks"
+          },
+          {
+            "stat": "lasts for",
+            "value": 3,
+            "type": "flat",
+            "duration": 3,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer uses a Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK."
+  },
+  {
+    "name": "Prisoner in Deep Confinement",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases ATK by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "the wearer will ignore",
+            "value": 6,
+            "type": "percent",
+            "condition": "when dealing DMG to it"
+          },
+          {
+            "stat": "for a max of",
+            "value": 3,
+            "type": "flat"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "For every DoT the enemy target is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs."
+  },
+  {
+    "name": "Pioneer Diver of Dead Waters",
+    "2pc_bonus": {
+      "stat": "Increases DMG dealt to enemies with debuffs by",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases DMG dealt to enemies with debuffs by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer inflicts a debuff on enemy targets",
+        "effect": [
+          {
+            "stat": "aforementioned effects increase by",
+            "value": 100,
+            "type": "percent",
+            "duration": 1,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s)."
+  },
+  {
+    "name": "Watchmaker, Master of Dream Machinations",
+    "2pc_bonus": {
+      "stat": "Break Effect",
+      "value": 16,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Break Effect by 16%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses their Ultimate on an ally",
+        "effect": [
+          {
+            "stat": "Break Effect",
+            "value": 30,
+            "type": "percent",
+            "duration": 2,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked."
+  },
+  {
+    "name": "Iron Cavalry Against the Scourge",
+    "2pc_bonus": {
+      "stat": "Break Effect",
+      "value": 16,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Break Effect by 16%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "Break Effect",
+            "value": 150,
+            "type": "percent",
+            "condition": "If the wearer's Break Effect is 150% or higher"
+          },
+          {
+            "stat": "Break Effect",
+            "value": 250,
+            "type": "percent",
+            "condition": "If the wearer's Break Effect is 250% or higher"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF."
+  },
+  {
+    "name": "The Wind-Soaring Valorous",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases ATK by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer uses a Follow-Up ATK",
+        "effect": [
+          {
+            "stat": "dealt by Ultimate by",
+            "value": 36,
+            "type": "percent",
+            "duration": 1,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases the wearer's CRIT Rate by 6%. After the wearer uses a Follow-Up ATK, increases DMG dealt by Ultimate by 36%, lasting for 1 turn(s)."
+  },
+  {
+    "name": "Sacerdos' Relived Ordeal",
+    "2pc_bonus": {
+      "stat": "SPD",
+      "value": 6,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases SPD by 6%.",
+    "4pc_bonus": [
+      {
+        "trigger": [
+          "using Skill",
+          "Ultimate on one ally target"
+        ],
+        "effect": [
+          {
+            "stat": "CRIT DMG",
+            "value": 18,
+            "type": "percent",
+            "duration": 2,
+            "unit": "turn"
+          },
+          {
+            "stat": "can stack up to",
+            "value": 2,
+            "type": "flat",
+            "stacking": "up to 2 stacks"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18%, lasting for 2 turn(s). This effect can stack up to 2 time(s)."
+  },
+  {
+    "name": "Scholar Lost in Erudition",
+    "2pc_bonus": {
+      "stat": "CRIT Rate",
+      "value": 8,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases CRIT Rate by 8%.",
+    "4pc_bonus": [
+      {
+        "trigger": "using Ultimate",
+        "effect": [
+          {
+            "stat": "the next Skill by",
+            "value": 25,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases DMG dealt by Skill and Ultimate by 20%. After using Ultimate, additionally increases the DMG dealt by the next Skill by 25%."
+  },
+  {
+    "name": "Hero of Triumphant Song",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases ATK by 12%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer's memosprite attacks",
+        "effect": [
+          {
+            "stat": "memosprite",
+            "value": 30,
+            "type": "percent",
+            "duration": 2,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "While the wearer's memosprite is on the field, increases the wearer's SPD by 6%. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by 30%, lasting for 2 turn(s)."
+  },
+  {
+    "name": "Poet of Mourning Collapse",
+    "2pc_bonus": {
+      "stat": "Increases Quantum DMG by",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases Quantum DMG by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "automatic",
+        "effect": [
+          {
+            "stat": "SPD",
+            "value": 8,
+            "type": "percent"
+          },
+          {
+            "stat": "SPD",
+            "value": [
+              110,
+              95
+            ],
+            "type": "flat",
+            "condition": "if the wearer's SPD is lower than 110/95"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Decreases the wearer's SPD by 8%. Before entering battle, if the wearer's SPD is lower than 110/95, increases the wearer's CRIT Rate by 20%/32%. This effect applies to the wearer's memosprite at the same time."
+  },
+  {
+    "name": "Warrior Goddess of Sun and Thunder",
+    "2pc_bonus": {
+      "stat": "SPD",
+      "value": 6,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases SPD by 6%.",
+    "4pc_bonus": [
+      {
+        "trigger": [
+          "the wearer",
+          "their memosprite provides healing to ally targets other than themselves"
+        ],
+        "effect": [
+          {
+            "stat": "the wearer",
+            "value": 2,
+            "type": "flat",
+            "duration": 2,
+            "unit": "turn"
+          },
+          {
+            "stat": "SPD",
+            "value": 6,
+            "type": "percent",
+            "condition": "While the wearer has \"Gentle Rain"
+          },
+          {
+            "stat": "CRIT DMG",
+            "value": 15,
+            "type": "percent"
+          }
+        ],
+        "condition": "While the wearer has \"Gentle Rain"
+      }
+    ],
+    "raw_4pc": "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for 2 turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by 6% and all allies' CRIT DMG increases by 15%. This effect cannot stack."
+  },
+  {
+    "name": "Wavestrider Captain",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 16,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases CRIT DMG by 16%.",
+    "4pc_bonus": [
+      {
+        "trigger": "the wearer becomes the target of another ally target's ability",
+        "effect": [
+          {
+            "stat": "gains",
+            "value": 1,
+            "type": "flat",
+            "stacking": "up to 2 stacks"
+          },
+          {
+            "stat": "If there are",
+            "value": 2,
+            "type": "flat",
+            "stacking": "stacks",
+            "condition": "If there are 2 stack(s) of \"Help\""
+          }
+        ],
+        "condition": "If there are 2 stack(s) of \"Help\""
+      },
+      {
+        "trigger": "the wearer uses their Ultimate",
+        "effect": [
+          {
+            "stat": "ATK",
+            "value": 48,
+            "type": "percent",
+            "duration": 1,
+            "unit": "turn"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to 2 time(s). If there are 2 stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by 48% for 1 turn(s)."
+  },
+  {
+    "name": "World-Remaking Deliverer",
+    "2pc_bonus": {
+      "stat": "CRIT Rate",
+      "value": 8,
+      "type": "percent"
+    },
+    "raw_2pc": "Increases CRIT Rate by 8%.",
+    "4pc_bonus": [
+      {
+        "trigger": [
+          "the wearer uses Basic ATK",
+          "Skill"
+        ],
+        "effect": [
+          {
+            "stat": "memosprite",
+            "value": 24,
+            "type": "percent"
+          },
+          {
+            "stat": "allies' dealt DMG by",
+            "value": 15,
+            "type": "percent"
+          }
+        ],
+        "condition": "if the wearer's memosprite is on the field"
+      }
+    ],
+    "raw_4pc": "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' dealt DMG by 15%, lasting until after the wearer's next use of Basic ATK or Skill."
+  },
+  {
+    "name": "Self-Enshrouded Recluse",
+    "2pc_bonus": {
+      "stat": "Shield effect",
+      "value": 10,
+      "type": "percent"
+    },
+    "raw_2pc": "The provided Shield Effect increases by 10%.",
+    "4pc_bonus": [
+      {
+        "trigger": "an ally target holds a Shield provided by the wearer",
+        "effect": [
+          {
+            "stat": "CRIT DMG",
+            "value": 15,
+            "type": "percent"
+          }
+        ]
+      }
+    ],
+    "raw_4pc": "Increases the Shield Effect provided by the wearer by 12%. When an ally target holds a Shield provided by the wearer, the ally target's CRIT DMG increases by 15%."
+  },
+  {
+    "name": "Space Sealing Station",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD reaches 120",
+        "higher"
+      ],
+      "condition": "When the wearer's SPD reaches 120 or higher"
+    },
+    "raw_2pc": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%.\n\nFleet of the Ageless\n2-Pc: Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+  },
+  {
+    "name": "Fleet of the Ageless",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 8,
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD reaches 120",
+        "higher"
+      ],
+      "condition": "When the wearer's SPD reaches 120 or higher"
+    },
+    "raw_2pc": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.\n\nPan-Cosmic Commercial Enterprise\n2-Pc: Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum increase of 25%."
+  },
+  {
+    "name": "Pan-Cosmic Commercial Enterprise",
+    "2pc_bonus": {
+      "stat": "up to a maximum increase of",
+      "value": 25,
+      "type": "percent",
+      "trigger": "the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate",
+      "condition": "When the wearer's Effect Hit Rate is 50% or higher"
+    },
+    "raw_2pc": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum increase of 25%.\n\nBelobog of the Architects\n2-Pc: Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
+  },
+  {
+    "name": "Belobog of the Architects",
+    "2pc_bonus": {
+      "stat": "the wearer gains an extra",
+      "value": 15,
+      "type": "percent",
+      "trigger": [
+        "the wearer's Effect Hit Rate is 50%",
+        "higher"
+      ],
+      "condition": "ifferentiator 2-Pc: Increases the wearer's CRIT DMG by 16% ; When the wearer's Effect Hit Rate is 50% or higher ; When the wearer's current CRIT DMG reaches 120% or higher"
+    },
+    "raw_2pc": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.\n\nCelestial Differentiator\n2-Pc: Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
+  },
+  {
+    "name": "Celestial Differentiator",
+    "2pc_bonus": {
+      "stat": "CRIT Rate",
+      "value": 60,
+      "type": "percent",
+      "trigger": [
+        "the wearer's current CRIT DMG reaches 120%",
+        "higher"
+      ],
+      "condition": "When the wearer's current CRIT DMG reaches 120% or higher ; When the wearer's current CRIT Rate reaches 50% or higher ; When the wearer's SPD reaches 145 or higher"
+    },
+    "raw_2pc": "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.\n\nInert Salsotto\n2-Pc: Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the DMG dealt by the wearer's Ultimate and Follow-Up ATK increases by 15%.\n\nTalia: Kingdom of Banditry\n2-Pc: Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%."
+  },
+  {
+    "name": "Inert Salsotto",
+    "2pc_bonus": {
+      "stat": "Follow-Up ATK",
+      "value": 15,
+      "type": "percent",
+      "trigger": [
+        "the wearer's current CRIT Rate reaches 50%",
+        "higher"
+      ],
+      "condition": "When the wearer's current CRIT Rate reaches 50% or higher ; When the wearer's SPD reaches 145 or higher"
+    },
+    "raw_2pc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the DMG dealt by the wearer's Ultimate and Follow-Up ATK increases by 15%.\n\nTalia: Kingdom of Banditry\n2-Pc: Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%."
+  },
+  {
+    "name": "Talia: Kingdom of Banditry",
+    "2pc_bonus": {
+      "stat": "Break Effect",
+      "value": 20,
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD reaches 145",
+        "higher"
+      ],
+      "condition": "When the wearer's SPD reaches 145 or higher ; When the wearer's SPD reaches 120 or higher"
+    },
+    "raw_2pc": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%.\n\nSprightly Vonwacq\n2-Pc: Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
+  },
+  {
+    "name": "Sprightly Vonwacq",
+    "2pc_bonus": {
+      "stat": "the wearer's action is Advanced Forward by",
+      "value": 40,
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD reaches 120",
+        "higher"
+      ],
+      "condition": "When the wearer's SPD reaches 120 or higher ; When the wearer's current CRIT Rate reaches 70% or higher"
+    },
+    "raw_2pc": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle.\n\nRutilant Arena\n2-Pc: Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, DMG dealt by Basic ATK and Skill increases by 20%."
+  },
+  {
+    "name": "Rutilant Arena",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 20,
+      "type": "percent",
+      "trigger": [
+        "the wearer's current CRIT Rate reaches 70%",
+        "higher"
+      ],
+      "condition": "When the wearer's current CRIT Rate reaches 70% or higher ; When the wearer's Effect RES is at 30% or higher ; When the wearer's SPD is equal to or higher than 135/160"
+    },
+    "raw_2pc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, DMG dealt by Basic ATK and Skill increases by 20%.\n\nBroken Keel\n2-Pc: Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.\n\nFirmament Frontline: Glamoth\n2-Pc: Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+  },
+  {
+    "name": "Broken Keel",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 10,
+      "type": "percent",
+      "trigger": [
+        "the wearer's Effect RES is at 30%",
+        "higher"
+      ],
+      "condition": "When the wearer's Effect RES is at 30% or higher ; When the wearer's SPD is equal to or higher than 135/160"
+    },
+    "raw_2pc": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%.\n\nFirmament Frontline: Glamoth\n2-Pc: Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+  },
+  {
+    "name": "Firmament Frontline: Glamoth",
+    "2pc_bonus": {
+      "stat": "the wearer deals",
+      "value": [
+        12,
+        18
+      ],
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD is equal to",
+        "higher than 135",
+        "160"
+      ],
+      "condition": "When the wearer's SPD is equal to or higher than 135/160"
+    },
+    "raw_2pc": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.\n\nPenacony, Land of the Dreams\n2-Pc: Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer."
+  },
+  {
+    "name": "Penacony, Land of the Dreams",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 4,
+      "type": "percent",
+      "trigger": "an enemy target gets defeated",
+      "condition": "When an enemy target gets defeated",
+      "stacking": "up to 10 stacks"
+    },
+    "raw_2pc": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG by 10% for all other allies that are of the same Type as the wearer.\n\nSigonia, the Unclaimed Desolation\n2-Pc: Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s)."
+  },
+  {
+    "name": "Sigonia, the Unclaimed Desolation",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 4,
+      "type": "percent",
+      "trigger": "an enemy target gets defeated",
+      "condition": "if at least one teammate follows the same Path as the wearer ; When an enemy target gets defeated ; When entering battle",
+      "stacking": "up to 10 stacks"
+    },
+    "raw_2pc": "Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s).\n\nIzumo Gensei and Takama Divine Realm\n2-Pc: Increases the wearer's ATK by 12%. When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%."
+  },
+  {
+    "name": "Izumo Gensei and Takama Divine Realm",
+    "2pc_bonus": {
+      "stat": "CRIT Rate",
+      "value": 12,
+      "type": "percent",
+      "trigger": "entering battle",
+      "condition": "if at least one teammate follows the same Path as the wearer ; When entering battle ; When an ally character uses a Follow-Up ATK ; When there are 5 stacks",
+      "stacking": "up to 5 stacks"
+    },
+    "raw_2pc": "Increases the wearer's ATK by 12%. When entering battle, if at least one teammate follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.\n\nDuran, Dynasty of Running Wolves\n2-Pc: When an ally character uses a Follow-Up ATK, the wearer gains 1 stack of \"Merit,\" stacking up to 5 time(s). Each stack of \"Merit\" increases the DMG dealt by the wearer's Follow-Up ATKs by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%."
+  },
+  {
+    "name": "Duran, Dynasty of Running Wolves",
+    "2pc_bonus": {
+      "stat": "the wearer gains",
+      "value": 1,
+      "type": "flat",
+      "trigger": "an ally character uses a Follow-Up ATK",
+      "condition": "When an ally character uses a Follow-Up ATK ; When there are 5 stacks ; When the wearer hits an enemy target that has Fire Weakness",
+      "duration": 1,
+      "unit": "turn",
+      "stacking": "up to 5 stacks"
+    },
+    "raw_2pc": "When an ally character uses a Follow-Up ATK, the wearer gains 1 stack of \"Merit,\" stacking up to 5 time(s). Each stack of \"Merit\" increases the DMG dealt by the wearer's Follow-Up ATKs by 5%. When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25%.\n\nForge of the Kalpagni Lantern\n2-Pc: Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn(s)."
+  },
+  {
+    "name": "Forge of the Kalpagni Lantern",
+    "2pc_bonus": {
+      "stat": "Break Effect",
+      "value": 40,
+      "type": "percent",
+      "trigger": "the wearer hits an enemy target that has Fire Weakness",
+      "condition": "If the wearer is not the first character in the team lineup ; When the wearer hits an enemy target that has Fire Weakness",
+      "duration": 1,
+      "unit": "turn"
+    },
+    "raw_2pc": "Increases the wearer's SPD by 6%. When the wearer hits an enemy target that has Fire Weakness, the wearer's Break Effect increases by 40%, lasting for 1 turn(s).\n\nLushaka, the Sunken Seas\n2-Pc: Increases the wearer's Energy Regeneration Rate by 5%. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by 12%."
+  },
+  {
+    "name": "Lushaka, the Sunken Seas",
+    "2pc_bonus": {
+      "stat": "ATK",
+      "value": 12,
+      "type": "percent",
+      "trigger": "the wearer is not the first character in the team lineup",
+      "condition": "If the wearer is not the first character in the team lineup ; When a target summoned by the wearer is on the field"
+    },
+    "raw_2pc": "Increases the wearer's Energy Regeneration Rate by 5%. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by 12%.\n\nThe Wondrous BananAmusement Park\n2-Pc: Increases the wearer's CRIT DMG by 16%. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%."
+  },
+  {
+    "name": "The Wondrous BananAmusement Park",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 32,
+      "type": "percent",
+      "trigger": "a target summoned by the wearer is on the field",
+      "condition": "When a target summoned by the wearer is on the field ; When the wearer's Max HP is 5000 or higher"
+    },
+    "raw_2pc": "Increases the wearer's CRIT DMG by 16%. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%.\n\nBone Collection's Serene Demesne\n2-Pc: Increases the wearer's Max HP by 12%. When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%."
+  },
+  {
+    "name": "Bone Collection's Serene Demesne",
+    "2pc_bonus": {
+      "stat": "memosprite",
+      "value": 28,
+      "type": "percent",
+      "trigger": [
+        "the wearer's Max HP is 5000",
+        "higher"
+      ],
+      "condition": "When the wearer's Max HP is 5000 or higher ; When the wearer's SPD is 135/180 or higher"
+    },
+    "raw_2pc": "Increases the wearer's Max HP by 12%. When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28%.\n\nGiant Tree of Rapt Brooding\n2-Pc: Increases the wearer's SPD by 6%. When the wearer's SPD is 135/180 or higher, the wearer and their memosprite's Outgoing Healing increases by 12%/20%."
+  },
+  {
+    "name": "Giant Tree of Rapt Brooding",
+    "2pc_bonus": {
+      "stat": "memosprite",
+      "value": [
+        12,
+        20
+      ],
+      "type": "percent",
+      "trigger": [
+        "the wearer's SPD is 135",
+        "180",
+        "higher"
+      ],
+      "condition": "When the wearer's SPD is 135/180 or higher ; When the number of ally targets on the field is not equal to 4",
+      "stacking": "up to 4 stacks"
+    },
+    "raw_2pc": "Increases the wearer's SPD by 6%. When the wearer's SPD is 135/180 or higher, the wearer and their memosprite's Outgoing Healing increases by 12%/20%.\n\nArcadia of Woven Dreams\n2-Pc: When the number of ally targets on the field is not equal to 4, for every 1 additional/missing ally target, increases the DMG dealt by the wearer and their memosprite by 9%/12%, stacking up to 4/3 time(s)."
+  },
+  {
+    "name": "Arcadia of Woven Dreams",
+    "2pc_bonus": {
+      "stat": "for every",
+      "value": 1,
+      "type": "flat",
+      "trigger": "the number of ally targets on the field is not equal to 4",
+      "condition": "When the number of ally targets on the field is not equal to 4 ; When the wearer's ATK is higher than or equal to 2400/3600",
+      "stacking": "up to 4 stacks"
+    },
+    "raw_2pc": "When the number of ally targets on the field is not equal to 4, for every 1 additional/missing ally target, increases the DMG dealt by the wearer and their memosprite by 9%/12%, stacking up to 4/3 time(s).\n\nRevelry by the Sea\n2-Pc: Increases the wearer's ATK by 12%. When the wearer's ATK is higher than or equal to 2400/3600, increases the DoT DMG dealt by 12%/24% respectively."
+  },
+  {
+    "name": "Revelry by the Sea",
+    "2pc_bonus": {
+      "stat": "DoT",
+      "value": [
+        12,
+        24
+      ],
+      "type": "percent",
+      "trigger": [
+        "the wearer's ATK is higher than",
+        "equal to 2400",
+        "3600"
+      ],
+      "condition": "When the wearer's ATK is higher than or equal to 2400/3600 ; While the wearer's memosprite is on the field",
+      "stacking": "stacks"
+    },
+    "raw_2pc": "Increases the wearer's ATK by 12%. When the wearer's ATK is higher than or equal to 2400/3600, increases the DoT DMG dealt by 12%/24% respectively.\n\nAmphoreus, The Eternal Land\n2-Pc: Increases the wearer's CRIT Rate by 8%. While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked."
+  },
+  {
+    "name": "Amphoreus, The Eternal Land",
+    "2pc_bonus": {
+      "stat": "SPD",
+      "value": 8,
+      "type": "percent",
+      "trigger": "the wearer's memosprite is on the field",
+      "condition": "If 3 or more Skill Points are consumed in the same turn ; While the wearer's memosprite is on the field",
+      "duration": 3,
+      "unit": "turn",
+      "stacking": "stacks"
+    },
+    "raw_2pc": "Increases the wearer's CRIT Rate by 8%. While the wearer's memosprite is on the field, increases all allies' SPD by 8%. This effect cannot be stacked.\n\nTengoku@Livestream\n2-Pc: Increases the wearer's CRIT DMG by 16%. If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32%, lasting for 3 turns."
+  },
+  {
+    "name": "Tengoku@Livestream",
+    "2pc_bonus": {
+      "stat": "CRIT DMG",
+      "value": 32,
+      "type": "percent",
+      "trigger": [
+        "3",
+        "more Skill Points are consumed in the same turn"
+      ],
+      "condition": "If 3 or more Skill Points are consumed in the same turn",
+      "duration": 3,
+      "unit": "turn"
+    },
+    "raw_2pc": "Increases the wearer's CRIT DMG by 16%. If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32%, lasting for 3 turns."
+  }
+]

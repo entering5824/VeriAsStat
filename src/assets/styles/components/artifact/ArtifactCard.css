@@ -1,0 +1,137 @@
+/* Artifact Card Component Styles */
+
+.artifact-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg, rgba(255, 255, 255, 0.1));
+  border-radius: var(--radius-lg, 12px);
+  padding: var(--space-4, 16px);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  min-height: 150px;
+}
+
+.artifact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.artifact-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2, 8px);
+}
+
+.artifact-rarity {
+  font-weight: bold;
+  font-size: 0.875rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.rarity-5 {
+  color: #ffd700;
+  background: rgba(255, 215, 0, 0.1);
+}
+
+.rarity-4 {
+  color: #d32ce6;
+  background: rgba(211, 44, 230, 0.1);
+}
+
+.rarity-3 {
+  color: #4a90e2;
+  background: rgba(74, 144, 226, 0.1);
+}
+
+.artifact-slot {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+.artifact-card-body {
+  flex: 1;
+  margin-bottom: var(--space-2, 8px);
+}
+
+.artifact-set-name {
+  font-weight: 600;
+  margin-bottom: var(--space-2, 8px);
+  font-size: 1rem;
+}
+
+.artifact-main-stat {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.artifact-card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fit-score-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.fit-score-badge.excellent {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.fit-score-badge.good {
+  background: rgba(33, 150, 243, 0.2);
+  color: #2196f3;
+  border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+.fit-score-badge.fair {
+  background: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.fit-score-badge.poor {
+  background: rgba(244, 67, 54, 0.2);
+  color: #f44336;
+  border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .artifact-card {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .artifact-card:hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .artifact-card {
+    padding: var(--space-3, 12px);
+    min-height: 120px;
+  }
+
+  .artifact-set-name {
+    font-size: 0.875rem;
+  }
+}
+

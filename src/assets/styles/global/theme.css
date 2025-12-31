@@ -1,0 +1,21 @@
+/* 
+ * Theme CSS - Backward Compatibility Layer
+ * 
+ * NOTE: All color and effect tokens have been consolidated into:
+ * - src/assets/styles/tokens/colors.css (for colors)
+ * - src/assets/styles/tokens/effects.css (for effects, glass morphism, etc.)
+ * 
+ * This file is kept for backward compatibility with existing code that may
+ * reference these variables directly. New code should use tokens from the
+ * tokens/ directory instead.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Typography weights - Backward compatibility */
+:root {
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

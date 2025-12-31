@@ -1,0 +1,40 @@
+{
+  "name": "veriasstat-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:e2e": "playwright test --config=playwright.config.ts",
+    "test:ci": "npm run test && npm run test:e2e",
+    "migrate:buildGuides": "tsx scripts/migrate-buildGuides.ts"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vue": "^3.5.24",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.5.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "@sinclair/typebox": "^0.31.28",
+    "@sinonjs/fake-timers": "^10.3.0",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "jsdom": "^27.3.0",
+    "playwright": "^1.35.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^1.6.1",
+    "vue-tsc": "^3.1.4"
+  }
+}

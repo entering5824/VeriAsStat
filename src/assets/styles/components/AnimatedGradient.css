@@ -1,0 +1,98 @@
+.animated-gradient-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(var(--space-20));
+  opacity: 0.3;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+.gradient-orb-1 {
+  width: 600px;
+  height: 600px;
+  top: -200px;
+  left: -100px;
+  background: radial-gradient(circle, var(--aurora-1), transparent);
+  animation: orbFloat1 20s ease-in-out infinite;
+}
+
+.gradient-orb-2 {
+  width: 500px;
+  height: 500px;
+  bottom: -150px;
+  right: -50px;
+  background: radial-gradient(circle, var(--aurora-2), transparent);
+  animation: orbFloat2 25s ease-in-out infinite;
+}
+
+.gradient-orb-3 {
+  width: 450px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, var(--aurora-3), transparent);
+  animation: orbFloat3 30s ease-in-out infinite;
+}
+
+.gradient-mesh {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(at 20% 30%, var(--aurora-1) 0%, transparent 50%),
+    radial-gradient(at 80% 70%, var(--aurora-2) 0%, transparent 50%),
+    radial-gradient(at 50% 50%, var(--aurora-3) 0%, transparent 50%);
+  opacity: 0.15;
+  animation: meshPulse 15s ease-in-out infinite;
+}
+
+/* Variant styles */
+.purple .gradient-orb-1 {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.4), transparent);
+}
+
+.purple .gradient-orb-2 {
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.3), transparent);
+}
+
+.blue .gradient-orb-1 {
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.4), transparent);
+}
+
+.blue .gradient-orb-2 {
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.3), transparent);
+}
+
+.rainbow .gradient-orb-1 {
+  background: radial-gradient(circle, rgba(239, 68, 68, 0.3), transparent);
+}
+
+.rainbow .gradient-orb-2 {
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.3), transparent);
+}
+
+.rainbow .gradient-orb-3 {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.3), transparent);
+}
+
+/* Animations moved to global/animations.css */
+
+.paused .gradient-orb,
+.paused .gradient-mesh {
+  animation: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gradient-orb,
+  .gradient-mesh {
+    animation: none !important;
+  }
+}

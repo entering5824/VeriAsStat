@@ -1,0 +1,277 @@
+/* Advanced Glassmorphism with Blur, Light Reflection & Dynamic Effects */
+
+/* ===== BASE GLASS SYSTEM ===== */
+.glass-panel {
+  position: relative;
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover { 
+  box-shadow: var(--glass-hover-shadow);
+  border-color: rgba(255, 255, 255, 0.28);
+  transform: translateY(-2px);
+}
+
+/* Animated gradient border */
+.glass-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--glass-radius);
+  padding: 1px;
+  background: var(--border-gradient);
+  background-size: 200% 200%;
+  -webkit-mask: linear-gradient(var(--color-black) 0 0) content-box, linear-gradient(var(--color-black) 0 0);
+  mask: linear-gradient(var(--color-black) 0 0) content-box, linear-gradient(var(--color-black) 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: borderFlow 6s linear infinite;
+  pointer-events: none;
+}
+
+/* Light reflection shimmer */
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-bg-card-hover) 50%,
+    transparent 100%
+  );
+  animation: lightReflection 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Glass variants */
+.glass-panel--light {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.glass-panel--dark {
+  background: rgba(0, 0, 0, 0.4);
+  border-color: var(--color-bg-card-hover);
+}
+
+.glass-panel--colored {
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.15),
+    rgba(100, 108, 255, 0.15)
+  );
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+/* Frosted glass effect */
+.glass-frosted {
+  background: var(--color-bg-card);
+  -webkit-backdrop-filter: blur(var(--space-5)) saturate(180%) brightness(1.1);
+  backdrop-filter: blur(var(--space-5)) saturate(180%) brightness(1.1);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 var(--color-border-secondary),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Toolbar variant */
+.glass-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-4);
+}
+
+/* ===== GLASS CARDS WITH 3D EFFECTS ===== */
+.glass-card {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.3s ease, 
+              background 0.3s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.glass-card:hover { 
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(139, 92, 246, 0.3);
+}
+
+.glass-card:active { 
+  transform: translateY(-3px) scale(1.01); 
+}
+
+.glass-card:focus-visible { 
+  outline: none; 
+  box-shadow: 0 0 0 3px var(--ring), var(--glass-hover-shadow); 
+}
+
+/* Tilt effect on hover */
+.glass-card--tilt {
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.glass-card--tilt:hover {
+  transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateY(-6px);
+}
+
+/* Buttons - Enhanced contrast and readability */
+.glass-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 10px var(--space-4);
+  border-radius: var(--space-3);
+  color: var(--color-text-primary);
+  font-weight: var(--font-medium);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  background: var(--veil-medium);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  backdrop-filter: blur(10px) saturate(120%);
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.glass-button:hover { 
+  background: var(--veil-strong); 
+  box-shadow: var(--glass-hover-shadow);
+  transform: translateY(-2px);
+}
+.glass-button:active { transform: translateY(1px); }
+.glass-button:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--ring), var(--glass-hover-shadow); }
+.glass-button--primary { 
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)); 
+  border-color: transparent;
+  box-shadow: 0 var(--space-1) var(--space-3) rgba(100, 108, 255, 0.4);
+}
+.glass-button--primary:hover {
+  box-shadow: 0 6px var(--space-5) rgba(100, 108, 255, 0.6);
+}
+
+/* Inputs (apply to a wrapper around inputs or Vuetify fields) */
+.glass-input {
+  background: transparent;
+  border-radius: var(--glass-radius);
+  box-shadow: inset 0 0 0 1px var(--glass-border);
+}
+.glass-input:hover { box-shadow: inset 0 0 0 1px var(--veil-weak); }
+.glass-input:focus-within { box-shadow: inset 0 0 0 2px var(--accent-purple); }
+
+/* Pills/Chips */
+.glass-chip {
+  display: inline-block;
+  background: var(--veil-weak);
+  border: 1px solid var(--glass-border);
+  color: var(--foreground);
+  border-radius: 999px;
+  padding: var(--space-1) 10px;
+  font-size: var(--font-size-sm);
+}
+
+/* Divider with soft glow */
+.glass-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, var(--veil-medium), transparent);
+  border: 0;
+}
+
+/* ===== GLASS ANIMATIONS & KEYFRAMES ===== */
+/* Animations moved to global/animations.css */
+
+/* Entrance animations */
+.glass-entrance {
+  animation: slideInFromBottom 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+.glass-entrance--delay-1 { animation-delay: 0.1s; }
+.glass-entrance--delay-2 { animation-delay: 0.2s; }
+.glass-entrance--delay-3 { animation-delay: 0.3s; }
+.glass-entrance--delay-4 { animation-delay: 0.4s; }
+
+.glass-scale-in {
+  animation: scaleIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+/* Floating animation */
+.glass-float {
+  animation: floatUp 6s ease-in-out infinite;
+}
+
+/* Shine effect for interactive elements */
+.glass-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shine::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 70%
+  );
+  background-size: 200% 200%;
+  animation: glassShine 3s linear infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Glow effect on hover */
+.glass-glow {
+  position: relative;
+}
+
+.glass-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.glass-glow:hover::before {
+  opacity: 0.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass-panel::after,
+  .glass-panel::before,
+  .glass-shine::after,
+  .glass-float,
+  .glass-entrance,
+  .glass-scale-in { 
+    animation: none !important; 
+  }
+  .glass-card,
+  .glass-card--tilt {
+    transition: none !important;
+  }
+}

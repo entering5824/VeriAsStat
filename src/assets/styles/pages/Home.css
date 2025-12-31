@@ -1,0 +1,103 @@
+/**
+ * Home Page Styles
+ * 
+ * Structure: Base → Layout → Components → Responsive
+ * Approach: Mobile-First
+ */
+
+/* ============================================================================
+   BASE: Page Container
+   ============================================================================ */
+
+.home-page {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: var(--page-radial-bg);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Dynamic Background Orbs - NEW */
+.home-page::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -10%;
+  width: 600px;
+  height: 600px;
+  background: var(--orb-purple);
+  border-radius: 50%;
+  animation: orbFloat1 20s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.home-page::after {
+  content: '';
+  position: fixed;
+  bottom: -15%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: var(--orb-cyan);
+  border-radius: 50%;
+  animation: orbFloat2 25s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ============================================================================
+   LAYOUT: Section Containers
+   ============================================================================ */
+
+/* ============================================================================
+   COMPONENTS: Section Header
+   ============================================================================ */
+
+.section-header {
+  margin-bottom: var(--space-6);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.section-title {
+  color: var(--color-text-primary);
+  font-size: var(--h3);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 var(--space-2) 0;
+  text-shadow: 0 0.125rem var(--text-xs) rgba(0, 0, 0, 0.7);
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  color: var(--text-muted-rgba);
+  font-size: var(--font-size-md);
+  margin: 0;
+  text-shadow: 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+
+/* ============================================================================
+   RESPONSIVE: Mobile-First Breakpoints
+   ============================================================================ */
+
+/* Tablet: 768px and up */
+@media (min-width: 48rem) {
+  .section-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-title {
+    font-size: var(--h3, 1.25rem);
+  }
+
+  .section-subtitle {
+    font-size: var(--font-size-md, 0.9375rem);
+  }
+}

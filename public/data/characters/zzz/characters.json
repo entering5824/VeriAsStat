@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "zzz-alice",
+    "title": "Zenless Zone Zero Alice Build",
+    "character": {
+      "name": "Alice",
+      "avatar": "Alice.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Physical"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Alice",
+      "splashPath": "/images/characters/ZZZ/splash/Alice"
+    },
+    "base_stats": {
+      "hp": 2172,
+      "atk": 1328,
+      "def": 2721,
+      "impact": 128,
+      "pen_ratio": 48.44,
+      "pen": 3842,
+      "dmgbonus": 23.85
+    },
+    "graduation_stats": {
+      "hp": 327,
+      "atk": 2577,
+      "def": 341,
+      "impact": 3805,
+      "pen_ratio": 15.29,
+      "pen": 1780,
+      "dmgbonus": 22.48
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Practiced Perfection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-anby",
+    "title": "Zenless Zone Zero Anby Build",
+    "character": {
+      "name": "Anby",
+      "avatar": "Anby.png",
+      "iconPath": "/images/characters/ZZZ/icon/Anby",
+      "splashPath": "/images/characters/ZZZ/splash/Anby"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Restrained"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-soldier-0---anby",
+    "title": "Zenless Zone Zero Soldier 0 - Anby Build",
+    "character": {
+      "name": "Soldier 0 - Anby",
+      "avatar": "Soldier 0 - Anby.png",
+      "iconPath": "/images/characters/ZZZ/icon/Soldier 0 - Anby",
+      "splashPath": "/images/characters/ZZZ/splash/Soldier 0 - Anby"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Severed Innocence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-anton",
+    "title": "Zenless Zone Zero Anton Build",
+    "character": {
+      "name": "Anton",
+      "avatar": "Anton.png",
+      "iconPath": "/images/characters/ZZZ/icon/Anton",
+      "splashPath": "/images/characters/ZZZ/splash/Anton"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Brimstone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-astra-yao",
+    "title": "Zenless Zone Zero Astra Yao Build",
+    "character": {
+      "name": "Astra Yao",
+      "avatar": "Astra Yao.png",
+      "iconPath": "/images/characters/ZZZ/icon/Alice",
+      "splashPath": "/images/characters/ZZZ/splash/Astra Yao"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Elegant Vanity"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-ben",
+    "title": "Zenless Zone Zero Ben Build",
+    "character": {
+      "name": "Ben",
+      "avatar": "Ben.png",
+      "iconPath": "/images/characters/ZZZ/icon/Ben",
+      "splashPath": "/images/characters/ZZZ/splash/Ben"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Big Cylinder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-billy",
+    "title": "Zenless Zone Zero Billy Build",
+    "character": {
+      "name": "Billy",
+      "avatar": "Billy.png",
+      "iconPath": "/images/characters/ZZZ/icon/Billy",
+      "splashPath": "/images/characters/ZZZ/splash/Billy"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Brimstone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-burnice",
+    "title": "Zenless Zone Zero Burnice Build",
+    "character": {
+      "name": "Burnice",
+      "avatar": "Burnice.png",
+      "iconPath": "/images/characters/ZZZ/icon/Burnice",
+      "splashPath": "/images/characters/ZZZ/splash/Burnice"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Flamemaker Shaker"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-caesar",
+    "title": "Zenless Zone Zero Caesar Build",
+    "character": {
+      "name": "Caesar",
+      "avatar": "Caesar.png",
+      "iconPath": "/images/characters/ZZZ/icon/Caesar",
+      "splashPath": "/images/characters/ZZZ/splash/Caesar"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Tusks of Fury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-caesar-king",
+    "title": "Zenless Zone Zero Caesar King Build",
+    "character": {
+      "name": "Caesar King",
+      "avatar": "Caesar King.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Physical"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Caesar",
+      "splashPath": "/images/characters/ZZZ/splash/Caesar King"
+    },
+    "base_stats": {
+      "hp": 1229,
+      "atk": 1261,
+      "def": 1874,
+      "impact": 3634,
+      "pen_ratio": 9.98,
+      "pen": 1233,
+      "dmgbonus": 12.29
+    },
+    "graduation_stats": {
+      "hp": 3752,
+      "atk": 3282,
+      "def": 286,
+      "impact": 1560,
+      "pen_ratio": 4.82,
+      "pen": 1307,
+      "dmgbonus": 26.59
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Caesar King Signature Weapon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-corin",
+    "title": "Zenless Zone Zero Corin Build",
+    "character": {
+      "name": "Corin",
+      "avatar": "Corin.png",
+      "iconPath": "/images/characters/ZZZ/icon/Corin",
+      "splashPath": "/images/characters/ZZZ/splash/Corin"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Brimstone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-dialyn",
+    "title": "Zenless Zone Zero Dialyn Build",
+    "character": {
+      "name": "Dialyn",
+      "avatar": "Dialyn.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Physical"
+        },
+        {
+          "key": "weapon",
+          "label": "W-Engine"
+        },
+        {
+          "key": "role",
+          "label": "Stunner"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Dialyn",
+      "splashPath": "/images/characters/ZZZ/splashart/Dialyn"
+    },
+    "base_stats": {
+      "hp": 14850,
+      "atk": 1380,
+      "def": 820,
+      "impact": 1005,
+      "crit_rate": 6.0,
+      "crit_dmg": 50.0,
+      "anomaly_proficiency": 45,
+      "anomaly_mastery": 40,
+      "pen_ratio": 0.12,
+      "pen": 15,
+      "energy_recharge": 98,
+      "sheer_force": 5
+    },
+    "graduation_stats": {
+      "hp": 19300,
+      "atk": 1690,
+      "def": 1120,
+      "impact": 1280,
+      "crit_rate": 6.0,
+      "crit_dmg": 50.0,
+      "anomaly_proficiency": 45,
+      "anomaly_mastery": 40,
+      "pen_ratio": 0.12,
+      "pen": 15,
+      "energy_recharge": 98,
+      "sheer_force": 5
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "24/7"
+          }
+        ]
+      },
+      {
+        "key": "disk_sets",
+        "title": "Best Disk Drives Gear Sets",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "sets": [
+              {
+                "name": "King of the Summit",
+                "pieces": 4
+              },
+              {
+                "name": "Woodpecker Electro",
+                "pieces": 2
+              }
+            ]
+          },
+          {
+            "rank": 2,
+            "sets": [
+              {
+                "name": "King of the Summit",
+                "pieces": 4
+              },
+              {
+                "name": "Swing Jazz",
+                "pieces": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-ellen",
+    "title": "Zenless Zone Zero Ellen Build",
+    "character": {
+      "name": "Ellen",
+      "avatar": "Ellen.png",
+      "iconPath": "/images/characters/ZZZ/icon/Ellen",
+      "splashPath": "/images/characters/ZZZ/splash/Ellen"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Deep Sea Visitor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-ellen-joe",
+    "title": "Zenless Zone Zero Ellen Joe Build",
+    "character": {
+      "name": "Ellen Joe",
+      "avatar": "Ellen.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Ice"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Ellen",
+      "splashPath": "/images/characters/ZZZ/splash/Ellen"
+    },
+    "base_stats": {
+      "hp": 1378,
+      "atk": 2723,
+      "def": 3028,
+      "impact": 3534,
+      "pen_ratio": 2.77,
+      "pen": 1694,
+      "dmgbonus": 8.35
+    },
+    "graduation_stats": {
+      "hp": 602,
+      "atk": 1242,
+      "def": 2351,
+      "impact": 366,
+      "pen_ratio": 32.81,
+      "pen": 2396,
+      "dmgbonus": 21.18
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Ellen Joe Signature Weapon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-evelyn",
+    "title": "Zenless Zone Zero Evelyn Build",
+    "character": {
+      "name": "Evelyn",
+      "avatar": "Evelyn.png",
+      "iconPath": "/images/characters/ZZZ/icon/Evelyn",
+      "splashPath": "/images/characters/ZZZ/splash/Evelyn"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Heartstring Nocturne"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-grace",
+    "title": "Zenless Zone Zero Grace Build",
+    "character": {
+      "name": "Grace",
+      "avatar": "Grace.png",
+      "iconPath": "/images/characters/ZZZ/icon/Grace",
+      "splashPath": "/images/characters/ZZZ/splash/Grace"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Fusion Compiler"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-harumasa",
+    "title": "Zenless Zone Zero Harumasa Build",
+    "character": {
+      "name": "Harumasa",
+      "avatar": "Harumasa.png",
+      "iconPath": "/images/characters/ZZZ/icon/Harumasa",
+      "splashPath": "/images/characters/ZZZ/splash/Harumasa"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Zanshin Herb Case"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-hugo",
+    "title": "Zenless Zone Zero Hugo Build",
+    "character": {
+      "name": "Hugo",
+      "avatar": "Hugo.png",
+      "iconPath": "/images/characters/ZZZ/icon/Hugo",
+      "splashPath": "/images/characters/ZZZ/splash/Hugo"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Myriad Eclipse"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-jane-doe",
+    "title": "Zenless Zone Zero Jane Doe Build",
+    "character": {
+      "name": "Jane Doe",
+      "avatar": "Jane.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Physical"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Jane",
+      "splashPath": "/images/characters/ZZZ/splash/Jane"
+    },
+    "base_stats": {
+      "hp": 3777,
+      "atk": 1995,
+      "def": 1054,
+      "impact": 2755,
+      "pen_ratio": 42.38,
+      "pen": 2707,
+      "dmgbonus": 45.62
+    },
+    "graduation_stats": {
+      "hp": 972,
+      "atk": 2738,
+      "def": 1850,
+      "impact": 383,
+      "pen_ratio": 30.78,
+      "pen": 2111,
+      "dmgbonus": 20.43
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Sharpened Stinger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-ju-fufu",
+    "title": "Zenless Zone Zero Ju Fufu Build",
+    "character": {
+      "name": "Ju Fufu",
+      "avatar": "Ju Fufu.png",
+      "iconPath": "/images/characters/ZZZ/icon/Ju Fufu",
+      "splashPath": "/images/characters/ZZZ/splash/Ju Fufu"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Blazing Laurel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-koleda",
+    "title": "Zenless Zone Zero Koleda Build",
+    "character": {
+      "name": "Koleda",
+      "avatar": "Koleda.png",
+      "iconPath": "/images/characters/ZZZ/icon/Koleda",
+      "splashPath": "/images/characters/ZZZ/splash/Koleda"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Hellfire Gears"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-lighter",
+    "title": "Zenless Zone Zero Lighter Build",
+    "character": {
+      "name": "Lighter",
+      "avatar": "Lighter.png",
+      "iconPath": "/images/characters/ZZZ/icon/Lighter",
+      "splashPath": "/images/characters/ZZZ/splash/Lighter"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Blazing Laurel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-lucia",
+    "title": "Zenless Zone Zero Lucia Build",
+    "character": {
+      "name": "Lucia",
+      "avatar": "Lucia.png",
+      "iconPath": "/images/characters/ZZZ/icon/Lucia",
+      "splashPath": "/images/characters/ZZZ/splash/Lucia"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Dreamlit Hearth"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-lucy",
+    "title": "Zenless Zone Zero Lucy Build",
+    "character": {
+      "name": "Lucy",
+      "avatar": "Lucy.png",
+      "iconPath": "/images/characters/ZZZ/icon/Lucy",
+      "splashPath": "/images/characters/ZZZ/splash/Lucy"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Kaboom the Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-lycaon",
+    "title": "Zenless Zone Zero Lycaon Build",
+    "character": {
+      "name": "Lycaon",
+      "avatar": "Lycaon.png",
+      "iconPath": "/images/characters/ZZZ/icon/Lycaon",
+      "splashPath": "/images/characters/ZZZ/splash/Lycaon"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Restrained"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-manato",
+    "title": "Zenless Zone Zero Manato Build",
+    "character": {
+      "name": "Manato",
+      "avatar": "Manato.png",
+      "iconPath": "/images/characters/ZZZ/icon/Manato",
+      "splashPath": "/images/characters/ZZZ/splash/Manato"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Qingming Birdcage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-miyabi",
+    "title": "Zenless Zone Zero Miyabi Build",
+    "character": {
+      "name": "Miyabi",
+      "avatar": "Miyabi.png",
+      "iconPath": "/images/characters/ZZZ/icon/Miyabi",
+      "splashPath": "/images/characters/ZZZ/splash/Miyabi"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Hailstorm Shrine"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-nekomata",
+    "title": "Zenless Zone Zero Nekomata Build",
+    "character": {
+      "name": "Nekomata",
+      "avatar": "Nekomata.png",
+      "iconPath": "/images/characters/ZZZ/icon/Nekomata",
+      "splashPath": "/images/characters/ZZZ/splash/Nekomata"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Steel Cushion"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-nicole",
+    "title": "Zenless Zone Zero Nicole Build",
+    "character": {
+      "name": "Nicole",
+      "avatar": "Nicole.png",
+      "iconPath": "/images/characters/ZZZ/icon/Nicole",
+      "splashPath": "/images/characters/ZZZ/splash/Nicole"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Weeping Cradle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-orphie-&-magus",
+    "title": "Zenless Zone Zero Orphie & Magus Build",
+    "character": {
+      "name": "Orphie & Magus",
+      "avatar": "Orphie & Magus.png",
+      "iconPath": "/images/characters/ZZZ/icon/Orphie & Magus",
+      "splashPath": "/images/characters/ZZZ/splash/Orphie & Magus"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Bellicose Blaze"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-pan-yinhu",
+    "title": "Zenless Zone Zero Pan Yinhu Build",
+    "character": {
+      "name": "Pan Yinhu",
+      "avatar": "Pan Xinhu.png",
+      "iconPath": "/images/characters/ZZZ/icon/Pan Xinhu",
+      "splashPath": "/images/characters/ZZZ/splash/Pan Xinhu"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Tusks of Fury"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-piper",
+    "title": "Zenless Zone Zero Piper Build",
+    "character": {
+      "name": "Piper",
+      "avatar": "Piper.png",
+      "iconPath": "/images/characters/ZZZ/icon/Piper",
+      "splashPath": "/images/characters/ZZZ/splash/Piper"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Fusion Compiler"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-pulchra",
+    "title": "Zenless Zone Zero Pulchra Build",
+    "character": {
+      "name": "Pulchra",
+      "avatar": "Pulchra.png",
+      "iconPath": "/images/characters/ZZZ/icon/Pulchra",
+      "splashPath": "/images/characters/ZZZ/splash/Pulchra"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Blazing Laurel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-qingyi",
+    "title": "Zenless Zone Zero Qingyi Build",
+    "character": {
+      "name": "Qingyi",
+      "avatar": "Qingyi.png",
+      "iconPath": "/images/characters/ZZZ/icon/Qingyi",
+      "splashPath": "/images/characters/ZZZ/splash/Qingyi"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Ice-Jade Teapot"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-rina",
+    "title": "Zenless Zone Zero Rina Build",
+    "character": {
+      "name": "Rina",
+      "avatar": "Rina.png",
+      "iconPath": "/images/characters/ZZZ/icon/Rina",
+      "splashPath": "/images/characters/ZZZ/splash/Rina"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Weeping Cradle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-seed",
+    "title": "Zenless Zone Zero Seed Build",
+    "character": {
+      "name": "Seed",
+      "avatar": "Seed.png",
+      "iconPath": "/images/characters/ZZZ/icon/Seed",
+      "splashPath": "/images/characters/ZZZ/splash/Seed"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Cordis Germina"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-seth",
+    "title": "Zenless Zone Zero Seth Build",
+    "character": {
+      "name": "Seth",
+      "avatar": "Seth.png",
+      "iconPath": "/images/characters/ZZZ/icon/Seth",
+      "splashPath": "/images/characters/ZZZ/splash/Seth"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Peacekeeper - Specialized"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-soldier-11",
+    "title": "Zenless Zone Zero Soldier 11 Build",
+    "character": {
+      "name": "Soldier 11",
+      "avatar": "Soldier 11.png",
+      "iconPath": "/images/characters/ZZZ/icon/Soldier 11",
+      "splashPath": "/images/characters/ZZZ/splash/Soldier 11"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "The Brimstone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-soukaku",
+    "title": "Zenless Zone Zero Soukaku Build",
+    "character": {
+      "name": "Soukaku",
+      "avatar": "Soukaku.png",
+      "iconPath": "/images/characters/ZZZ/icon/Soukaku",
+      "splashPath": "/images/characters/ZZZ/splash/Soukaku"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Bashful Demon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-trigger",
+    "title": "Zenless Zone Zero Trigger Build",
+    "character": {
+      "name": "Trigger",
+      "avatar": "Trigger.png",
+      "iconPath": "/images/characters/ZZZ/icon/Trigger",
+      "splashPath": "/images/characters/ZZZ/splash/Trigger"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Spectral Gaze"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-vivian",
+    "title": "Zenless Zone Zero Vivian Build",
+    "character": {
+      "name": "Vivian",
+      "avatar": "Vivian.png",
+      "iconPath": "/images/characters/ZZZ/icon/Vivian",
+      "splashPath": "/images/characters/ZZZ/splash/Vivian"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Flight of Fancy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-yanagi",
+    "title": "Zenless Zone Zero Yanagi Build",
+    "character": {
+      "name": "Yanagi",
+      "avatar": "Yanagi.png",
+      "iconPath": "/images/characters/ZZZ/icon/Yanagi",
+      "splashPath": "/images/characters/ZZZ/splash/Yanagi"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Timeweaver"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-yidhari",
+    "title": "Zenless Zone Zero Yidhari Build",
+    "character": {
+      "name": "Yidhari",
+      "avatar": "Yidhari.png",
+      "iconPath": "/images/characters/ZZZ/icon/Yidhari",
+      "splashPath": "/images/characters/ZZZ/splash/Yidhari"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Kraken's Cradle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-yixuan",
+    "title": "Zenless Zone Zero Yixuan Build",
+    "character": {
+      "name": "Yixuan",
+      "avatar": "Yixuan.png",
+      "iconPath": "/images/characters/ZZZ/icon/Yixuan",
+      "splashPath": "/images/characters/ZZZ/splash/Yixuan"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Qingming Birdcage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-yuzuha",
+    "title": "Zenless Zone Zero Yuzuha Build",
+    "character": {
+      "name": "Yuzuha",
+      "avatar": "Yuzuha.png",
+      "iconPath": "/images/characters/ZZZ/icon/Yuzuha",
+      "splashPath": "/images/characters/ZZZ/splash/Yuzuha"
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Metanukimorphosis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zzz-zhu-yuan",
+    "title": "Zenless Zone Zero Zhu Yuan Build",
+    "character": {
+      "name": "Zhu Yuan",
+      "avatar": "Zhu Yuan.png",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Ether"
+        }
+      ],
+      "iconPath": "/images/characters/ZZZ/icon/Zhu Yuan",
+      "splashPath": "/images/characters/ZZZ/splash/Zhu Yuan"
+    },
+    "base_stats": {
+      "hp": 686,
+      "atk": 3314,
+      "def": 358,
+      "impact": 2545,
+      "pen_ratio": 2.34,
+      "pen": 3039,
+      "dmgbonus": 7.36
+    },
+    "graduation_stats": {
+      "hp": 3961,
+      "atk": 2598,
+      "def": 3746,
+      "impact": 1235,
+      "pen_ratio": 44.97,
+      "pen": 2006,
+      "dmgbonus": 19.02
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "list",
+        "items": [
+          {
+            "name": "Riot Suppressor Mark VI"
+          }
+        ]
+      }
+    ]
+  }
+]
