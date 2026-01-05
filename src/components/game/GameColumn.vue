@@ -50,7 +50,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import VersionCard from "../version/VersionCard.vue";
-import { useGameConfig } from '../../composables/game';
+import { useGameConfig } from '../../composables'
 
 const props = defineProps<{
   game?: string;

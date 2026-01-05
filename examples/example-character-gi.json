@@ -1,0 +1,115 @@
+[
+  {
+    "_id": 999,
+    "character": {
+      "name": "Example Character GI",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Pyro"
+        },
+        {
+          "key": "weapon",
+          "label": "Sword"
+        },
+        {
+          "key": "role",
+          "label": "Main DPS"
+        }
+      ],
+      "iconPath": "/images/gi/characters/icon/Example",
+      "splashPath": "/images/gi/characters/splashart/Example",
+      "tier": 50
+    },
+    "base_stats": {
+      "hp": 15000,
+      "atk": 300,
+      "def": 800,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2000,
+      "def": 1000,
+      "crit_rate": 70.0,
+      "crit_dmg": 140.0,
+      "energy_recharge": 120
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best Weapons",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "name": "Mistsplitter Reforged",
+            "note": "Best in slot"
+          },
+          {
+            "rank": 2,
+            "name": "Primordial Jade Cutter",
+            "note": "Great alternative"
+          },
+          {
+            "rank": 3,
+            "name": "Blackcliff Longsword",
+            "note": "F2P option"
+          }
+        ]
+      },
+      {
+        "key": "artifacts",
+        "title": "Best Artifacts",
+        "type": "set-combination",
+        "items": [
+          {
+            "rank": 1,
+            "sets": [
+              {
+                "name": "Crimson Witch of Flames",
+                "pieces": 4
+              }
+            ],
+            "note": "Best for DPS"
+          },
+          {
+            "rank": 2,
+            "sets": [
+              {
+                "name": "Emblem of Severed Fate",
+                "pieces": 2
+              },
+              {
+                "name": "Crimson Witch of Flames",
+                "pieces": 2
+              }
+            ],
+            "note": "Alternative build"
+          }
+        ]
+      },
+      {
+        "key": "stats",
+        "title": "Best Stats",
+        "type": "stat-grid",
+        "items": [
+          {
+            "slot": "Sands",
+            "stat": "ATK%"
+          },
+          {
+            "slot": "Goblet",
+            "stat": "Pyro DMG%"
+          },
+          {
+            "slot": "Circlet",
+            "stat": "CRIT Rate%"
+          }
+        ]
+      }
+    ]
+  }
+]

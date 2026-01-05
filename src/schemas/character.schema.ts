@@ -24,7 +24,7 @@ export const SectionItemSchema = z.object({
 export const SectionSchema = z.object({
   key: z.string(),
   title: z.string().optional(),
-  type: z.enum(['ranked-list', 'list', 'material-grid', 'stat-grid']).optional(),
+  type: z.enum(['ranked-list', 'list', 'material-grid', 'stat-grid', 'set-combination', 'stat-priority']).optional(),
   items: z.array(SectionItemSchema).optional().default([])
 })
 

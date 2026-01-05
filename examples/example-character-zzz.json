@@ -1,0 +1,129 @@
+[
+  {
+    "_id": 999,
+    "character": {
+      "name": "Example Character ZZZ",
+      "tags": [
+        {
+          "key": "element",
+          "label": "Electric"
+        },
+        {
+          "key": "role",
+          "label": "DPS"
+        }
+      ],
+      "iconPath": "/images/zzz/characters/icon/Example",
+      "splashPath": "/images/zzz/characters/splash/Example",
+      "tier": 70
+    },
+    "base_stats": {
+      "hp": 1500,
+      "atk": 500,
+      "def": 300,
+      "impact": 100,
+      "crit_rate": 5.0,
+      "crit_dmg": 50.0,
+      "ap": null,
+      "am": null
+    },
+    "graduation_stats": {
+      "hp": 4000,
+      "atk": 2000,
+      "def": 600,
+      "impact": 150,
+      "crit_rate": 70.0,
+      "crit_dmg": 140.0,
+      "ap": 50,
+      "am": 100
+    },
+    "sections": [
+      {
+        "key": "weapons",
+        "title": "Best W-Engines",
+        "type": "ranked-list",
+        "items": [
+          {
+            "rank": 1,
+            "name": "Signature W-Engine",
+            "note": "Best in slot"
+          },
+          {
+            "rank": 2,
+            "name": "Alternative W-Engine",
+            "note": "Good alternative"
+          }
+        ]
+      },
+      {
+        "key": "disk_sets",
+        "title": "Best Disk Sets",
+        "type": "set-combination",
+        "items": [
+          {
+            "rank": 1,
+            "sets": [
+              {
+                "name": "Shining Aria",
+                "pieces": 4
+              }
+            ],
+            "note": "Best for Electric DPS"
+          },
+          {
+            "rank": 2,
+            "sets": [
+              {
+                "name": "Shining Aria",
+                "pieces": 2
+              },
+              {
+                "name": "White Water Ballad",
+                "pieces": 2
+              }
+            ],
+            "note": "Alternative build"
+          }
+        ]
+      },
+      {
+        "key": "main_stats",
+        "title": "Best Main Stats",
+        "type": "stat-grid",
+        "items": [
+          {
+            "slot": "Disk 4",
+            "stat": "ATK%"
+          },
+          {
+            "slot": "Disk 5",
+            "stat": "Electric DMG%"
+          },
+          {
+            "slot": "Disk 6",
+            "stat": "CRIT Rate%"
+          }
+        ]
+      },
+      {
+        "key": "substats",
+        "title": "Substat Priority",
+        "type": "stat-priority",
+        "items": [
+          {
+            "name": "CRIT Rate"
+          },
+          {
+            "name": "CRIT DMG"
+          },
+          {
+            "name": "ATK%"
+          },
+          {
+            "name": "Anomaly Proficiency"
+          }
+        ]
+      }
+    ]
+  }
+]

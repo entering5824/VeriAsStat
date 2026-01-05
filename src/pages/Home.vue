@@ -77,7 +77,7 @@
 <script setup lang="ts">
 import HeroCarousel from '../components/ui/HeroCarousel.vue'
 import VersionCard from '../components/version/VersionCard.vue'
-import { useHome } from '../composables/useHome'
+import { useHome } from '../composables'
 
 const {
   getGameColor,

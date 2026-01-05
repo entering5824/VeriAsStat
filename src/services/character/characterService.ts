@@ -9,6 +9,7 @@ const characterCache = new LRUCache<string, Character[]>(5) // Max 5 games cache
 /**
  * Transform validated character entry to Character type
  * Flattens the nested character object structure
+ * Ensures iconPath and splashPath are preserved from the character object
  */
 function transformCharacterEntry(item: any, game: string): Character {
   return {
@@ -19,7 +20,10 @@ function transformCharacterEntry(item: any, game: string): Character {
     base_stats: item.base_stats,
     graduation_stats: item.graduation_stats,
     sub_stats: item.sub_stats,
-    sections: item.sections || []
+    sections: item.sections || [],
+    // Explicitly preserve iconPath and splashPath from character object
+    iconPath: item.character?.iconPath,
+    splashPath: item.character?.splashPath
   }
 }
 

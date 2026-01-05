@@ -1,5 +1,5 @@
 <template>
-  <div class="weapon-page">
+  <div class="weapon-page page-with-orbs">
     <div class="page-container">
       <!-- Page Header -->
       <div class="page-header">
@@ -55,8 +55,7 @@ import { ref, computed, onMounted, nextTick, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { weaponService } from '../../services'
 import type { BaseWeapon } from '../../types/weapon'
-import { useWeaponFilter } from '../../composables/weapon'
-import { useImagePreloader } from '../../composables/ui'
+import { useWeaponFilter, useImagePreloader } from '../../composables'
 import WeaponGrid from '../../components/weapon/WeaponGrid.vue'
 import WeaponFilters from '../../components/weapon/WeaponFilters.vue'
 import PageNavigation from '../../components/common/PageNavigation.vue'
@@ -147,63 +146,16 @@ watch(() => route.query.game, (newGame) => {
   max-width: 100%;
   background: var(--page-radial-bg);
   min-height: 100vh;
-  padding: var(--space-6) var(--space-4);
   overflow: hidden;
 }
 
-/* Dynamic Background Orbs */
-.weapon-page::before {
-  content: '';
-  position: fixed;
-  top: -20%;
-  left: -10%;
-  width: 600px;
-  height: 600px;
-  background: var(--orb-purple);
-  border-radius: 50%;
-  animation: orbFloat1 20s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
-}
-
+/* Background orbs handled by page-with-orbs class */
+.weapon-page::before,
 .weapon-page::after {
-  content: '';
-  position: fixed;
-  bottom: -15%;
-  right: -10%;
-  width: 500px;
-  height: 500px;
-  background: var(--orb-cyan);
-  border-radius: 50%;
-  animation: orbFloat2 25s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
-.page-container {
-  max-width: 1600px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-}
-
-.page-header {
-  margin-bottom: var(--space-8);
-  text-align: center;
-}
-
-.page-title {
-  font-size: clamp(2rem, 5vw, 3rem);
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: var(--space-2);
-}
-
-.page-subtitle {
-  color: var(--color-text-muted);
-  font-size: var(--font-size-lg);
-}
+/* page-container, page-header, page-title, page-subtitle are now in utilities.css */
 
 .page-content {
   display: grid;
@@ -220,32 +172,18 @@ watch(() => route.query.game, (newGame) => {
   }
 }
 
-.loading-state, .empty-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-12);
-  text-align: center;
-  color: var(--color-on-surface-variant);
-  background: var(--glass-bg);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--glass-border);
+.filters-sidebar {
+  position: sticky;
+  top: var(--space-6);
+  align-self: start;
 }
 
-.spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid var(--color-surface-variant);
-  border-top-color: var(--color-primary);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin-bottom: var(--space-4);
+.weapons-grid-area {
+  position: relative;
+  z-index: 1;
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
+/* loading-state, empty-state, spinner are now in utilities.css */
 
 .results-meta {
   margin-bottom: var(--space-4);

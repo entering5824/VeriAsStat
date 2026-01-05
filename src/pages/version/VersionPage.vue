@@ -138,11 +138,9 @@ import { useRoute, useRouter } from 'vue-router'
 import GameColumn from '../../components/game/GameColumn.vue'
 import VersionCard from '../../components/version/VersionCard.vue'
 import VersionModal from '../../components/version/VersionModal.vue'
-import { useVersionPage } from '../../composables/useVersionPage'
-import { useImagePreloader, useNotifications } from '../../composables/ui'
+import { useVersionPage, useImagePreloader, useNotifications, useConflictResolution } from '../../composables'
 import { GAMES as GAME_CFG } from '../../config/games'
 import { ENABLE_CRUD, getSafeErrorMessage } from '../../utils/common'
-import { useConflictResolution } from '../../composables/ui'
 import ConflictResolutionDialog from '../../components/common/ConflictResolutionDialog.vue'
 
 const route = useRoute()

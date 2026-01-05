@@ -1,5 +1,5 @@
 <template>
-  <div class="artifact-page" data-testid="artifact-page">
+  <div class="artifact-page page-with-orbs" data-testid="artifact-page">
     <div class="page-container">
       <!-- Page Header -->
       <div class="page-header">
@@ -52,7 +52,7 @@ import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import type { ArtifactSet } from '../../types/artifact'
 import { artifactSetService } from '../../services'
-import { useImagePreloader } from '../../composables/ui'
+import { useImagePreloader } from '../../composables'
 import ArtifactGrid from '../../components/artifact/ArtifactGrid.vue'
 import PageNavigation from '../../components/common/PageNavigation.vue'
 
@@ -150,153 +150,43 @@ onMounted(() => {
   max-width: 100%;
   background: var(--page-radial-bg);
   min-height: 100vh;
-  padding: var(--space-4, 16px);
   overflow: hidden;
 }
 
-/* Dynamic Background Orbs */
-.artifact-page::before {
-  content: '';
-  position: fixed;
-  top: -20%;
-  left: -10%;
-  width: 600px;
-  height: 600px;
-  background: var(--orb-purple);
-  border-radius: 50%;
-  animation: orbFloat1 20s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
-}
-
+/* Background orbs handled by page-with-orbs class */
+.artifact-page::before,
 .artifact-page::after {
-  content: '';
-  position: fixed;
-  bottom: -15%;
-  right: -10%;
-  width: 500px;
-  height: 500px;
-  background: var(--orb-cyan);
-  border-radius: 50%;
-  animation: orbFloat2 25s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
-/* Navigation Buttons */
-.navigation-buttons {
-  display: flex;
-  gap: var(--space-2, 8px);
-  margin-bottom: var(--space-6, 24px);
-  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
-  border-radius: var(--glass-radius, 1rem);
-  padding: var(--space-2, 8px);
-  backdrop-filter: blur(var(--glass-blur, 12px));
-  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 1;
-}
-
-.nav-btn {
-  flex: 1;
-  min-width: 120px;
-  padding: var(--space-3, 12px) var(--space-5, 20px);
-  border-radius: var(--radius-md, 8px);
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: var(--color-text-secondary);
-  text-decoration: none;
-  text-align: center;
-  font-weight: 500;
-  font-size: var(--font-size-sm, 14px);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.nav-btn::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: var(--radius-md, 8px);
-}
-
-.nav-btn:hover::before {
-  opacity: 1;
-}
-
-.nav-btn:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(255, 255, 255, 0.25);
-  color: var(--color-text-primary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.nav-btn.active {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(102, 126, 234, 0.15));
-  color: #fff;
-  font-weight: 600;
-  box-shadow: 
-    0 4px 12px rgba(102, 126, 234, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  transform: translateY(-1px);
-}
-
-@media (max-width: 768px) {
-  .navigation-buttons {
-    flex-wrap: wrap;
-    gap: var(--space-2, 8px);
-  }
-  
-  .nav-btn {
-    min-width: calc(50% - 4px);
-    flex: 1 1 auto;
-  }
-}
-
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-4, 16px);
-  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
-  border-radius: var(--glass-radius, 1rem);
-  padding: var(--space-6, 24px);
-  backdrop-filter: blur(var(--glass-blur, 12px));
-  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
-  box-shadow: var(--glass-shadow, 0 0.25rem 1.5rem rgba(0, 0, 0, 0.6));
-  position: relative;
-  z-index: 1;
-  transition: var(--transition-all, all 200ms ease);
-}
-
-.page-header:hover {
-  background: var(--glass-bg-hover, rgba(255, 255, 255, 0.08));
-  box-shadow: var(--glass-shadow-hover, 0 0.5rem 2rem rgba(0, 0, 0, 0.7));
-}
-
-.page-title {
-  font-size: 2rem;
-  margin: 0;
-}
-
+/* Page-specific controls */
 .page-controls {
   display: flex;
   gap: var(--space-2, 8px);
+  flex-wrap: wrap;
 }
 
 .game-selector,
 .search-input {
-  padding: var(--space-2, 8px);
+  padding: var(--space-2, 8px) var(--space-3, 12px);
   border-radius: var(--radius-md, 8px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--glass-bg, rgba(255, 255, 255, 0.1));
   color: inherit;
+  font-size: var(--font-size-sm, 0.875rem);
+  transition: all 0.2s;
+}
+
+.game-selector:hover,
+.search-input:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.game-selector:focus,
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-primary, #2196f3);
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
 }
 
 .search-input {
@@ -360,11 +250,6 @@ onMounted(() => {
   color: inherit;
 }
 
-.loading-state,
-.empty-state {
-  text-align: center;
-  padding: var(--space-8, 32px);
-  opacity: 0.7;
-}
+/* loading-state and empty-state are now in utilities.css */
 </style>
 

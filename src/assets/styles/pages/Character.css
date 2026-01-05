@@ -1,6 +1,6 @@
 /* Character.css - Styles cho trang quản lý nhân vật */
 
-/* Main page container - Unified with Home/Version pages */
+/* Main page container */
 .character-page,
 .character-edit-page,
 .character-create-page {
@@ -13,96 +13,13 @@
   box-sizing: border-box;
 }
 
-/* Dynamic Background Orbs */
-.character-page::before {
-  content: '';
-  position: fixed;
-  top: -20%;
-  left: -10%;
-  width: 600px;
-  height: 600px;
-  background: var(--orb-purple);
-  border-radius: 50%;
-  animation: orbFloat1 20s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
-}
-
+/* Background orbs handled by page-with-orbs class */
+.character-page::before,
 .character-page::after {
-  content: '';
-  position: fixed;
-  bottom: -15%;
-  right: -10%;
-  width: 500px;
-  height: 500px;
-  background: var(--orb-cyan);
-  border-radius: 50%;
-  animation: orbFloat2 25s ease-in-out infinite;
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
-/* Page Container - Unified with Home/Version pages */
-.page-container {
-  max-width: var(--container-max-width, 100rem);
-  margin: 0 auto;
-  padding: var(--space-6) var(--space-4);
-  position: relative;
-  z-index: 1;
-}
-
-/* Page Header - Unified with Home/Version pages */
-.page-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-4);
-  margin-bottom: var(--space-6);
-  padding: var(--space-6);
-  background: var(--glass-bg, rgba(255, 255, 255, 0.05));
-  border-radius: var(--glass-radius, 1rem);
-  backdrop-filter: blur(var(--glass-blur, 12px));
-  border: 1px solid var(--glass-border, rgba(255, 255, 255, 0.1));
-  box-shadow: var(--glass-shadow, 0 0.25rem 1.5rem rgba(0, 0, 0, 0.6));
-  position: relative;
-  z-index: 1;
-  transition: var(--transition-all, all 200ms ease);
-}
-
-.page-header:hover {
-  background: var(--glass-bg-hover, rgba(255, 255, 255, 0.08));
-  box-shadow: var(--glass-shadow-hover, 0 0.5rem 2rem rgba(0, 0, 0, 0.7));
-}
-
-.page-title {
-  font-size: var(--text-3xl, 1.875rem);
-  font-weight: var(--font-weight-bold, 700);
-  color: var(--color-text-primary);
-  margin: 0;
-  line-height: var(--leading-tight);
-}
-
-.page-subtitle {
-  font-size: var(--text-base, 1rem);
-  color: var(--color-text-muted);
-  margin: 0;
-  line-height: var(--leading-normal);
-}
-
-.page-controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  align-items: center;
-}
-
-@media (min-width: 48rem) {
-  .page-header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
+/* page-container, page-header, page-title, page-subtitle, page-controls are now in utilities.css */
 
 .back-btn {
   padding: var(--space-base) var(--space-4);

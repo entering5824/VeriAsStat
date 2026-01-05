@@ -10,7 +10,7 @@
         <!-- Logo Section -->
         <div class="logo-section">
           <div class="logo-wrapper">
-            <img src="/genshin-impact.svg" alt="App Logo" class="logo" />
+            <img src="/assets/genshin-impact.svg" alt="App Logo" class="logo" />
           </div>
           <h1 class="app-title" :class="{ 'hidden': isCollapsed }">VeriAsStat</h1>
         </div>

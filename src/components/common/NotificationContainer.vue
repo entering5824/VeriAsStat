@@ -34,7 +34,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { notifications, removeNotification } from '../../composables/ui'
+import { notifications, removeNotification } from '../../composables'
 
 export default defineComponent({
   name: 'NotificationContainer',

@@ -22,9 +22,8 @@ import Header from './components/ui/Header.vue'
 import LoadingOverlay from './components/ui/LoadingOverlay.vue'
 import AppFooter from './components/ui/AppFooter.vue'
 import NotificationContainer from './components/common/NotificationContainer.vue'
-import { useAudio } from './composables/ui'
+import { useAudio, useLoading } from './composables'
 import { onMounted, onUnmounted, watch } from 'vue'
-import { useLoading } from './composables/ui'
 import { useRoute } from 'vue-router'
 
 const isDev = import.meta.env.DEV

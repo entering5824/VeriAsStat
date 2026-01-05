@@ -128,7 +128,7 @@
           </div>
         </div>
 
-        <!-- Materials Section -->
+        <!-- Materials Section (always use existing grid, not affected by feature flag) -->
         <div v-if="materialsSection" class="section-card">
           <h2 class="card-title">{{ materialsSection.title || 'Upgrade Materials' }}</h2>
           <div class="materials-grid">
@@ -142,77 +142,97 @@
           </div>
         </div>
 
-        <!-- Weapons Section -->
-        <div v-if="weaponsSection" class="section-card">
-          <h2 class="card-title">{{ weaponsSection.title || (game === 'HSR' ? 'Best Light Cones' : game === 'ZZZ' ? 'Best W-Engines' : 'Best Weapons') }}</h2>
-          <div v-if="weaponsSection.type === 'ranked-list'" class="ranked-list">
-            <div 
-              v-for="(item, index) in weaponsSection.items" 
-              :key="index"
-              class="ranked-item"
-              :class="`rank-${item.rank || index + 1}`"
-            >
-              <div class="rank-badge">#{{ item.rank || index + 1 }}</div>
-              <div class="item-content">
-                <span class="item-name">{{ item.name }}</span>
-                <span v-if="item.note" class="item-note">{{ item.note }}</span>
-              </div>
-            </div>
+        <!-- Dynamic Build Sections (when feature flag enabled) -->
+        <template v-if="useNewBuildUI">
+          <div
+            v-for="section in sections.filter(shouldRenderSection)"
+            :key="section.key"
+            class="section-card"
+          >
+            <h2 class="card-title">{{ section.title || getDefaultTitle(section.key) }}</h2>
+            <component
+              :is="resolveBuildComponent(section.type)"
+              v-if="resolveBuildComponent(section.type)"
+              :items="section.items || []"
+              :title="section.title"
+            />
           </div>
-          <div v-else class="simple-list">
-            <div 
-              v-for="(item, index) in weaponsSection.items" 
-              :key="index"
-              class="list-item"
-            >
-              {{ item.name }}
-              <span v-if="item.note" class="item-note">{{ item.note }}</span>
-            </div>
-          </div>
-        </div>
+        </template>
 
-        <!-- Artifacts/Relics/Disk Sets Section -->
-        <div v-if="artifactsSection" class="section-card">
-          <h2 class="card-title">{{ artifactsSection.title || (game === 'HSR' ? 'Best Relics' : game === 'ZZZ' ? 'Best Disk Sets' : 'Best Artifacts') }}</h2>
-          <div v-if="artifactsSection.type === 'ranked-list'" class="ranked-list">
-            <div 
-              v-for="(item, index) in artifactsSection.items" 
-              :key="index"
-              class="ranked-item artifact-item"
-              :class="`rank-${item.rank || index + 1}`"
-            >
-              <div class="rank-badge">#{{ item.rank || index + 1 }}</div>
-              <div class="item-content">
-                <div class="artifact-sets">
-                  <span 
-                    v-for="(set, setIndex) in item.sets" 
-                    :key="setIndex"
-                    class="artifact-set"
-                  >
-                    {{ set.name }} <span class="pieces-count">({{ set.pieces }})</span>
-                    <span v-if="setIndex < item.sets.length - 1" class="set-separator">+</span>
-                  </span>
+        <!-- Legacy Build Sections (when feature flag disabled) -->
+        <template v-else>
+          <!-- Weapons Section -->
+          <div v-if="weaponsSection" class="section-card">
+            <h2 class="card-title">{{ weaponsSection.title || (game === 'HSR' ? 'Best Light Cones' : game === 'ZZZ' ? 'Best W-Engines' : 'Best Weapons') }}</h2>
+            <div v-if="weaponsSection.type === 'ranked-list'" class="ranked-list">
+              <div 
+                v-for="(item, index) in weaponsSection.items" 
+                :key="index"
+                class="ranked-item"
+                :class="`rank-${item.rank || index + 1}`"
+              >
+                <div class="rank-badge">#{{ item.rank || index + 1 }}</div>
+                <div class="item-content">
+                  <span class="item-name">{{ item.name }}</span>
+                  <span v-if="item.note" class="item-note">{{ item.note }}</span>
                 </div>
+              </div>
+            </div>
+            <div v-else class="simple-list">
+              <div 
+                v-for="(item, index) in weaponsSection.items" 
+                :key="index"
+                class="list-item"
+              >
+                {{ item.name }}
                 <span v-if="item.note" class="item-note">{{ item.note }}</span>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Stats/Main Stats Section -->
-        <div v-if="statsSection" class="section-card">
-          <h2 class="card-title">{{ statsSection.title || 'Best Stats' }}</h2>
-          <div class="stats-grid-section">
-            <div 
-              v-for="(item, index) in statsSection.items" 
-              :key="index"
-              class="stat-slot-item"
-            >
-              <div class="stat-slot">{{ item.slot }}</div>
-              <div class="stat-value">{{ item.stat }}</div>
+          <!-- Artifacts/Relics/Disk Sets Section -->
+          <div v-if="artifactsSection" class="section-card">
+            <h2 class="card-title">{{ artifactsSection.title || (game === 'HSR' ? 'Best Relics' : game === 'ZZZ' ? 'Best Disk Sets' : 'Best Artifacts') }}</h2>
+            <div v-if="artifactsSection.type === 'ranked-list'" class="ranked-list">
+              <div 
+                v-for="(item, index) in artifactsSection.items" 
+                :key="index"
+                class="ranked-item artifact-item"
+                :class="`rank-${item.rank || index + 1}`"
+              >
+                <div class="rank-badge">#{{ item.rank || index + 1 }}</div>
+                <div class="item-content">
+                  <div class="artifact-sets">
+                    <span 
+                      v-for="(set, setIndex) in item.sets" 
+                      :key="setIndex"
+                      class="artifact-set"
+                    >
+                      {{ set.name }} <span class="pieces-count">({{ set.pieces }})</span>
+                      <span v-if="setIndex < item.sets.length - 1" class="set-separator">+</span>
+                    </span>
+                  </div>
+                  <span v-if="item.note" class="item-note">{{ item.note }}</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+
+          <!-- Stats/Main Stats Section -->
+          <div v-if="statsSection" class="section-card">
+            <h2 class="card-title">{{ statsSection.title || 'Best Stats' }}</h2>
+            <div class="stats-grid-section">
+              <div 
+                v-for="(item, index) in statsSection.items" 
+                :key="index"
+                class="stat-slot-item"
+              >
+                <div class="stat-slot">{{ item.slot }}</div>
+                <div class="stat-value">{{ item.stat }}</div>
+              </div>
+            </div>
+          </div>
+        </template>
 
         <!-- Stats Section -->
         <div v-if="hasAnyStats" class="stats-section">
@@ -279,16 +299,26 @@ import { defineComponent, ref, computed, onMounted, onBeforeUnmount, nextTick } 
 import { useRoute, useRouter } from 'vue-router'
 import BuildGuideTabs from '../../components/character/BuildGuideTabs.vue'
 import SkeletonDetail from '../../components/character/SkeletonDetail.vue'
+import BuildRankedList from '../../components/character/build/BuildRankedList.vue'
+import BuildSetCombination from '../../components/character/build/BuildSetCombination.vue'
+import BuildStatGrid from '../../components/character/build/BuildStatGrid.vue'
+import BuildStatPriority from '../../components/character/build/BuildStatPriority.vue'
 import type { Character } from '../../types/character'
 import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, getCharacterImageCandidates, type Game } from '../../utils/character'
 import { characterService } from '../../services/character'
-import { useScrollRestore } from '../../composables/ui'
+import { useScrollRestore } from '../../composables'
+import { resolveBuildComponent } from '../../utils/build/resolveBuildComponent'
+import type { Section } from '../../types/character'
 
 export default defineComponent({
   name: 'CharacterDetail',
   components: {
     BuildGuideTabs,
-    SkeletonDetail
+    SkeletonDetail,
+    BuildRankedList,
+    BuildSetCombination,
+    BuildStatGrid,
+    BuildStatPriority
   },
   setup() {
     const route = useRoute()
@@ -579,6 +609,31 @@ export default defineComponent({
       ) || null
     })
 
+    // Helper function to get default title for section key
+    const getDefaultTitle = (key: string): string => {
+      const titleMap: Record<string, string> = {
+        weapons: game.value === 'HSR' ? 'Best Light Cones' : game.value === 'ZZZ' ? 'Best W-Engines' : 'Best Weapons',
+        light_cones: 'Best Light Cones',
+        artifacts: 'Best Artifacts',
+        relics: 'Best Relics',
+        disk_sets: 'Best Disk Sets',
+        stats: 'Best Stats',
+        main_stats: 'Best Main Stats',
+        substats: 'Substat Priority',
+        materials: 'Upgrade Materials'
+      }
+      return titleMap[key] || key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+    }
+
+    // Helper function to check if section should be rendered
+    const shouldRenderSection = (section: Section): boolean => {
+      // Skip materials section (handled separately with existing grid)
+      if (section.key === 'materials' && section.type === 'material-grid') {
+        return false
+      }
+      return true
+    }
+
     // Load character
     const loadCharacter = async () => {
       if (!characterId.value || !game.value) {
@@ -705,6 +760,11 @@ export default defineComponent({
       weaponsSection,
       artifactsSection,
       statsSection,
+      useNewBuildUI,
+      sections,
+      resolveBuildComponent,
+      getDefaultTitle,
+      shouldRenderSection,
       goBack,
       handleIconError,
       handleSplashError,
@@ -713,5 +773,5 @@ export default defineComponent({
 })
 </script>
 
-<style scoped src="../assets/styles/pages/CharacterDetail.css"></style>
+<style scoped src="../../assets/styles/pages/CharacterDetail.css"></style>
 

@@ -35,8 +35,8 @@
         
         <div class="badges-right">
           <!-- Element badge -->
-          <div v-if="character.element" class="element-badge" :class="`element-${character.element.toLowerCase()}`">
-            {{ character.element }}
+          <div v-if="element" class="element-badge" :class="getElementClass(element)">
+            {{ element }}
           </div>
           <!-- Build Guide indicator -->
           <div
@@ -123,7 +123,7 @@ import { defineComponent, computed, ref, onMounted, onUnmounted, nextTick } from
 import { useRouter } from 'vue-router'
 import type { PropType } from 'vue'
 import type { Character } from '../../types/character'
-import { useCharacterStats } from '../../composables/character'
+import { useCharacterStats } from '../../composables'
 import { 
   getCharacterIconUrl, 
   getCharacterSplashUrl, 
@@ -205,13 +205,39 @@ export default defineComponent({
       return ''
     }
     
+    // Get element from character (from element field or tags)
+    const element = computed(() => {
+      const char = props.character as any
+      // First try direct element field
+      if (char.element) {
+        return char.element
+      }
+      // Then try to find in tags
+      if (char.tags && Array.isArray(char.tags)) {
+        const elementTag = char.tags.find((tag: any) => 
+          tag.key === 'element' || tag.key === 'Element'
+        )
+        if (elementTag && elementTag.label) {
+          return elementTag.label
+        }
+      }
+      return null
+    })
+    
+    // Helper to get element CSS class
+    function getElementClass(elem: string | null): string {
+      if (!elem) return ''
+      const normalized = elem.toLowerCase().replace(/\s+/g, '-')
+      return `element-${normalized}`
+    }
+    
     // Character info for popup
     const characterInfo = computed(() => {
       const info: Array<{ label: string; value: string | number }> = []
       const char = props.character as any
       
-      if (char.element) {
-        info.push({ label: 'Element', value: char.element })
+      if (element.value) {
+        info.push({ label: 'Element', value: element.value })
       }
       if (char.rarity) {
         info.push({ label: 'Rarity', value: `${char.rarity}★` })
@@ -372,6 +398,8 @@ export default defineComponent({
       shouldLoadImage,
       wrapperRef,
       extractCharacterName,
+      element,
+      getElementClass,
     }
   }
 })

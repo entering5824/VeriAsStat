@@ -8,10 +8,14 @@
 
 .character-grid {
   display: grid;
-  grid-template-columns: repeat(var(--grid-columns, 8), 1fr);
+  grid-template-columns: repeat(var(--grid-columns, 8), minmax(0, 1fr));
   row-gap: 40px;
   column-gap: var(--grid-gap, 16px);
   overflow: visible;
+  align-items: start;
+  justify-items: stretch;
+  width: 100%;
+  grid-auto-rows: 140px;
 }
 
 /* Responsive Design for Mobile */
@@ -21,6 +25,8 @@
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     row-gap: 32px;
     column-gap: var(--grid-gap-sm, 12px);
+    align-items: start;
+    justify-items: center;
   }
 }
 
@@ -34,6 +40,8 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     row-gap: 24px;
     column-gap: var(--grid-gap-sm, 12px);
+    align-items: start;
+    justify-items: center;
   }
 }
 
@@ -47,6 +55,8 @@
     grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
     row-gap: 20px;
     column-gap: var(--grid-gap-sm, 8px);
+    align-items: start;
+    justify-items: center;
   }
 }
 

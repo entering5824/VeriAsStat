@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { useLoading } from '../../composables/ui'
+import { useLoading } from '../../composables'
 
 const { isLoading } = useLoading()
 </script>

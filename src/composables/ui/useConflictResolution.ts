@@ -5,23 +5,35 @@ import { ref } from 'vue'
  * Used when ENABLE_CRUD is true
  */
 export function useConflictResolution() {
-  const diff = ref<any>(null)
+  const diff = ref<Record<string, { server: any; client: any }>>({})
   const hasConflict = ref(false)
 
-  const handleConflict = (conflictData: any) => {
-    diff.value = conflictData
-    hasConflict.value = true
+  const handleConflict = (error: any, versionData?: any): Record<string, { server: any; client: any }> => {
+    // Extract conflict diff from error or versionData
+    const conflictDiff: Record<string, { server: any; client: any }> = {}
+    
+    if (error?.response?.data?.conflict) {
+      Object.assign(conflictDiff, error.response.data.conflict)
+    } else if (versionData) {
+      // Create diff from versionData if needed
+      // This is a simplified implementation
+    }
+    
+    diff.value = conflictDiff
+    hasConflict.value = Object.keys(conflictDiff).length > 0
+    return conflictDiff
   }
 
-  const resolveConflict = (resolution: any) => {
-    // Handle conflict resolution
-    diff.value = null
+  const resolveConflict = (action: 'reload' | 'merge' | 'overwrite'): 'reload' | 'merge' | 'overwrite' => {
+    // Handle conflict resolution based on action
+    const resolved = action
+    diff.value = {}
     hasConflict.value = false
-    return resolution
+    return resolved
   }
 
   const clearConflict = () => {
-    diff.value = null
+    diff.value = {}
     hasConflict.value = false
   }
 

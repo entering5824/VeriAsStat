@@ -92,6 +92,10 @@ export interface Character {
    * Giữ lại để backward compatibility, sẽ được xóa trong tương lai
    */
   graduationStats?: LegacyGraduationStats
+  /**
+   * Sections - Build guide sections (weapons, artifacts, materials, stats, etc.)
+   */
+  sections?: Section[]
   createdAt?: string
   updatedAt?: string
   _schemaVersion?: string        // Schema version for migration tracking
@@ -104,6 +108,30 @@ export interface StatRow {
   label: string
   value: string | number
 }
+
+/**
+ * Section Item - Individual item within a section
+ */
+export interface SectionItem {
+  rank?: number
+  name?: string
+  note?: string
+  slot?: string
+  stat?: string
+  sets?: Array<{ name: string; pieces: number }>
+}
+
+/**
+ * Section - Build guide section (weapons, artifacts, materials, stats, etc.)
+ */
+export interface Section {
+  key: string
+  title?: string
+  type?: 'ranked-list' | 'list' | 'material-grid' | 'stat-grid' | 'set-combination' | 'stat-priority'
+  items?: SectionItem[]
+}
+
+export type SectionType = Section['type']
 
 /**
  * Character form data (for create/edit)

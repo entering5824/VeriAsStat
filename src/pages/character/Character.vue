@@ -7,7 +7,7 @@
   - Navigate đến create/edit page
 -->
 <template>
-  <div class="character-page">
+  <div class="character-page page-with-orbs">
     <div class="page-container">
       <!-- Page Header -->
       <div class="page-header">
@@ -88,8 +88,7 @@
 <script lang="ts">
 import { defineComponent, ref, nextTick, watch, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
-import { useCharacters, useCharacterSort } from '../../composables/character'
-import { useSearchDebounce, useScrollRestore, useImagePreloader } from '../../composables/ui'
+import { useCharacters, useCharacterSort, useSearchDebounce, useScrollRestore, useImagePreloader } from '../../composables'
 import { API_GAMES as GAMES } from '../../config/games'
 import { ENABLE_CRUD } from '../../utils/common'
 import Character_Grid from '../../components/character/Character_Grid.vue'
@@ -357,4 +356,4 @@ export default defineComponent({
 })
 </script>
 
-<style scoped src="../assets/styles/pages/Character.css"></style>
+<style scoped src="../../assets/styles/pages/Character.css"></style>

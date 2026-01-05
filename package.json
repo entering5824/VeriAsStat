@@ -11,7 +11,8 @@
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test --config=playwright.config.ts",
     "test:ci": "npm run test && npm run test:e2e",
-    "migrate:buildGuides": "tsx scripts/migrate-buildGuides.ts"
+    "migrate:buildGuides": "tsx scripts/migrate-buildGuides.ts",
+    "convert:webp": "tsx scripts/convert-to-webp.ts"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -31,6 +32,7 @@
     "ajv-formats": "^3.0.1",
     "jsdom": "^27.3.0",
     "playwright": "^1.35.0",
+    "sharp": "^0.33.5",
     "tsx": "^4.19.2",
     "typescript": "~5.9.3",
     "vite": "^7.2.4",

@@ -77,7 +77,7 @@
       <label class="section-label">Sort By</label>
       <select 
         :value="sortOption"
-        @change="$emit('update:sortOption', ($event.target as HTMLSelectElement).value as SortOption)"
+        @change="$emit('update:sortOption', ($event.target as HTMLSelectElement).value as WeaponSortOption)"
         class="sort-select"
       >
         <option value="tier_desc">Tier (High to Low)</option>
@@ -91,12 +91,12 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { WeaponFilters, SortOption } from '../../composables/weapon'
+import type { WeaponFilters, WeaponSortOption } from '../../composables'
 
 interface Props {
   filters: WeaponFilters
   searchQuery: string
-  sortOption: SortOption
+  sortOption: WeaponSortOption
 }
 
 const props = defineProps<Props>()
@@ -104,7 +104,7 @@ const props = defineProps<Props>()
 const emit = defineEmits<{
   'update:filters': [filters: WeaponFilters]
   'update:searchQuery': [query: string]
-  'update:sortOption': [option: SortOption]
+  'update:sortOption': [option: WeaponSortOption]
   'reset': []
 }>()
 

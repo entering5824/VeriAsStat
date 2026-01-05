@@ -24,7 +24,8 @@
   overflow: hidden;
 }
 
-/* Dynamic Background Orbs */
+/* Background orbs handled by page-with-orbs class if needed */
+/* Note: version-page uses a different layout structure, so orbs are kept here */
 .version-page::before {
   content: '';
   position: fixed;
@@ -64,30 +65,18 @@
    LAYOUT: Page Header
    ============================================================================ */
 
-.page-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--space-4);
-  margin-bottom: var(--space-6);
+/* page-header, page-title, page-subtitle are now in utilities.css */
+/* Override for version page if needed */
+.version-page .page-header {
   padding: var(--space-4) 0;
-  position: relative;
-  z-index: 1;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
-.page-title {
-  font-size: var(--text-3xl, 1.875rem);
-  font-weight: var(--font-weight-bold, 700);
-  color: var(--color-text-primary);
-  margin: 0;
-  line-height: var(--leading-tight);
-}
-
-.page-subtitle {
-  font-size: var(--text-base, 1rem);
-  color: var(--color-text-muted);
-  margin: 0;
-  line-height: var(--leading-normal);
+.version-page .page-header:hover {
+  background: transparent;
+  box-shadow: none;
 }
 
 .page-actions {
@@ -136,27 +125,7 @@
    STATES: Loading and Empty States
    ============================================================================ */
 
-.loading-state {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-12, 48px);
-  text-align: center;
-  color: var(--color-text-muted);
-  position: relative;
-  z-index: 1;
-}
-
-.loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 3px solid var(--color-border-primary);
-  border-top-color: var(--color-primary);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin-bottom: var(--space-4);
-}
+/* loading-state and loading-spinner are now in utilities.css */
 
 .version-card--empty {
   text-align: center;
