@@ -1,0 +1,2961 @@
+[
+  {
+    "id": "gi_aino",
+    "name": "Aino",
+    "game_name": "GI",
+    "tier": 62,
+    "iconPath": "/images/gi/characters/icon/Aino",
+    "splashPath": "/images/gi/characters/splashart/Aino",
+    "created_at": "2026-01-02T17:40:55.180Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Claymore",
+    "element": "Cryo",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 12000,
+      "atk": 250,
+      "def": 700,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 18000,
+      "atk": 1400,
+      "def": 850,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 24,
+      "elemental_mastery": 150,
+      "energy_recharge": 160
+    }
+  },
+  {
+    "id": "gi_albedo",
+    "name": "Albedo",
+    "game_name": "GI",
+    "tier": 33,
+    "iconPath": "/images/gi/characters/icon/Albedo",
+    "splashPath": "/images/gi/characters/splashart/Albedo",
+    "created_at": "2026-01-02T17:40:55.515Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Sword",
+    "element": "Geo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 14166,
+      "atk": 308,
+      "def": 938,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19500,
+      "atk": 1800,
+      "def": 2500,
+      "crit_rate": 65,
+      "crit_dmg": 150,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 120,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_alhaitham",
+    "name": "Alhaitham",
+    "game_name": "GI",
+    "tier": 85,
+    "iconPath": "/images/gi/characters/icon/Alhaitham",
+    "splashPath": "/images/gi/characters/splashart/Alhaitham",
+    "created_at": "2026-01-02T17:40:55.569Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Sword",
+    "element": "Dendro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 14297,
+      "atk": 384,
+      "def": 837,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2200,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 300,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_aloy",
+    "name": "Aloy",
+    "game_name": "GI",
+    "tier": 7,
+    "iconPath": "/images/gi/characters/icon/Aloy",
+    "splashPath": "/images/gi/characters/splashart/Aloy",
+    "created_at": "2026-01-02T17:40:55.672Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Bow",
+    "element": "Cryo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 11673,
+      "atk": 287,
+      "def": 724,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 17000,
+      "atk": 1900,
+      "def": 850,
+      "crit_rate": 65,
+      "crit_dmg": 150,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 80,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_amber",
+    "name": "Amber",
+    "game_name": "GI",
+    "tier": 2,
+    "iconPath": "/images/gi/characters/icon/Amber",
+    "splashPath": "/images/gi/characters/splashart/Amber",
+    "created_at": "2026-01-02T17:40:55.751Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Bow",
+    "element": "Pyro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 10116,
+      "atk": 280,
+      "def": 642,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 24,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 14500,
+      "atk": 1500,
+      "def": 750,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 200,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_arlecchino",
+    "name": "Arlecchino",
+    "game_name": "GI",
+    "tier": 70,
+    "iconPath": "/images/gi/characters/icon/Arlecchino",
+    "splashPath": "/images/gi/characters/splashart/Arlecchino",
+    "created_at": "2026-01-02T17:40:55.841Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Polearm",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 14034,
+      "atk": 419,
+      "def": 819,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2400,
+      "def": 950,
+      "crit_rate": 80,
+      "crit_dmg": 200,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 80,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_ayaka",
+    "name": "Ayaka",
+    "game_name": "GI",
+    "tier": 56,
+    "iconPath": "/images/gi/characters/icon/Ayaka",
+    "splashPath": "/images/gi/characters/splashart/Ayaka",
+    "created_at": "2026-01-02T17:40:55.880Z",
+    "updated_at": "2026-01-02T17:41:00.990Z",
+    "weapon_type": "Sword",
+    "element": "Cryo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13902,
+      "atk": 402,
+      "def": 843,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2200,
+      "def": 950,
+      "crit_rate": 45,
+      "crit_dmg": 240,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 50,
+      "energy_recharge": 140
+    }
+  },
+  {
+    "id": "gi_ayato",
+    "name": "Ayato",
+    "game_name": "GI",
+    "tier": 55,
+    "iconPath": "/images/gi/characters/icon/Ayato",
+    "splashPath": "/images/gi/characters/splashart/Ayato",
+    "created_at": "2026-01-02T17:40:55.936Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Hydro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13715,
+      "atk": 404,
+      "def": 859,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 22000,
+      "atk": 2100,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 100,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_baizhu",
+    "name": "Baizhu",
+    "game_name": "GI",
+    "tier": 74,
+    "iconPath": "/images/gi/characters/icon/Baizhu",
+    "splashPath": "/images/gi/characters/splashart/Baizhu",
+    "created_at": "2026-01-02T17:40:55.972Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Dendro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 14297,
+      "atk": 236,
+      "def": 535,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 50000,
+      "atk": 1200,
+      "def": 850,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 0,
+      "elemental_mastery": 400,
+      "energy_recharge": 170
+    }
+  },
+  {
+    "id": "gi_barbara",
+    "name": "Barbara",
+    "game_name": "GI",
+    "tier": 23,
+    "iconPath": "/images/gi/characters/icon/Barbara",
+    "splashPath": "/images/gi/characters/splashart/Barbara",
+    "created_at": "2026-01-02T17:40:56.012Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Hydro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 10464,
+      "atk": 200,
+      "def": 715,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 35000,
+      "atk": 1000,
+      "def": 850,
+      "crit_rate": 30,
+      "crit_dmg": 80,
+      "dmg_bonus": 0,
+      "elemental_mastery": 50,
+      "energy_recharge": 160
+    }
+  },
+  {
+    "id": "gi_beidou",
+    "name": "Beidou",
+    "game_name": "GI",
+    "tier": 22,
+    "iconPath": "/images/gi/characters/icon/Beidou",
+    "splashPath": "/images/gi/characters/splashart/Beidou",
+    "created_at": "2026-01-02T17:40:56.051Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Electro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 13953,
+      "atk": 283,
+      "def": 693,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 24,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19000,
+      "atk": 1800,
+      "def": 850,
+      "crit_rate": 65,
+      "crit_dmg": 150,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 100,
+      "energy_recharge": 170
+    }
+  },
+  {
+    "id": "gi_bennett",
+    "name": "Bennett",
+    "game_name": "GI",
+    "tier": 87,
+    "iconPath": "/images/gi/characters/icon/Bennett",
+    "splashPath": "/images/gi/characters/splashart/Bennett",
+    "created_at": "2026-01-02T17:40:56.127Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Pyro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 13255,
+      "atk": 240,
+      "def": 825,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 126.7
+    },
+    "graduation_stats": {
+      "hp": 19000,
+      "atk": 800,
+      "def": 900,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 0,
+      "elemental_mastery": 150,
+      "energy_recharge": 220
+    }
+  },
+  {
+    "id": "gi_candace",
+    "name": "Candace",
+    "game_name": "GI",
+    "tier": 1,
+    "iconPath": "/images/gi/characters/icon/Candace",
+    "splashPath": "/images/gi/characters/splashart/Candace",
+    "created_at": "2026-01-02T17:40:56.151Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Polearm",
+    "element": "Hydro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 11627,
+      "atk": 267,
+      "def": 730,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 28000,
+      "atk": 1400,
+      "def": 950,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 24,
+      "elemental_mastery": 100,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_charlotte",
+    "name": "Charlotte",
+    "game_name": "GI",
+    "tier": 35,
+    "iconPath": "/images/gi/characters/icon/Charlotte",
+    "splashPath": "/images/gi/characters/splashart/Charlotte",
+    "created_at": "2026-01-02T17:40:56.194Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Cryo",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 11511,
+      "atk": 217,
+      "def": 584,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 24,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 28000,
+      "atk": 1200,
+      "def": 800,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 24,
+      "elemental_mastery": 100,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_chasca",
+    "name": "Chasca",
+    "game_name": "GI",
+    "tier": 64,
+    "iconPath": "/images/gi/characters/icon/Chasca",
+    "splashPath": "/images/gi/characters/splashart/Chasca",
+    "created_at": "2026-01-02T17:40:56.240Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Bow",
+    "element": "Anemo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 10493,
+      "atk": 425,
+      "def": 659,
+      "crit_rate": 24.2,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 16000,
+      "atk": 2300,
+      "def": 850,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 200,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_chevreuse",
+    "name": "Chevreuse",
+    "game_name": "GI",
+    "tier": 57,
+    "iconPath": "/images/gi/characters/icon/Chevreuse",
+    "splashPath": "/images/gi/characters/splashart/Chevreuse",
+    "created_at": "2026-01-02T17:40:56.265Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Polearm",
+    "element": "Pyro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 11956,
+      "atk": 253,
+      "def": 679,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 25000,
+      "atk": 1300,
+      "def": 850,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 24,
+      "elemental_mastery": 150,
+      "energy_recharge": 200
+    }
+  },
+  {
+    "id": "gi_childe",
+    "name": "Childe",
+    "game_name": "GI",
+    "tier": 54,
+    "iconPath": "/images/gi/characters/icon/Tartaglia",
+    "splashPath": "/images/gi/characters/splashart/Childe",
+    "created_at": "2026-01-02T17:40:56.297Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Bow",
+    "element": "Hydro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13103,
+      "atk": 370,
+      "def": 815,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19500,
+      "atk": 2200,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 80,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_chiori",
+    "name": "Chiori",
+    "game_name": "GI",
+    "tier": 71,
+    "iconPath": "/images/gi/characters/icon/Chiori",
+    "splashPath": "/images/gi/characters/splashart/Chiori",
+    "created_at": "2026-01-02T17:40:56.328Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Geo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 12251,
+      "atk": 396,
+      "def": 1021,
+      "crit_rate": 24.2,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 18000,
+      "atk": 2100,
+      "def": 2500,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 80,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_chongyun",
+    "name": "Chongyun",
+    "game_name": "GI",
+    "tier": 60,
+    "iconPath": "/images/gi/characters/icon/Chongyun",
+    "splashPath": "/images/gi/characters/splashart/Chongyun",
+    "created_at": "2026-01-02T17:40:56.366Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Cryo",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 11743,
+      "atk": 280,
+      "def": 693,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 7.5,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 17000,
+      "atk": 1600,
+      "def": 850,
+      "crit_rate": 60,
+      "crit_dmg": 140,
+      "dmg_bonus": 24,
+      "elemental_mastery": 120,
+      "energy_recharge": 150
+    }
+  },
+  {
+    "id": "gi_citlali",
+    "name": "Citlali",
+    "game_name": "GI",
+    "tier": 88,
+    "iconPath": "/images/gi/characters/icon/Citlali",
+    "splashPath": "/images/gi/characters/splashart/Citlali",
+    "created_at": "2026-01-02T17:40:56.406Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Cryo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 12460,
+      "atk": 155,
+      "def": 817,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 115,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 32000,
+      "atk": 1200,
+      "def": 1000,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 0,
+      "elemental_mastery": 800,
+      "energy_recharge": 160
+    }
+  },
+  {
+    "id": "gi_clorinde",
+    "name": "Clorinde",
+    "game_name": "GI",
+    "tier": 69,
+    "iconPath": "/images/gi/characters/icon/Clorinde",
+    "splashPath": "/images/gi/characters/splashart/Clorinde",
+    "created_at": "2026-01-02T17:40:56.466Z",
+    "updated_at": "2026-01-03T17:51:50.091Z",
+    "weapon_type": "Sword",
+    "element": "Electro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13877,
+      "atk": 413,
+      "def": 840,
+      "crit_rate": 24.2,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2300,
+      "def": 950,
+      "crit_rate": 80,
+      "crit_dmg": 200,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 100,
+      "energy_recharge": 120
+    },
+    "equipment": {
+      "GI": {
+        "weapons": [
+          {
+            "weapon_name": "Absolution",
+            "priority_rank": 1
+          },
+          {
+            "weapon_name": "Haran Geppaku Futsu",
+            "priority_rank": 2
+          },
+          {
+            "weapon_name": "Mistsplitter Reforged",
+            "priority_rank": 3
+          },
+          {
+            "weapon_name": "Finale of the Deep",
+            "priority_rank": 4
+          }
+        ],
+        "artifact_sets": [
+          {
+            "set_name": "Fragment of Harmonic Whimsy",
+            "priority_rank": 1,
+            "pieces": 4
+          }
+        ],
+        "main_stats": {
+          "sands": [
+            "ATK%"
+          ],
+          "goblet": [
+            "DMG_ELECTRO"
+          ],
+          "circlet": [
+            "CritRate",
+            "CritDMG"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "gi_collei",
+    "name": "Collei",
+    "game_name": "GI",
+    "tier": 20,
+    "iconPath": "/images/gi/characters/icon/Collei",
+    "splashPath": "/images/gi/characters/splashart/Collei",
+    "created_at": "2026-01-02T17:40:56.502Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Bow",
+    "element": "Dendro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 10464,
+      "atk": 251,
+      "def": 642,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 24,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 16000,
+      "atk": 1300,
+      "def": 750,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 24,
+      "elemental_mastery": 400,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_columbina",
+    "name": "Columbina",
+    "game_name": "GI",
+    "tier": 92,
+    "iconPath": "/images/gi/characters/icon/Columbina",
+    "splashPath": "/images/gi/characters/splashart/Columbina",
+    "created_at": "2026-01-02T17:40:56.538Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Hydro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 15740,
+      "atk": 117,
+      "def": 552,
+      "crit_rate": 24.2,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 23062,
+      "atk": 244,
+      "def": 984,
+      "crit_rate": 72.4,
+      "crit_dmg": 163.2,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 168
+    }
+  },
+  {
+    "id": "gi_cyno",
+    "name": "Cyno",
+    "game_name": "GI",
+    "tier": 53,
+    "iconPath": "/images/gi/characters/icon/Cyno",
+    "splashPath": "/images/gi/characters/splashart/Cyno",
+    "created_at": "2026-01-02T17:40:56.583Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Polearm",
+    "element": "Electro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13379,
+      "atk": 390,
+      "def": 920,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19000,
+      "atk": 2100,
+      "def": 1000,
+      "crit_rate": 70,
+      "crit_dmg": 170,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 350,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_dehya",
+    "name": "Dehya",
+    "game_name": "GI",
+    "tier": 26,
+    "iconPath": "/images/gi/characters/icon/Dehya",
+    "splashPath": "/images/gi/characters/splashart/Dehya",
+    "created_at": "2026-01-02T17:40:56.635Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 16789,
+      "atk": 325,
+      "def": 673,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 40000,
+      "atk": 1400,
+      "def": 850,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 0,
+      "elemental_mastery": 200,
+      "energy_recharge": 150
+    }
+  },
+  {
+    "id": "gi_diluc",
+    "name": "Diluc",
+    "game_name": "GI",
+    "tier": 32,
+    "iconPath": "/images/gi/characters/icon/Diluc",
+    "splashPath": "/images/gi/characters/splashart/Diluc",
+    "created_at": "2026-01-02T17:40:56.708Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13903,
+      "atk": 410,
+      "def": 840,
+      "crit_rate": 24.2,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19500,
+      "atk": 2200,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 150,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_diona",
+    "name": "Diona",
+    "game_name": "GI",
+    "tier": 19,
+    "iconPath": "/images/gi/characters/icon/Diona",
+    "splashPath": "/images/gi/characters/splashart/Diona",
+    "created_at": "2026-01-02T17:40:56.805Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Bow",
+    "element": "Cryo",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 10232,
+      "atk": 267,
+      "def": 642,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 24,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 28000,
+      "atk": 1200,
+      "def": 800,
+      "crit_rate": 40,
+      "crit_dmg": 100,
+      "dmg_bonus": 24,
+      "elemental_mastery": 100,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_dori",
+    "name": "Dori",
+    "game_name": "GI",
+    "tier": 18,
+    "iconPath": "/images/gi/characters/icon/Dori",
+    "splashPath": "/images/gi/characters/splashart/Dori",
+    "created_at": "2026-01-02T17:40:56.844Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Electro",
+    "rarity": "4★",
+    "base_stats": {
+      "hp": 13255,
+      "atk": 280,
+      "def": 774
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_durin",
+    "name": "Durin",
+    "game_name": "GI",
+    "tier": 93,
+    "iconPath": "/images/gi/characters/icon/Durin",
+    "splashPath": "/images/gi/characters/splashart/Durin",
+    "created_at": "2026-01-02T17:40:56.901Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Claymore",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13313,
+      "atk": 425,
+      "def": 881,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 96,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 18500,
+      "atk": 2100,
+      "def": 1100,
+      "crit_rate": 65,
+      "crit_dmg": 170,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 226,
+      "energy_recharge": 120
+    }
+  },
+  {
+    "id": "gi_emilie",
+    "name": "Emilie",
+    "game_name": "GI",
+    "tier": 67,
+    "iconPath": "/images/gi/characters/icon/Emilie",
+    "splashPath": "/images/gi/characters/splashart/Emilie",
+    "created_at": "2026-01-02T17:40:56.949Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 14533,
+      "atk": 410,
+      "def": 782
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_escoffier",
+    "name": "Escoffier",
+    "game_name": "GI",
+    "tier": 79,
+    "iconPath": "/images/gi/characters/icon/Escoffier",
+    "splashPath": "/images/gi/characters/splashart/Escoffier",
+    "created_at": "2026-01-02T17:40:57.015Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 14297,
+      "atk": 425,
+      "def": 784
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_eula",
+    "name": "Eula",
+    "game_name": "GI",
+    "tier": 52,
+    "iconPath": "/images/gi/characters/icon/Eula",
+    "splashPath": "/images/gi/characters/splashart/Eula",
+    "created_at": "2026-01-02T17:40:57.061Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 14166,
+      "atk": 419,
+      "def": 804
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_faruzan",
+    "name": "Faruzan",
+    "game_name": "GI",
+    "tier": 39,
+    "iconPath": "/images/gi/characters/icon/Faruzan",
+    "splashPath": "/images/gi/characters/splashart/Faruzan",
+    "created_at": "2026-01-02T17:40:57.093Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 10232,
+      "atk": 247,
+      "def": 671
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_fischl",
+    "name": "Fischl",
+    "game_name": "GI",
+    "tier": 61,
+    "iconPath": "/images/gi/characters/icon/Fischl",
+    "splashPath": "/images/gi/characters/splashart/Fischl",
+    "created_at": "2026-01-02T17:40:57.134Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_flins",
+    "name": "Flins",
+    "game_name": "GI",
+    "tier": 95,
+    "iconPath": "/images/gi/characters/icon/Flins",
+    "splashPath": "/images/gi/characters/splashart/Flins",
+    "created_at": "2026-01-02T17:40:57.211Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Hydro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13379,
+      "atk": 431,
+      "def": 866,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 96,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 28000,
+      "atk": 1600,
+      "def": 950,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 600,
+      "energy_recharge": 170
+    }
+  },
+  {
+    "id": "gi_freminet",
+    "name": "Freminet",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Freminet",
+    "splashPath": "/images/gi/characters/splashart/Freminet",
+    "created_at": "2026-01-02T17:40:57.276Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 12906,
+      "atk": 320,
+      "def": 757
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_furina",
+    "name": "Furina",
+    "game_name": "GI",
+    "tier": 91,
+    "iconPath": "/images/gi/characters/icon/Furina",
+    "splashPath": "/images/gi/characters/splashart/Furina",
+    "created_at": "2026-01-02T17:40:57.308Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 16395,
+      "atk": 299,
+      "def": 745
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_gaming",
+    "name": "Gaming",
+    "game_name": "GI",
+    "tier": 9,
+    "iconPath": "/images/gi/characters/icon/Gaming",
+    "splashPath": "/images/gi/characters/splashart/Gaming",
+    "created_at": "2026-01-02T17:40:57.349Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_ganyu",
+    "name": "Ganyu",
+    "game_name": "GI",
+    "tier": 51,
+    "iconPath": "/images/gi/characters/icon/Ganyu",
+    "splashPath": "/images/gi/characters/splashart/Ganyu",
+    "created_at": "2026-01-02T17:40:57.413Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 10493,
+      "atk": 410,
+      "def": 675
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_gorou",
+    "name": "Gorou",
+    "game_name": "GI",
+    "tier": 17,
+    "iconPath": "/images/gi/characters/icon/Gorou",
+    "splashPath": "/images/gi/characters/splashart/Gorou",
+    "created_at": "2026-01-02T17:40:57.444Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 10232,
+      "atk": 229,
+      "def": 693
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_heizou",
+    "name": "Heizou",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Heizou",
+    "splashPath": "/images/gi/characters/splashart/Heizou",
+    "created_at": "2026-01-02T17:40:57.478Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_hu-tao",
+    "name": "Hu Tao",
+    "game_name": "GI",
+    "tier": 50,
+    "iconPath": "/images/gi/characters/icon/Hu Tao",
+    "splashPath": "/images/gi/characters/splashart/hu-tao",
+    "created_at": "2026-01-02T17:40:57.527Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 16658,
+      "atk": 130,
+      "def": 938
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_iansan",
+    "name": "Iansan",
+    "game_name": "GI",
+    "tier": 63,
+    "iconPath": "/images/gi/characters/icon/Iansan",
+    "splashPath": "/images/gi/characters/splashart/Iansan",
+    "created_at": "2026-01-02T17:40:57.566Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_ifa",
+    "name": "Ifa",
+    "game_name": "GI",
+    "tier": 24,
+    "iconPath": "/images/gi/characters/icon/Ifa",
+    "splashPath": "/images/gi/characters/splashart/Ifa",
+    "created_at": "2026-01-02T17:40:57.601Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_ineffa",
+    "name": "Ineffa",
+    "game_name": "GI",
+    "tier": 99,
+    "iconPath": "/images/gi/characters/icon/Ineffa",
+    "splashPath": "/images/gi/characters/splashart/Ineffa",
+    "created_at": "2026-01-02T17:40:57.661Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Bow",
+    "element": "Electro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13510,
+      "atk": 404,
+      "def": 887,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19000,
+      "atk": 2000,
+      "def": 950,
+      "crit_rate": 70,
+      "crit_dmg": 160,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 250,
+      "energy_recharge": 140
+    }
+  },
+  {
+    "id": "gi_itto",
+    "name": "Itto",
+    "game_name": "GI",
+    "tier": 49,
+    "iconPath": "/images/gi/characters/icon/Itto",
+    "splashPath": "/images/gi/characters/splashart/Itto",
+    "created_at": "2026-01-02T17:40:57.731Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_jahoda",
+    "name": "Jahoda",
+    "game_name": "GI",
+    "tier": 21,
+    "iconPath": "/images/gi/characters/icon/Jahoda",
+    "splashPath": "/images/gi/characters/splashart/Jahoda",
+    "created_at": "2026-01-02T17:40:57.781Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_jean",
+    "name": "Jean",
+    "game_name": "GI",
+    "tier": 83,
+    "iconPath": "/images/gi/characters/icon/Jean",
+    "splashPath": "/images/gi/characters/splashart/Jean",
+    "created_at": "2026-01-02T17:40:57.844Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 15740,
+      "atk": 293,
+      "def": 823
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kachina",
+    "name": "Kachina",
+    "game_name": "GI",
+    "tier": 8,
+    "iconPath": "/images/gi/characters/icon/Kachina",
+    "splashPath": "/images/gi/characters/splashart/Kachina",
+    "created_at": "2026-01-02T17:40:57.878Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kaeya",
+    "name": "Kaeya",
+    "game_name": "GI",
+    "tier": 16,
+    "iconPath": "/images/gi/characters/icon/Kaeya",
+    "splashPath": "/images/gi/characters/splashart/Kaeya",
+    "created_at": "2026-01-02T17:40:57.917Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 12441,
+      "atk": 280,
+      "def": 846
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kaveh",
+    "name": "Kaveh",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Kaveh",
+    "splashPath": "/images/gi/characters/splashart/Kaveh",
+    "created_at": "2026-01-02T17:40:57.951Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 12790,
+      "atk": 293,
+      "def": 803
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kazuha",
+    "name": "Kazuha",
+    "game_name": "GI",
+    "tier": 100,
+    "iconPath": "/images/gi/characters/icon/Kazuha",
+    "splashPath": "/images/gi/characters/splashart/Kazuha",
+    "created_at": "2026-01-02T17:40:57.989Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_keqing",
+    "name": "Keqing",
+    "game_name": "GI",
+    "tier": 48,
+    "iconPath": "/images/gi/characters/icon/Keqing",
+    "splashPath": "/images/gi/characters/splashart/Keqing",
+    "created_at": "2026-01-02T17:40:58.012Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Electro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 14034,
+      "atk": 396,
+      "def": 856,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 20000,
+      "atk": 2000,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 200,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 150,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_kinich",
+    "name": "Kinich",
+    "game_name": "GI",
+    "tier": 65,
+    "iconPath": "/images/gi/characters/icon/Kinich",
+    "splashPath": "/images/gi/characters/splashart/Kinich",
+    "created_at": "2026-01-02T17:40:58.045Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13772,
+      "atk": 407,
+      "def": 859
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kirara",
+    "name": "Kirara",
+    "game_name": "GI",
+    "tier": 10,
+    "iconPath": "/images/gi/characters/icon/Kirara",
+    "splashPath": "/images/gi/characters/splashart/Kirara",
+    "created_at": "2026-01-02T17:40:58.067Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13022,
+      "atk": 280,
+      "def": 584
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_klee",
+    "name": "Klee",
+    "game_name": "GI",
+    "tier": 47,
+    "iconPath": "/images/gi/characters/icon/Klee",
+    "splashPath": "/images/gi/characters/splashart/Klee",
+    "created_at": "2026-01-02T17:40:58.112Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 11018,
+      "atk": 381,
+      "def": 659,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 16500,
+      "atk": 2100,
+      "def": 850,
+      "crit_rate": 70,
+      "crit_dmg": 170,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 80,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_kokomi",
+    "name": "Kokomi",
+    "game_name": "GI",
+    "tier": 82,
+    "iconPath": "/images/gi/characters/icon/Kokomi",
+    "splashPath": "/images/gi/characters/splashart/Kokomi",
+    "created_at": "2026-01-02T17:40:58.162Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kujou-sara",
+    "name": "Kujou Sara",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Kujou Sara",
+    "splashPath": "/images/gi/characters/splashart/kujou-sara",
+    "created_at": "2026-01-02T17:40:58.183Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_kuki-shinobu",
+    "name": "Kuki Shinobu",
+    "game_name": "GI",
+    "tier": 60,
+    "iconPath": "/images/gi/characters/icon/Kuki Shinobu",
+    "splashPath": "/images/gi/characters/splashart/kuki-shinobu",
+    "created_at": "2026-01-02T17:40:58.213Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13139,
+      "atk": 267,
+      "def": 803
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_lan-yan",
+    "name": "Lan Yan",
+    "game_name": "GI",
+    "tier": 34,
+    "iconPath": "/images/gi/characters/icon/Lan Yan",
+    "splashPath": "/images/gi/characters/splashart/lan-yan",
+    "created_at": "2026-01-02T17:40:58.240Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_lauma",
+    "name": "Lauma",
+    "game_name": "GI",
+    "tier": 96,
+    "iconPath": "/images/gi/characters/icon/Lauma",
+    "splashPath": "/images/gi/characters/splashart/Lauma",
+    "created_at": "2026-01-02T17:40:58.282Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11411,
+      "atk": 312,
+      "def": 716
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_layla",
+    "name": "Layla",
+    "game_name": "GI",
+    "tier": 15,
+    "iconPath": "/images/gi/characters/icon/Layla",
+    "splashPath": "/images/gi/characters/splashart/Layla",
+    "created_at": "2026-01-02T17:40:58.326Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11860,
+      "atk": 272,
+      "def": 701
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_lisa",
+    "name": "Lisa",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Lisa",
+    "splashPath": "/images/gi/characters/splashart/Lisa",
+    "created_at": "2026-01-02T17:40:58.363Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 10232,
+      "atk": 291,
+      "def": 613
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_lynette",
+    "name": "Lynette",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Lynette",
+    "splashPath": "/images/gi/characters/splashart/Lynette",
+    "created_at": "2026-01-02T17:40:58.397Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13255,
+      "atk": 291,
+      "def": 761
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_lyney",
+    "name": "Lyney",
+    "game_name": "GI",
+    "tier": 42,
+    "iconPath": "/images/gi/characters/icon/Lyney",
+    "splashPath": "/images/gi/characters/splashart/Lyney",
+    "created_at": "2026-01-02T17:40:58.462Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11805,
+      "atk": 390,
+      "def": 576
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_mavuika",
+    "name": "Mavuika",
+    "game_name": "GI",
+    "tier": 89,
+    "iconPath": "/images/gi/characters/icon/Mavuika",
+    "splashPath": "/images/gi/characters/splashart/Mavuika",
+    "created_at": "2026-01-02T17:40:58.505Z",
+    "updated_at": "2026-01-03T17:42:44.714Z",
+    "weapon_type": "Claymore",
+    "element": "Pyro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13444,
+      "atk": 439,
+      "def": 848,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 115,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 17500,
+      "atk": 2190,
+      "def": 950,
+      "crit_rate": 60,
+      "crit_dmg": 230,
+      "dmg_bonus": 46.6,
+      "elemental_mastery": 265,
+      "energy_recharge": 0
+    },
+    "equipment": {
+      "GI": {
+        "weapons": [
+          {
+            "weapon_name": "A Thousand Blazing Suns",
+            "priority_rank": 1
+          },
+          {
+            "weapon_name": "Beacon of the Reed Sea",
+            "priority_rank": 2
+          },
+          {
+            "weapon_name": "Verdict",
+            "priority_rank": 3
+          }
+        ],
+        "artifact_sets": [
+          {
+            "set_name": "Obsidian Codex",
+            "priority_rank": 1,
+            "pieces": 4
+          }
+        ],
+        "main_stats": {
+          "sands": [
+            "EM%",
+            "ATK%"
+          ],
+          "goblet": [
+            "DMG_PYRO"
+          ],
+          "circlet": [
+            "CritDMG"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "gi_mika",
+    "name": "Mika",
+    "game_name": "GI",
+    "tier": 11,
+    "iconPath": "/images/gi/characters/icon/Mika",
+    "splashPath": "/images/gi/characters/splashart/Mika",
+    "created_at": "2026-01-02T17:40:58.550Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13371,
+      "atk": 280,
+      "def": 763
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_mona",
+    "name": "Mona",
+    "game_name": "GI",
+    "tier": 46,
+    "iconPath": "/images/gi/characters/icon/Mona",
+    "splashPath": "/images/gi/characters/splashart/Mona",
+    "created_at": "2026-01-02T17:40:58.612Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Hydro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 11149,
+      "atk": 352,
+      "def": 700,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 132
+    },
+    "graduation_stats": {
+      "hp": 17000,
+      "atk": 1800,
+      "def": 850,
+      "crit_rate": 50,
+      "crit_dmg": 120,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 100,
+      "energy_recharge": 200
+    }
+  },
+  {
+    "id": "gi_mualani",
+    "name": "Mualani",
+    "game_name": "GI",
+    "tier": 66,
+    "iconPath": "/images/gi/characters/icon/Mualani",
+    "splashPath": "/images/gi/characters/splashart/Mualani",
+    "created_at": "2026-01-02T17:40:58.681Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 16264,
+      "atk": 223,
+      "def": 611
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_nahida",
+    "name": "Nahida",
+    "game_name": "GI",
+    "tier": 81,
+    "iconPath": "/images/gi/characters/icon/Nahida",
+    "splashPath": "/images/gi/characters/splashart/Nahida",
+    "created_at": "2026-01-02T17:40:58.747Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11096,
+      "atk": 366,
+      "def": 675
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_navia",
+    "name": "Navia",
+    "game_name": "GI",
+    "tier": 72,
+    "iconPath": "/images/gi/characters/icon/Navia",
+    "splashPath": "/images/gi/characters/splashart/Navia",
+    "created_at": "2026-01-02T17:40:58.809Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13549,
+      "atk": 431,
+      "def": 850
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_nefer",
+    "name": "Nefer",
+    "game_name": "GI",
+    "tier": 75,
+    "iconPath": "/images/gi/characters/icon/Nefer",
+    "splashPath": "/images/gi/characters/splashart/Nefer",
+    "created_at": "2026-01-02T17:40:58.848Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Catalyst",
+    "element": "Dendro",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13607,
+      "atk": 422,
+      "def": 856,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 115,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19000,
+      "atk": 2000,
+      "def": 1000,
+      "crit_rate": 60,
+      "crit_dmg": 140,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 600,
+      "energy_recharge": 160
+    }
+  },
+  {
+    "id": "gi_neuvillette",
+    "name": "Neuvillette",
+    "game_name": "GI",
+    "tier": 92,
+    "iconPath": "/images/gi/characters/icon/Neuvillette",
+    "splashPath": "/images/gi/characters/splashart/Neuvillette",
+    "created_at": "2026-01-02T17:40:58.897Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 15740,
+      "atk": 255,
+      "def": 617
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_nilou",
+    "name": "Nilou",
+    "game_name": "GI",
+    "tier": 98,
+    "iconPath": "/images/gi/characters/icon/Nilou",
+    "splashPath": "/images/gi/characters/splashart/Nilou",
+    "created_at": "2026-01-02T17:40:58.988Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 16264,
+      "atk": 281,
+      "def": 780
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_ningguang",
+    "name": "Ningguang",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Ningguang",
+    "splashPath": "/images/gi/characters/splashart/Ningguang",
+    "created_at": "2026-01-02T17:40:59.032Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 10464,
+      "atk": 267,
+      "def": 613
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_noelle",
+    "name": "Noelle",
+    "game_name": "GI",
+    "tier": 14,
+    "iconPath": "/images/gi/characters/icon/Noelle",
+    "splashPath": "/images/gi/characters/splashart/Noelle",
+    "created_at": "2026-01-02T17:40:59.066Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 12906,
+      "atk": 240,
+      "def": 854
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_ororon",
+    "name": "Ororon",
+    "game_name": "GI",
+    "tier": 86,
+    "iconPath": "/images/gi/characters/icon/Ororon",
+    "splashPath": "/images/gi/characters/splashart/Ororon",
+    "created_at": "2026-01-02T17:40:59.245Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_qiqi",
+    "name": "Qiqi",
+    "game_name": "GI",
+    "tier": 30,
+    "iconPath": "/images/gi/characters/icon/Qiqi",
+    "splashPath": "/images/gi/characters/splashart/Qiqi",
+    "created_at": "2026-01-02T17:40:59.397Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13247,
+      "atk": 352,
+      "def": 988
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_raiden-shogun",
+    "name": "Raiden Shogun",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Raiden Shogun",
+    "splashPath": "/images/gi/characters/splashart/raiden-shogun",
+    "created_at": "2026-01-02T17:40:59.544Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_razor",
+    "name": "Razor",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Razor",
+    "splashPath": "/images/gi/characters/splashart/Razor",
+    "created_at": "2026-01-02T17:40:59.586Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_rosaria",
+    "name": "Rosaria",
+    "game_name": "GI",
+    "tier": 13,
+    "iconPath": "/images/gi/characters/icon/Rosaria",
+    "splashPath": "/images/gi/characters/splashart/Rosaria",
+    "created_at": "2026-01-02T17:40:59.623Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13139,
+      "atk": 301,
+      "def": 759
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_sayu",
+    "name": "Sayu",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Sayu",
+    "splashPath": "/images/gi/characters/splashart/Sayu",
+    "created_at": "2026-01-02T17:40:59.657Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 12674,
+      "atk": 307,
+      "def": 796
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_sethos",
+    "name": "Sethos",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Sethos",
+    "splashPath": "/images/gi/characters/splashart/Sethos",
+    "created_at": "2026-01-02T17:40:59.722Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_shenhe",
+    "name": "Shenhe",
+    "game_name": "GI",
+    "tier": 78,
+    "iconPath": "/images/gi/characters/icon/Shenhe",
+    "splashPath": "/images/gi/characters/splashart/Shenhe",
+    "created_at": "2026-01-02T17:40:59.762Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 13916,
+      "atk": 372,
+      "def": 889
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_sigewinne",
+    "name": "Sigewinne",
+    "game_name": "GI",
+    "tier": 68,
+    "iconPath": "/images/gi/characters/icon/Sigewinne",
+    "splashPath": "/images/gi/characters/splashart/Sigewinne",
+    "created_at": "2026-01-02T17:40:59.832Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 14297,
+      "atk": 236,
+      "def": 535
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_skirk",
+    "name": "Skirk",
+    "game_name": "GI",
+    "tier": 84,
+    "iconPath": "/images/gi/characters/icon/Skirk",
+    "splashPath": "/images/gi/characters/splashart/Skirk",
+    "created_at": "2026-01-02T17:40:59.897Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "weapon_type": "Sword",
+    "element": "Cryo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13300,
+      "atk": 439,
+      "def": 864,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 19500,
+      "atk": 2200,
+      "def": 950,
+      "crit_rate": 75,
+      "crit_dmg": 180,
+      "dmg_bonus": 61.6,
+      "elemental_mastery": 120,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_sucrose",
+    "name": "Sucrose",
+    "game_name": "GI",
+    "tier": 37,
+    "iconPath": "/images/gi/characters/icon/Sucrose",
+    "splashPath": "/images/gi/characters/splashart/Sucrose",
+    "created_at": "2026-01-02T17:40:59.930Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_thoma",
+    "name": "Thoma",
+    "game_name": "GI",
+    "tier": 12,
+    "iconPath": "/images/gi/characters/icon/Thoma",
+    "splashPath": "/images/gi/characters/splashart/Thoma",
+    "created_at": "2026-01-02T17:40:59.966Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11046,
+      "atk": 253,
+      "def": 803
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_tighnari",
+    "name": "Tighnari",
+    "game_name": "GI",
+    "tier": 29,
+    "iconPath": "/images/gi/characters/icon/Tighnari",
+    "splashPath": "/images/gi/characters/splashart/Tighnari",
+    "created_at": "2026-01-02T17:41:00.009Z",
+    "updated_at": "2026-01-02T17:41:00.991Z",
+    "base_stats": {
+      "hp": 11621,
+      "atk": 328,
+      "def": 675
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_traveler-anemo",
+    "name": "Traveler (Anemo)",
+    "game_name": "GI",
+    "tier": 6,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-anemo",
+    "created_at": "2026-01-02T17:41:00.057Z",
+    "updated_at": "2026-01-02T17:41:31.318Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "weapon_type": "Sword",
+    "element": "Anemo",
+    "rarity": "5★",
+    "equipment": {
+      "GI": {}
+    }
+  },
+  {
+    "id": "gi_traveler-dendro",
+    "name": "Traveler (Dendro)",
+    "game_name": "GI",
+    "tier": 28,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-dendro",
+    "created_at": "2026-01-02T17:41:00.092Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_traveler-electro",
+    "name": "Traveler (Electro)",
+    "game_name": "GI",
+    "tier": 5,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-electro",
+    "created_at": "2026-01-02T17:41:00.127Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_traveler-geo",
+    "name": "Traveler (Geo)",
+    "game_name": "GI",
+    "tier": 4,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-geo",
+    "created_at": "2026-01-02T17:41:00.181Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_traveler-hydro",
+    "name": "Traveler (Hydro)",
+    "game_name": "GI",
+    "tier": 3,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-hydro",
+    "created_at": "2026-01-02T17:41:00.210Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_traveler-pyro",
+    "name": "Traveler (Pyro)",
+    "game_name": "GI",
+    "tier": 25,
+    "iconPath": "/images/gi/characters/icon/Traveler",
+    "splashPath": "/images/gi/characters/splashart/traveler-pyro",
+    "created_at": "2026-01-02T17:41:00.245Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_varesa",
+    "name": "Varesa",
+    "game_name": "GI",
+    "tier": 80,
+    "iconPath": "/images/gi/characters/icon/Varesa",
+    "splashPath": "/images/gi/characters/splashart/Varesa",
+    "created_at": "2026-01-02T17:41:00.292Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 13602,
+      "atk": 437,
+      "def": 837
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_venti",
+    "name": "Venti",
+    "game_name": "GI",
+    "tier": 27,
+    "iconPath": "/images/gi/characters/icon/Venti",
+    "splashPath": "/images/gi/characters/splashart/Venti",
+    "created_at": "2026-01-02T17:41:00.326Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "weapon_type": "Bow",
+    "element": "Anemo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 11280,
+      "atk": 322,
+      "def": 716,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 132
+    },
+    "graduation_stats": {
+      "hp": 16500,
+      "atk": 1600,
+      "def": 850,
+      "crit_rate": 50,
+      "crit_dmg": 100,
+      "dmg_bonus": 15,
+      "elemental_mastery": 800,
+      "energy_recharge": 180
+    }
+  },
+  {
+    "id": "gi_wanderer",
+    "name": "Wanderer",
+    "game_name": "GI",
+    "tier": 45,
+    "iconPath": "/images/gi/characters/icon/Wanderer",
+    "splashPath": "/images/gi/characters/splashart/Wanderer",
+    "created_at": "2026-01-02T17:41:00.365Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 10887,
+      "atk": 401,
+      "def": 650
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_wriothesley",
+    "name": "Wriothesley",
+    "game_name": "GI",
+    "tier": 73,
+    "iconPath": "/images/gi/characters/icon/Wriothesley",
+    "splashPath": "/images/gi/characters/splashart/Wriothesley",
+    "created_at": "2026-01-02T17:41:00.394Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 14559,
+      "atk": 381,
+      "def": 817
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_xiangling",
+    "name": "Xiangling",
+    "game_name": "GI",
+    "tier": 59,
+    "iconPath": "/images/gi/characters/icon/Xiangling",
+    "splashPath": "/images/gi/characters/splashart/Xiangling",
+    "created_at": "2026-01-02T17:41:00.428Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 11627,
+      "atk": 283,
+      "def": 715
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_xianyun",
+    "name": "Xianyun",
+    "game_name": "GI",
+    "tier": 41,
+    "iconPath": "/images/gi/characters/icon/Xianyun",
+    "splashPath": "/images/gi/characters/splashart/Xianyun",
+    "created_at": "2026-01-02T17:41:00.458Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 11149,
+      "atk": 410,
+      "def": 613
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_xiao",
+    "name": "Xiao",
+    "game_name": "GI",
+    "tier": 44,
+    "iconPath": "/images/gi/characters/icon/Xiao",
+    "splashPath": "/images/gi/characters/splashart/Xiao",
+    "created_at": "2026-01-02T17:41:00.486Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 13641,
+      "atk": 428,
+      "def": 856
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_xilonen",
+    "name": "Xilonen",
+    "game_name": "GI",
+    "tier": 90,
+    "iconPath": "/images/gi/characters/icon/Xilonen",
+    "splashPath": "/images/gi/characters/splashart/Xilonen",
+    "created_at": "2026-01-02T17:41:00.521Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 13287,
+      "atk": 337,
+      "def": 996
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_xingqiu",
+    "name": "Xingqiu",
+    "game_name": "GI",
+    "tier": 75,
+    "iconPath": "/images/gi/characters/icon/Xingqiu",
+    "splashPath": "/images/gi/characters/splashart/Xingqiu",
+    "created_at": "2026-01-02T17:41:00.555Z",
+    "updated_at": "2026-01-03T17:49:51.775Z",
+    "base_stats": {
+      "hp": 10930,
+      "atk": 253,
+      "def": 810,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 15000,
+      "atk": 1700,
+      "def": 810,
+      "crit_rate": 60,
+      "crit_dmg": 150,
+      "dmg_bonus": 66.6,
+      "elemental_mastery": 0,
+      "energy_recharge": 220
+    },
+    "weapon_type": "Sword",
+    "element": "Hydro",
+    "rarity": "4★",
+    "equipment": {
+      "GI": {
+        "weapons": [
+          {
+            "weapon_name": "Sacrificial Sword",
+            "priority_rank": 1
+          }
+        ],
+        "artifact_sets": [
+          {
+            "set_name": "Emblem of Severed Fate",
+            "priority_rank": 1,
+            "pieces": 4
+          }
+        ],
+        "main_stats": {
+          "sands": [
+            "ER%",
+            "ATK%"
+          ],
+          "goblet": [
+            "DMG_HYDRO"
+          ],
+          "circlet": [
+            "CritRate",
+            "CritDMG"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "gi_xinyan",
+    "name": "Xinyan",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Xinyan",
+    "splashPath": "/images/gi/characters/splashart/Xinyan",
+    "created_at": "2026-01-02T17:41:00.590Z",
+    "updated_at": "2026-01-03T17:39:09.296Z",
+    "base_stats": {
+      "hp": 11976,
+      "atk": 312,
+      "def": 854,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 0
+    },
+    "graduation_stats": {
+      "hp": 11976,
+      "atk": 312,
+      "def": 854,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 0
+    },
+    "tier": 4,
+    "weapon_type": "Claymore",
+    "element": "Pyro",
+    "rarity": "4★",
+    "equipment": {
+      "GI": {
+        "weapons": [
+          {
+            "weapon_name": "Redhorn Stonethresher",
+            "priority_rank": 1
+          },
+          {
+            "weapon_name": "Skyward Pride",
+            "priority_rank": 2
+          },
+          {
+            "weapon_name": "Serpent Spine",
+            "priority_rank": 3
+          }
+        ],
+        "artifact_sets": [
+          {
+            "set_name": "Bloodstained Chivalry",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "set_name": "Pale Flame",
+            "priority_rank": 2,
+            "pieces": 2
+          }
+        ],
+        "main_stats": {
+          "sands": [
+            "ATK%"
+          ],
+          "goblet": [
+            "DMG_PHYSICAL"
+          ],
+          "circlet": [
+            "CritRate",
+            "CritDMG"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "gi_yae-miko",
+    "name": "Yae Miko",
+    "game_name": "GI",
+    "tier": 77,
+    "iconPath": "/images/gi/characters/icon/Yae Miko",
+    "splashPath": "/images/gi/characters/splashart/yae-miko",
+    "created_at": "2026-01-02T17:41:00.646Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 11109,
+      "atk": 416,
+      "def": 609
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yanfei",
+    "name": "Yanfei",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Yanfei",
+    "splashPath": "/images/gi/characters/splashart/Yanfei",
+    "created_at": "2026-01-02T17:41:00.707Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 9999,
+      "atk": 301,
+      "def": 628
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yaoyao",
+    "name": "Yaoyao",
+    "game_name": "GI",
+    "tier": 36,
+    "iconPath": "/images/gi/characters/icon/Yaoyao",
+    "splashPath": "/images/gi/characters/splashart/Yaoyao",
+    "created_at": "2026-01-02T17:41:00.743Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 13139,
+      "atk": 267,
+      "def": 803
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yelan",
+    "name": "Yelan",
+    "game_name": "GI",
+    "tier": 94,
+    "iconPath": "/images/gi/characters/icon/Yelan",
+    "splashPath": "/images/gi/characters/splashart/Yelan",
+    "created_at": "2026-01-02T17:41:00.775Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 15477,
+      "atk": 299,
+      "def": 587
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yoimiya",
+    "name": "Yoimiya",
+    "game_name": "GI",
+    "tier": 43,
+    "iconPath": "/images/gi/characters/icon/Yoimiya",
+    "splashPath": "/images/gi/characters/splashart/Yoimiya",
+    "created_at": "2026-01-02T17:41:00.797Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 10887,
+      "atk": 396,
+      "def": 659
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yumemizuki-mizuki",
+    "name": "Yumemizuki Mizuki",
+    "game_name": "GI",
+    "tier": 31,
+    "iconPath": "/images/gi/characters/icon/Yumemizuki Mizuki",
+    "splashPath": "/images/gi/characters/splashart/yumemizuki-mizuki",
+    "created_at": "2026-01-02T17:41:00.835Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 13641,
+      "atk": 264,
+      "def": 811
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_yun-jin",
+    "name": "Yun Jin",
+    "game_name": "GI",
+    "iconPath": "/images/gi/characters/icon/Yun Jin",
+    "splashPath": "/images/gi/characters/splashart/yun-jin",
+    "created_at": "2026-01-02T17:41:00.869Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "base_stats": {
+      "hp": 11395,
+      "atk": 240,
+      "def": 785
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0
+    }
+  },
+  {
+    "id": "gi_zhongli",
+    "name": "Zhongli",
+    "game_name": "GI",
+    "tier": 76,
+    "iconPath": "/images/gi/characters/icon/Zhongli",
+    "splashPath": "/images/gi/characters/splashart/Zhongli",
+    "created_at": "2026-01-02T17:41:00.896Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "weapon_type": "Polearm",
+    "element": "Geo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 15740,
+      "atk": 308,
+      "def": 790,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 50000,
+      "atk": 1200,
+      "def": 1000,
+      "crit_rate": 60,
+      "crit_dmg": 150,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 100,
+      "energy_recharge": 130
+    }
+  },
+  {
+    "id": "gi_zibai",
+    "name": "Zibai",
+    "game_name": "GI",
+    "tier": 80,
+    "iconPath": "/images/gi/characters/icon/Zibai",
+    "splashPath": "/images/gi/characters/splashart/Zibai",
+    "created_at": "2026-01-02T17:41:00.925Z",
+    "updated_at": "2026-01-02T17:41:00.992Z",
+    "weapon_type": "Sword",
+    "element": "Geo",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 13838,
+      "atk": 275,
+      "def": 1025,
+      "crit_rate": 5,
+      "crit_dmg": 88.4,
+      "dmg_bonus": 0,
+      "elemental_mastery": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 50000,
+      "atk": 1200,
+      "def": 1000,
+      "crit_rate": 60,
+      "crit_dmg": 150,
+      "dmg_bonus": 28.8,
+      "elemental_mastery": 100,
+      "energy_recharge": 130
+    }
+  }
+]

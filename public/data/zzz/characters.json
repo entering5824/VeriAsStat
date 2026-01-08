@@ -1,0 +1,2384 @@
+[
+  {
+    "name": "Ye Shunguang",
+    "tier": 99,
+    "base_stats": {
+      "hp": 7673,
+      "atk": 938,
+      "def": 606,
+      "crit_rate": 19.4,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "impact": 83,
+      "anomaly_power": 93,
+      "anomaly_mastery": 94,
+      "pen_ratio": 0
+    },
+    "graduation_stats": {
+      "hp": 10104,
+      "atk": 3257,
+      "def": 1008,
+      "crit_rate": 50,
+      "crit_dmg": 230,
+      "impact": 83,
+      "anomaly_power": 94,
+      "anomaly_mastery": 102,
+      "pen_ratio": 32
+    },
+    "game_name": "ZZZ",
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Cloudcleave Radiance",
+            "priority_rank": 1
+          },
+          {
+            "engine_name": "The Brimstone",
+            "priority_rank": 2
+          },
+          {
+            "engine_name": "Severed Innocence",
+            "priority_rank": 3
+          },
+          {
+            "engine_name": "Starlight Engine",
+            "priority_rank": 4
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "White Water Ballad",
+            "priority_rank": 1,
+            "pieces": 4
+          },
+          {
+            "combo_name": "Branch & Blade Song",
+            "priority_rank": 2,
+            "pieces": 2
+          }
+        ],
+        "main_stats": {
+          "partition_4": [
+            "ATK%",
+            "CritDMG"
+          ],
+          "partition_5": [
+            "PenRatio",
+            "ATK%"
+          ],
+          "partition_6": [
+            "ATK%"
+          ]
+        }
+      }
+    },
+    "id": "zzz_ye-shunguang",
+    "iconPath": "/images/zzz/characters/icon/ye-shunguang.webp",
+    "splashPath": "/images/zzz/characters/splash/ye-shunguang.webp",
+    "created_at": "2026-01-01T15:51:47.056Z",
+    "updated_at": "2026-01-03T19:02:02.359Z",
+    "rarity": "S-rank",
+    "attribute": "Physical",
+    "special_attribute": "Honed Edge",
+    "combat_specialty": "Attack"
+  },
+  {
+    "id": "zzz_alice",
+    "name": "Alice",
+    "game_name": "ZZZ",
+    "tier": 92,
+    "iconPath": "/images/zzz/characters/icon/Alice",
+    "splashPath": "/images/zzz/characters/splash/Alice",
+    "created_at": "2026-01-02T17:50:24.834Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "rarity": 5,
+    "base_stats": {
+      "hp": 2172,
+      "atk": 1328,
+      "def": 2721,
+      "dmg_bonus": 23.85,
+      "impact": 128,
+      "pen_ratio": 48.44,
+      "pen": 3842
+    },
+    "graduation_stats": {
+      "hp": 327,
+      "atk": 2577,
+      "def": 341,
+      "dmg_bonus": 22.48,
+      "impact": 3805,
+      "pen_ratio": 15.29,
+      "pen": 1780
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Practiced Perfection",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Phaethon's Melody",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Puffer Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_anby",
+    "name": "Anby",
+    "game_name": "ZZZ",
+    "tier": 73,
+    "iconPath": "/images/zzz/characters/icon/Anby",
+    "splashPath": "/images/zzz/characters/splash/Anby",
+    "created_at": "2026-01-02T17:50:24.884Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Restrained",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_soldier-0-anby",
+    "name": "Soldier 0 - Anby",
+    "game_name": "ZZZ",
+    "iconPath": "/images/zzz/characters/icon/Soldier 0 - Anby",
+    "splashPath": "/images/zzz/characters/splash/Soldier 0 - Anby",
+    "created_at": "2026-01-02T17:50:24.913Z",
+    "updated_at": "2026-01-03T09:58:35.223Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Severed Innocence",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shadow Harmony",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    },
+    "tier": 90,
+    "rarity": "S-rank",
+    "attribute": "Electric",
+    "combat_specialty": "Attack"
+  },
+  {
+    "id": "zzz_anton",
+    "name": "Anton",
+    "game_name": "ZZZ",
+    "tier": 60,
+    "iconPath": "/images/zzz/characters/icon/Anton",
+    "splashPath": "/images/zzz/characters/splash/Anton",
+    "created_at": "2026-01-02T17:50:24.935Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Brimstone",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_astra-yao",
+    "name": "Astra Yao",
+    "game_name": "ZZZ",
+    "tier": 98,
+    "iconPath": "/images/zzz/characters/icon/Astra Yao",
+    "splashPath": "/images/zzz/characters/splash/Astra Yao",
+    "created_at": "2026-01-02T17:50:24.962Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Elegant Vanity",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Astral Voice",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_ben",
+    "name": "Ben",
+    "game_name": "ZZZ",
+    "tier": 59,
+    "iconPath": "/images/zzz/characters/icon/Ben",
+    "splashPath": "/images/zzz/characters/splash/Ben",
+    "created_at": "2026-01-02T17:50:24.978Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Big Cylinder",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Soul Rock",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 3,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 4,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_billy",
+    "name": "Billy",
+    "game_name": "ZZZ",
+    "tier": 58,
+    "iconPath": "/images/zzz/characters/icon/Billy",
+    "splashPath": "/images/zzz/characters/splash/Billy",
+    "created_at": "2026-01-02T17:50:24.993Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Brimstone",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_burnice",
+    "name": "Burnice",
+    "game_name": "ZZZ",
+    "tier": 82,
+    "iconPath": "/images/zzz/characters/icon/Burnice",
+    "splashPath": "/images/zzz/characters/splash/Burnice",
+    "created_at": "2026-01-02T17:50:25.008Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Flamemaker Shaker",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Chaos Jazz",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Inferno Metal",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_caesar",
+    "name": "Caesar",
+    "game_name": "ZZZ",
+    "tier": 83,
+    "iconPath": "/images/zzz/characters/icon/Caesar",
+    "splashPath": "/images/zzz/characters/splash/Caesar",
+    "created_at": "2026-01-02T17:50:25.031Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Tusks of Fury",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Proto Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_caesar-king",
+    "name": "Caesar King",
+    "game_name": "ZZZ",
+    "tier": 75,
+    "iconPath": "/images/zzz/characters/icon/Caesar King",
+    "splashPath": "/images/zzz/characters/splash/Caesar King",
+    "created_at": "2026-01-02T17:50:25.048Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "rarity": null,
+    "base_stats": {
+      "hp": 1229,
+      "atk": 1261,
+      "def": 1874,
+      "dmg_bonus": 12.29,
+      "impact": 3634,
+      "pen_ratio": 9.98,
+      "pen": 1233
+    },
+    "graduation_stats": {
+      "hp": 3752,
+      "atk": 3282,
+      "def": 286,
+      "dmg_bonus": 26.59,
+      "impact": 1560,
+      "pen_ratio": 4.82,
+      "pen": 1307
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Caesar King Signature Weapon",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Caesar King Artifact Set",
+            "priority_rank": 1,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_corin",
+    "name": "Corin",
+    "game_name": "ZZZ",
+    "tier": 57,
+    "iconPath": "/images/zzz/characters/icon/Corin",
+    "splashPath": "/images/zzz/characters/splash/Corin",
+    "created_at": "2026-01-02T17:50:25.065Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Brimstone",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_dialyn",
+    "name": "Dialyn",
+    "game_name": "ZZZ",
+    "tier": 90,
+    "iconPath": "/images/zzz/characters/icon/Dialyn",
+    "splashPath": "/images/zzz/characters/splash/Dialyn",
+    "created_at": "2026-01-02T17:50:25.097Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "rarity": null,
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Yesterday Calls",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "King of the Summit",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_ellen",
+    "name": "Ellen",
+    "game_name": "ZZZ",
+    "tier": 74,
+    "iconPath": "/images/zzz/characters/icon/Ellen",
+    "splashPath": "/images/zzz/characters/splash/Ellen",
+    "created_at": "2026-01-02T17:50:25.160Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Deep Sea Visitor",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Puffer Electro",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Polar Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_ellen-joe",
+    "name": "Ellen Joe",
+    "game_name": "ZZZ",
+    "tier": 80,
+    "iconPath": "/images/zzz/characters/icon/Ellen",
+    "splashPath": "/images/zzz/characters/splash/Ellen",
+    "created_at": "2026-01-02T17:50:25.172Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "rarity": null,
+    "base_stats": {
+      "hp": 1378,
+      "atk": 2723,
+      "def": 3028,
+      "dmg_bonus": 8.35,
+      "impact": 3534,
+      "pen_ratio": 2.77,
+      "pen": 1694
+    },
+    "graduation_stats": {
+      "hp": 602,
+      "atk": 1242,
+      "def": 2351,
+      "dmg_bonus": 21.18,
+      "impact": 366,
+      "pen_ratio": 32.81,
+      "pen": 2396
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Ellen Joe Signature Weapon",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Ellen Joe Artifact Set",
+            "priority_rank": 1,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_evelyn",
+    "name": "Evelyn",
+    "game_name": "ZZZ",
+    "tier": 80,
+    "iconPath": "/images/zzz/characters/icon/Evelyn",
+    "splashPath": "/images/zzz/characters/splash/Evelyn",
+    "created_at": "2026-01-02T17:50:25.189Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Heartstring Nocturne",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Inferno Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_grace",
+    "name": "Grace",
+    "game_name": "ZZZ",
+    "tier": 64,
+    "iconPath": "/images/zzz/characters/icon/Grace",
+    "splashPath": "/images/zzz/characters/splash/Grace",
+    "created_at": "2026-01-02T17:50:25.202Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Fusion Compiler",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_harumasa",
+    "name": "Harumasa",
+    "game_name": "ZZZ",
+    "tier": 68,
+    "iconPath": "/images/zzz/characters/icon/Harumasa",
+    "splashPath": "/images/zzz/characters/splash/Harumasa",
+    "created_at": "2026-01-02T17:50:25.220Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Zanshin Herb Case",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_hugo",
+    "name": "Hugo",
+    "game_name": "ZZZ",
+    "tier": 78,
+    "iconPath": "/images/zzz/characters/icon/Hugo",
+    "splashPath": "/images/zzz/characters/splash/Hugo",
+    "created_at": "2026-01-02T17:50:25.237Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Myriad Eclipse",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Polar Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_jane-doe",
+    "name": "Jane Doe",
+    "game_name": "ZZZ",
+    "tier": 84,
+    "iconPath": "/images/zzz/characters/icon/Jane",
+    "splashPath": "/images/zzz/characters/splash/Jane",
+    "created_at": "2026-01-02T17:50:25.260Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "rarity": null,
+    "base_stats": {
+      "hp": 3777,
+      "atk": 1995,
+      "def": 1054,
+      "dmg_bonus": 45.62,
+      "impact": 2755,
+      "pen_ratio": 42.38,
+      "pen": 2707
+    },
+    "graduation_stats": {
+      "hp": 972,
+      "atk": 2738,
+      "def": 1850,
+      "dmg_bonus": 20.43,
+      "impact": 383,
+      "pen_ratio": 30.78,
+      "pen": 2111
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Sharpened Stinger",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_ju-fufu",
+    "name": "Ju Fufu",
+    "game_name": "ZZZ",
+    "tier": 94,
+    "iconPath": "/images/zzz/characters/icon/Ju Fufu",
+    "splashPath": "/images/zzz/characters/splash/Ju Fufu",
+    "created_at": "2026-01-02T17:50:25.277Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Blazing Laurel",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "King of the Summit",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_koleda",
+    "name": "Koleda",
+    "game_name": "ZZZ",
+    "tier": 72,
+    "iconPath": "/images/zzz/characters/icon/Koleda",
+    "splashPath": "/images/zzz/characters/splash/Koleda",
+    "created_at": "2026-01-02T17:50:25.294Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Hellfire Gears",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Inferno Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_lighter",
+    "name": "Lighter",
+    "game_name": "ZZZ",
+    "tier": 100,
+    "iconPath": "/images/zzz/characters/icon/Lighter",
+    "splashPath": "/images/zzz/characters/splash/Lighter",
+    "created_at": "2026-01-02T17:50:25.313Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Blazing Laurel",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_lucia",
+    "name": "Lucia",
+    "game_name": "ZZZ",
+    "tier": 91,
+    "iconPath": "/images/zzz/characters/icon/Lucia",
+    "splashPath": "/images/zzz/characters/splash/Lucia",
+    "created_at": "2026-01-02T17:50:25.328Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Dreamlit Hearth",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Moonlight Lullaby",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Yunkui Tales",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_lucy",
+    "name": "Lucy",
+    "game_name": "ZZZ",
+    "tier": 70,
+    "iconPath": "/images/zzz/characters/icon/Lucy",
+    "splashPath": "/images/zzz/characters/splash/Lucy",
+    "created_at": "2026-01-02T17:50:25.341Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Kaboom the Cannon",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Puffer Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_lycaon",
+    "name": "Lycaon",
+    "game_name": "ZZZ",
+    "tier": 89,
+    "iconPath": "/images/zzz/characters/icon/Lycaon",
+    "splashPath": "/images/zzz/characters/splash/Lycaon",
+    "created_at": "2026-01-02T17:50:25.353Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Restrained",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Polar Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_manato",
+    "name": "Manato",
+    "game_name": "ZZZ",
+    "tier": 65,
+    "iconPath": "/images/zzz/characters/icon/Manato",
+    "splashPath": "/images/zzz/characters/splash/Manato",
+    "created_at": "2026-01-02T17:50:25.369Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Qingming Birdcage",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Yunkui Tales",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Branch & Blade Song",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_miyabi",
+    "name": "Miyabi",
+    "game_name": "ZZZ",
+    "tier": 99,
+    "iconPath": "/images/zzz/characters/icon/Miyabi",
+    "splashPath": "/images/zzz/characters/splash/Miyabi",
+    "created_at": "2026-01-02T17:50:25.385Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Hailstorm Shrine",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Branch & Blade Song",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Polar Metal",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_nekomata",
+    "name": "Nekomata",
+    "game_name": "ZZZ",
+    "tier": 63,
+    "iconPath": "/images/zzz/characters/icon/Nekomata",
+    "splashPath": "/images/zzz/characters/splash/Nekomata",
+    "created_at": "2026-01-02T17:50:25.401Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Steel Cushion",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_nicole",
+    "name": "Nicole",
+    "game_name": "ZZZ",
+    "tier": 87,
+    "iconPath": "/images/zzz/characters/icon/Nicole",
+    "splashPath": "/images/zzz/characters/splash/Nicole",
+    "created_at": "2026-01-02T17:50:25.417Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Weeping Cradle",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_orphie-magus",
+    "name": "Orphie & Magus",
+    "game_name": "ZZZ",
+    "iconPath": "/images/zzz/characters/icon/Orphie & Magus",
+    "splashPath": "/images/zzz/characters/splash/Orphie & Magus",
+    "created_at": "2026-01-02T17:50:25.433Z",
+    "updated_at": "2026-01-03T19:02:13.089Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Bellicose Blaze",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shadow Harmony",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Moonlight Lullaby",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    },
+    "tier": 81
+  },
+  {
+    "id": "zzz_pan-yinhu",
+    "name": "Pan Yinhu",
+    "game_name": "ZZZ",
+    "tier": 66,
+    "iconPath": "/images/zzz/characters/icon/Pan Xinhu",
+    "splashPath": "/images/zzz/characters/splash/Pan Xinhu",
+    "created_at": "2026-01-02T17:50:25.447Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Tusks of Fury",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Astral Voice",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_piper",
+    "name": "Piper",
+    "game_name": "ZZZ",
+    "tier": 69,
+    "iconPath": "/images/zzz/characters/icon/Piper",
+    "splashPath": "/images/zzz/characters/splash/Piper",
+    "created_at": "2026-01-02T17:50:25.459Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Fusion Compiler",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Fanged Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_pulchra",
+    "name": "Pulchra",
+    "game_name": "ZZZ",
+    "tier": 67,
+    "iconPath": "/images/zzz/characters/icon/Pulchra",
+    "splashPath": "/images/zzz/characters/splash/Pulchra",
+    "created_at": "2026-01-02T17:50:25.475Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Blazing Laurel",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Astral Voice",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_qingyi",
+    "name": "Qingyi",
+    "game_name": "ZZZ",
+    "tier": 85,
+    "iconPath": "/images/zzz/characters/icon/Qingyi",
+    "splashPath": "/images/zzz/characters/splash/Qingyi",
+    "created_at": "2026-01-02T17:50:25.487Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Ice-Jade Teapot",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_rina",
+    "name": "Rina",
+    "game_name": "ZZZ",
+    "tier": 71,
+    "iconPath": "/images/zzz/characters/icon/Rina",
+    "splashPath": "/images/zzz/characters/splash/Rina",
+    "created_at": "2026-01-02T17:50:25.501Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Weeping Cradle",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_seed",
+    "name": "Seed",
+    "game_name": "ZZZ",
+    "tier": 77,
+    "iconPath": "/images/zzz/characters/icon/Seed",
+    "splashPath": "/images/zzz/characters/splash/Seed",
+    "created_at": "2026-01-02T17:50:25.519Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Cordis Germina",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Dawn's Bloom",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_seth",
+    "name": "Seth",
+    "game_name": "ZZZ",
+    "tier": 61,
+    "iconPath": "/images/zzz/characters/icon/Seth",
+    "splashPath": "/images/zzz/characters/splash/Seth",
+    "created_at": "2026-01-02T17:50:25.534Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Peacekeeper - Specialized",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 3,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 4,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_soldier-11",
+    "name": "Soldier 11",
+    "game_name": "ZZZ",
+    "tier": 62,
+    "iconPath": "/images/zzz/characters/icon/Soldier 11",
+    "splashPath": "/images/zzz/characters/splash/Soldier 11",
+    "created_at": "2026-01-02T17:50:25.552Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "The Brimstone",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Inferno Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_soukaku",
+    "name": "Soukaku",
+    "game_name": "ZZZ",
+    "tier": 88,
+    "iconPath": "/images/zzz/characters/icon/Soukaku",
+    "splashPath": "/images/zzz/characters/splash/Soukaku",
+    "created_at": "2026-01-02T17:50:25.577Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Bashful Demon",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Puffer Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_trigger",
+    "name": "Trigger",
+    "game_name": "ZZZ",
+    "tier": 97,
+    "iconPath": "/images/zzz/characters/icon/Trigger",
+    "splashPath": "/images/zzz/characters/splash/Trigger",
+    "created_at": "2026-01-02T17:50:25.602Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Spectral Gaze",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Shockstar Disco",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Swing Jazz",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_vivian",
+    "name": "Vivian",
+    "game_name": "ZZZ",
+    "tier": 96,
+    "iconPath": "/images/zzz/characters/icon/Vivian",
+    "splashPath": "/images/zzz/characters/splash/Vivian",
+    "created_at": "2026-01-02T17:50:25.619Z",
+    "updated_at": "2026-01-02T17:50:25.726Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Flight of Fancy",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Chaos Jazz",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Phaethon's Melody",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_yanagi",
+    "name": "Yanagi",
+    "game_name": "ZZZ",
+    "tier": 81,
+    "iconPath": "/images/zzz/characters/icon/Yanagi",
+    "splashPath": "/images/zzz/characters/splash/Yanagi",
+    "created_at": "2026-01-02T17:50:25.638Z",
+    "updated_at": "2026-01-02T17:50:25.727Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Timeweaver",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Chaos Jazz",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Thunder Metal",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Freedom Blues",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_yidhari",
+    "name": "Yidhari",
+    "game_name": "ZZZ",
+    "tier": 75,
+    "iconPath": "/images/zzz/characters/icon/Yidhari",
+    "splashPath": "/images/zzz/characters/splash/Yidhari",
+    "created_at": "2026-01-02T17:50:25.658Z",
+    "updated_at": "2026-01-02T17:50:25.727Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Kraken's Cradle",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Branch & Blade Song",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Yunkui Tales",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_yixuan",
+    "name": "Yixuan",
+    "game_name": "ZZZ",
+    "tier": 95,
+    "iconPath": "/images/zzz/characters/icon/Yixuan",
+    "splashPath": "/images/zzz/characters/splash/Yixuan",
+    "created_at": "2026-01-02T17:50:25.673Z",
+    "updated_at": "2026-01-02T17:50:25.727Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Qingming Birdcage",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Yunkui Tales",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Chaotic Metal",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "zzz_yuzuha",
+    "name": "Yuzuha",
+    "game_name": "ZZZ",
+    "tier": 93,
+    "iconPath": "/images/zzz/characters/icon/Yuzuha",
+    "splashPath": "/images/zzz/characters/splash/Yuzuha",
+    "created_at": "2026-01-02T17:50:25.686Z",
+    "updated_at": "2026-01-03T18:49:15.817Z",
+    "base_stats": {
+      "hp": 8829,
+      "atk": 758,
+      "def": 612,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "impact": 86,
+      "anomaly_power": 93,
+      "anomaly_mastery": 124,
+      "pen_ratio": 0
+    },
+    "graduation_stats": {
+      "hp": 11029,
+      "atk": 3315.1,
+      "def": 796.6,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "impact": 86,
+      "anomaly_power": 255,
+      "anomaly_mastery": 171.12
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Metanukimorphosis",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Moonlight Lullaby",
+            "priority_rank": 1,
+            "pieces": 4
+          }
+        ],
+        "main_stats": {
+          "partition_4": [
+            "ATK%"
+          ],
+          "partition_5": [
+            "ATK%"
+          ],
+          "partition_6": [
+            "AnomalyMastery"
+          ]
+        }
+      }
+    },
+    "rarity": "S-rank",
+    "attribute": "Physical",
+    "combat_specialty": "Support"
+  },
+  {
+    "id": "zzz_zhu-yuan",
+    "name": "Zhu Yuan",
+    "game_name": "ZZZ",
+    "tier": 86,
+    "iconPath": "/images/zzz/characters/icon/Zhu Yuan",
+    "splashPath": "/images/zzz/characters/splash/Zhu Yuan",
+    "created_at": "2026-01-02T17:50:25.703Z",
+    "updated_at": "2026-01-02T17:50:25.727Z",
+    "rarity": null,
+    "base_stats": {
+      "hp": 686,
+      "atk": 3314,
+      "def": 358,
+      "dmg_bonus": 7.36,
+      "impact": 2545,
+      "pen_ratio": 2.34,
+      "pen": 3039
+    },
+    "graduation_stats": {
+      "hp": 3961,
+      "atk": 2598,
+      "def": 3746,
+      "dmg_bonus": 19.02,
+      "impact": 1235,
+      "pen_ratio": 44.97,
+      "pen": 2006
+    },
+    "equipment": {
+      "ZZZ": {
+        "w_engines": [
+          {
+            "engine_name": "Riot Suppressor Mark VI",
+            "priority_rank": 1
+          }
+        ],
+        "disk_drive_sets": [
+          {
+            "combo_name": "Chaotic Metal",
+            "priority_rank": 1,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Woodpecker Electro",
+            "priority_rank": 2,
+            "pieces": 2
+          },
+          {
+            "combo_name": "Hormone Punk",
+            "priority_rank": 3,
+            "pieces": 2
+          }
+        ]
+      }
+    }
+  }
+]

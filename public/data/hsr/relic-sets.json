@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Self-Enshrouded Recluse",
+    "set_bonus_2pc": "The provided Shield Effect increases by 10%.",
+    "set_bonus_4pc": "Increases the Shield Effect provided by the wearer by 12%. When an ally target holds a Shield provided by the wearer, the ally target's CRIT DMG increases by 15%.",
+    "id": "128"
+  },
+  {
+    "name": "World-Remaking Deliverer",
+    "set_bonus_2pc": "Increases CRIT Rate by 8%.",
+    "set_bonus_4pc": "After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24%, and increases all allies' dealt DMG by 15%, lasting until after the wearer's next use of Basic ATK or Skill.",
+    "id": "127"
+  },
+  {
+    "name": "Wavestrider Captain",
+    "set_bonus_2pc": "Increases CRIT DMG by 16%.",
+    "set_bonus_4pc": "When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to 2 time(s). If there are 2 stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by 48% for 1 turn(s).",
+    "id": "126"
+  },
+  {
+    "name": "Warrior Goddess of Sun and Thunder",
+    "set_bonus_2pc": "Increases SPD by 6%.",
+    "set_bonus_4pc": "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for 2 turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by 6% and all allies' CRIT DMG increases by 15%. This effect cannot stack.",
+    "id": "125"
+  },
+  {
+    "name": "Poet of Mourning Collapse",
+    "set_bonus_2pc": "Increases Quantum DMG by 10%.",
+    "set_bonus_4pc": "Decreases the wearer's SPD by 8%. Before entering battle, if the wearer's SPD is lower than 110/95, increases the wearer's CRIT Rate by 20%/32%. This effect applies to the wearer's memosprite at the same time.",
+    "id": "124"
+  },
+  {
+    "name": "Hero of Triumphant Song",
+    "set_bonus_2pc": "Increases ATK by 12%.",
+    "set_bonus_4pc": "While the wearer's memosprite is on the field, increases the wearer's SPD by 6%. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by 30%, lasting for 2 turn(s).",
+    "id": "123"
+  },
+  {
+    "name": "Scholar Lost in Erudition",
+    "set_bonus_2pc": "Increases CRIT Rate by 8%.",
+    "set_bonus_4pc": "Increases DMG dealt by Skill and Ultimate by 20%. After using Ultimate, additionally increases the DMG dealt by the next Skill by 25%.",
+    "id": "122"
+  },
+  {
+    "name": "Sacerdos' Relived Ordeal",
+    "set_bonus_2pc": "Increases SPD by 6%.",
+    "set_bonus_4pc": "When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18%, lasting for 2 turn(s). This effect can stack up to 2 time(s).",
+    "id": "121"
+  },
+  {
+    "name": "The Wind-Soaring Valorous",
+    "set_bonus_2pc": "Increases ATK by 12%.",
+    "set_bonus_4pc": "Increases the wearer's CRIT Rate by 6%. After the wearer uses a Follow-Up ATK, increases DMG dealt by Ultimate by 36%, lasting for 1 turn(s).",
+    "id": "120"
+  },
+  {
+    "name": "Iron Cavalry Against the Scourge",
+    "set_bonus_2pc": "Increases Break Effect by 16%.",
+    "set_bonus_4pc": "If the wearer's Break Effect is 150% or higher, the Break DMG dealt to the enemy target ignores 10% of their DEF. If the wearer's Break Effect is 250% or higher, the Super Break DMG dealt to the enemy target additionally ignores 15% of their DEF.",
+    "id": "119"
+  },
+  {
+    "name": "Watchmaker, Master of Dream Machinations",
+    "set_bonus_2pc": "Increases Break Effect by 16%.",
+    "set_bonus_4pc": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by 30% for 2 turn(s). This effect cannot be stacked.",
+    "id": "118"
+  },
+  {
+    "name": "Pioneer Diver of Dead Waters",
+    "set_bonus_2pc": "Increases DMG dealt to enemies with debuffs by 12%.",
+    "set_bonus_4pc": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
+    "id": "117"
+  },
+  {
+    "name": "Prisoner in Deep Confinement",
+    "set_bonus_2pc": "Increases ATK by 12%.",
+    "set_bonus_4pc": "For every DoT the enemy target is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.",
+    "id": "116"
+  },
+  {
+    "name": "The Ashblazing Grand Duke",
+    "set_bonus_2pc": "Increases the DMG dealt by Follow-Up ATK by 20%.",
+    "set_bonus_4pc": "When the wearer uses a Follow-Up ATK, increases the wearer's ATK by 6% for every time the Follow-Up ATK deals DMG. This effect can stack up to 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK.",
+    "id": "115"
+  },
+  {
+    "name": "Messenger Traversing Hackerspace",
+    "set_bonus_2pc": "Increases SPD by 6%.",
+    "set_bonus_4pc": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked.",
+    "id": "114"
+  },
+  {
+    "name": "Longevous Disciple",
+    "set_bonus_2pc": "Increases Max HP by 12%.",
+    "set_bonus_4pc": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks.",
+    "id": "113"
+  },
+  {
+    "name": "Wastelander of Banditry Desert",
+    "set_bonus_2pc": "Increases Imaginary DMG by 10%.",
+    "set_bonus_4pc": "When dealing DMG to debuffed enemy targets, the wearer has their CRIT Rate increased by 10%. And when they deal DMG to Imprisoned enemy targets, their CRIT DMG increases by 20%.",
+    "id": "112"
+  },
+  {
+    "name": "Thief of Shooting Meteor",
+    "set_bonus_2pc": "Increases Break Effect by 16%.",
+    "set_bonus_4pc": "Increases the wearer's Break Effect by 16%. After the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy.",
+    "id": "111"
+  },
+  {
+    "name": "Eagle of Twilight Line",
+    "set_bonus_2pc": "Increases Wind DMG by 10%.",
+    "set_bonus_4pc": "After the wearer uses their Ultimate, their action is Advanced Forward by 25%.",
+    "id": "110"
+  },
+  {
+    "name": "Band of Sizzling Thunder",
+    "set_bonus_2pc": "Increases Lightning DMG by 10%.",
+    "set_bonus_4pc": "When the wearer uses their Skill, increases the wearer's ATK by 20% for 1 turn(s).",
+    "id": "109"
+  },
+  {
+    "name": "Genius of Brilliant Stars",
+    "set_bonus_2pc": "Increases Quantum DMG by 10%.",
+    "set_bonus_4pc": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
+    "id": "108"
+  },
+  {
+    "name": "Firesmith of Lava-Forging",
+    "set_bonus_2pc": "Increases Fire DMG by 10%.",
+    "set_bonus_4pc": "Increases DMG by the wearer's Skill by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for the next attack.",
+    "id": "107"
+  },
+  {
+    "name": "Guard of Wuthering Snow",
+    "set_bonus_2pc": "Reduces DMG taken by 8%.",
+    "set_bonus_4pc": "At the beginning of the turn, if the wearer's HP percentage is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
+    "id": "106"
+  },
+  {
+    "name": "Champion of Streetwise Boxing",
+    "set_bonus_2pc": "Increases Physical DMG by 10%.",
+    "set_bonus_4pc": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s).",
+    "id": "105"
+  },
+  {
+    "name": "Hunter of Glacial Forest",
+    "set_bonus_2pc": "Increases Ice DMG by 10%.",
+    "set_bonus_4pc": "After the wearer uses their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).",
+    "id": "104"
+  },
+  {
+    "name": "Knight of Purity Palace",
+    "set_bonus_2pc": "Increases DEF by 15%.",
+    "set_bonus_4pc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%.",
+    "id": "103"
+  },
+  {
+    "name": "Musketeer of Wild Wheat",
+    "set_bonus_2pc": "Increases ATK by 12%.",
+    "set_bonus_4pc": "The wearer's SPD increases by 6% and DMG dealt by Basic ATK increases by 10%.",
+    "id": "102"
+  },
+  {
+    "name": "Passerby of Wandering Cloud",
+    "set_bonus_2pc": "Increases Outgoing Healing by 10%.",
+    "set_bonus_4pc": "At the start of the battle, immediately regenerates 1 Skill Point.",
+    "id": "101"
+  }
+]

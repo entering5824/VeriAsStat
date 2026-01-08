@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "hsr_acheron",
+    "name": "Acheron",
+    "game_name": "HSR",
+    "tier": 63,
+    "iconPath": "/images/HSR/characters/icon/Acheron",
+    "splashPath": "/images/HSR/characters/splash/Acheron",
+    "created_at": "2026-01-02T17:49:24.500Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": "Nihility",
+    "combat_type": "Lightning",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 1280,
+      "atk": 1930,
+      "def": 706,
+      "dmg_bonus": 27.97,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 2525,
+      "atk": 3408,
+      "def": 1529,
+      "dmg_bonus": 40.67,
+      "crit_rate": 80,
+      "crit_dmg": 160,
+      "speed": 134,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_aglaea",
+    "name": "Aglaea",
+    "game_name": "HSR",
+    "tier": 85,
+    "iconPath": "/images/HSR/characters/icon/Aglaea",
+    "splashPath": "/images/HSR/characters/splash/Aglaea",
+    "created_at": "2026-01-02T17:49:24.547Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_archer",
+    "name": "Archer",
+    "game_name": "HSR",
+    "tier": 57,
+    "iconPath": "/images/HSR/characters/icon/Archer",
+    "splashPath": "/images/HSR/characters/splash/Archer",
+    "created_at": "2026-01-02T17:49:24.616Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_argenti",
+    "name": "Argenti",
+    "game_name": "HSR",
+    "tier": 96,
+    "iconPath": "/images/HSR/characters/icon/Argenti",
+    "splashPath": "/images/HSR/characters/splash/Argenti",
+    "created_at": "2026-01-02T17:49:24.655Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_arlan",
+    "name": "Arlan",
+    "game_name": "HSR",
+    "tier": 31,
+    "iconPath": "/images/HSR/characters/icon/Arlan",
+    "splashPath": "/images/HSR/characters/splash/Arlan",
+    "created_at": "2026-01-02T17:49:24.672Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_asta",
+    "name": "Asta",
+    "game_name": "HSR",
+    "tier": 41,
+    "iconPath": "/images/HSR/characters/icon/Asta",
+    "splashPath": "/images/HSR/characters/splash/Asta",
+    "created_at": "2026-01-02T17:49:24.690Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_aventurine",
+    "name": "Aventurine",
+    "game_name": "HSR",
+    "tier": 93,
+    "iconPath": "/images/HSR/characters/icon/Aventurine",
+    "splashPath": "/images/HSR/characters/splash/Aventurine",
+    "created_at": "2026-01-02T17:49:24.713Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": null,
+    "combat_type": "Imaginary",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 317,
+      "atk": 1629,
+      "def": 2480,
+      "dmg_bonus": 46.78,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 1113,
+      "atk": 2257,
+      "def": 722,
+      "dmg_bonus": 15.88,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_bailu",
+    "name": "Bailu",
+    "game_name": "HSR",
+    "tier": 51,
+    "iconPath": "/images/HSR/characters/icon/Bailu",
+    "splashPath": "/images/HSR/characters/splash/Bailu",
+    "created_at": "2026-01-02T17:49:24.746Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_black-swan",
+    "name": "Black Swan",
+    "game_name": "HSR",
+    "tier": 64,
+    "iconPath": "/images/HSR/characters/icon/Black Swan",
+    "splashPath": "/images/HSR/characters/splash/Black Swan",
+    "created_at": "2026-01-02T17:49:24.768Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_blade",
+    "name": "Blade",
+    "game_name": "HSR",
+    "tier": 50,
+    "iconPath": "/images/HSR/characters/icon/Blade",
+    "splashPath": "/images/HSR/characters/splash/Blade",
+    "created_at": "2026-01-02T17:49:24.785Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_boothill",
+    "name": "Boothill",
+    "game_name": "HSR",
+    "tier": 48,
+    "iconPath": "/images/HSR/characters/icon/Boothill",
+    "splashPath": "/images/HSR/characters/splash/Boothill",
+    "created_at": "2026-01-02T17:49:24.803Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_bronya",
+    "name": "Bronya",
+    "game_name": "HSR",
+    "tier": 100,
+    "iconPath": "/images/HSR/characters/icon/Bronya",
+    "splashPath": "/images/HSR/characters/splash/Bronya",
+    "created_at": "2026-01-02T17:49:24.820Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_castorice",
+    "name": "Castorice",
+    "game_name": "HSR",
+    "tier": 81,
+    "iconPath": "/images/HSR/characters/icon/Castorice",
+    "splashPath": "/images/HSR/characters/splash/Castorice",
+    "created_at": "2026-01-02T17:49:24.836Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_cerydra",
+    "name": "Cerydra",
+    "game_name": "HSR",
+    "tier": 75,
+    "iconPath": "/images/HSR/characters/icon/Cerydra",
+    "splashPath": "/images/HSR/characters/splash/Cerydra",
+    "created_at": "2026-01-02T17:49:24.853Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_cipher",
+    "name": "Cipher",
+    "game_name": "HSR",
+    "tier": 79,
+    "iconPath": "/images/HSR/characters/icon/Cipher",
+    "splashPath": "/images/HSR/characters/splash/Cipher",
+    "created_at": "2026-01-02T17:49:24.869Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_clara",
+    "name": "Clara",
+    "game_name": "HSR",
+    "tier": 45,
+    "iconPath": "/images/HSR/characters/icon/Clara",
+    "splashPath": "/images/HSR/characters/splash/Clara",
+    "created_at": "2026-01-02T17:49:24.889Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": "Destruction",
+    "combat_type": "Physical",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 1241.9,
+      "atk": 737.35,
+      "def": 485.1,
+      "dmg_bonus": 0,
+      "speed": 90,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 3200,
+      "atk": 3700,
+      "def": 820,
+      "dmg_bonus": 0,
+      "crit_rate": 70,
+      "crit_dmg": 150,
+      "speed": 90,
+      "energy_recharge": 100
+    },
+    "equipment": {
+      "HSR": {
+        "light_cones": [
+          {
+            "lc_name": "Something Irreplaceable",
+            "priority_rank": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hsr_dan-heng",
+    "name": "Dan Heng",
+    "game_name": "HSR",
+    "tier": 43,
+    "iconPath": "/images/HSR/characters/icon/Dan Heng",
+    "splashPath": "/images/HSR/characters/splash/Dan Heng",
+    "created_at": "2026-01-02T17:49:24.933Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_dan-heng-imbibitor-lunae",
+    "name": "Dan Heng - Imbibitor Lunae",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/Dan Heng - Imbibitor Lunae",
+    "splashPath": "/images/HSR/characters/splash/Dan Heng - Imbibitor Lunae",
+    "created_at": "2026-01-02T17:49:24.950Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_dan-heng-permansor-terrae",
+    "name": "Dan Heng - Permansor Terrae",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/Dan Heng - Permansor Terrae",
+    "splashPath": "/images/HSR/characters/splash/Dan Heng - Permansor Terrae",
+    "created_at": "2026-01-02T17:49:24.965Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_dr-ratio",
+    "name": "Dr. Ratio",
+    "game_name": "HSR",
+    "tier": 42,
+    "iconPath": "/images/HSR/characters/icon/Dr. Ratio",
+    "splashPath": "/images/HSR/characters/splash/Dr. Ratio",
+    "created_at": "2026-01-02T17:49:24.979Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_evernight",
+    "name": "Evernight",
+    "game_name": "HSR",
+    "tier": 72,
+    "iconPath": "/images/HSR/characters/icon/Evernight",
+    "splashPath": "/images/HSR/characters/splash/Evernight",
+    "created_at": "2026-01-02T17:49:24.996Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": null,
+    "combat_type": "Ice",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 3254,
+      "atk": 1301,
+      "def": 1906,
+      "dmg_bonus": 46.24,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 1978,
+      "atk": 3370,
+      "def": 1966,
+      "dmg_bonus": 7.71,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_feixiao",
+    "name": "Feixiao",
+    "game_name": "HSR",
+    "tier": 59,
+    "iconPath": "/images/HSR/characters/icon/Feixiao",
+    "splashPath": "/images/HSR/characters/splash/Feixiao",
+    "created_at": "2026-01-02T17:49:25.012Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_firefly",
+    "name": "Firefly",
+    "game_name": "HSR",
+    "tier": 91,
+    "iconPath": "/images/HSR/characters/icon/Firefly",
+    "splashPath": "/images/HSR/characters/splash/Firefly",
+    "created_at": "2026-01-02T17:49:25.029Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_fu-xuan",
+    "name": "Fu Xuan",
+    "game_name": "HSR",
+    "tier": 66,
+    "iconPath": "/images/HSR/characters/icon/Fu Xuan",
+    "splashPath": "/images/HSR/characters/splash/Fu Xuan",
+    "created_at": "2026-01-02T17:49:25.045Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_fugue",
+    "name": "Fugue",
+    "game_name": "HSR",
+    "tier": 58,
+    "iconPath": "/images/HSR/characters/icon/Fugue",
+    "splashPath": "/images/HSR/characters/splash/Fugue",
+    "created_at": "2026-01-02T17:49:25.065Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_gallagher",
+    "name": "Gallagher",
+    "game_name": "HSR",
+    "tier": 69,
+    "iconPath": "/images/HSR/characters/icon/Gallagher",
+    "splashPath": "/images/HSR/characters/splash/Gallagher",
+    "created_at": "2026-01-02T17:49:25.083Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_gepard",
+    "name": "Gepard",
+    "game_name": "HSR",
+    "tier": 44,
+    "iconPath": "/images/HSR/characters/icon/Gepard",
+    "splashPath": "/images/HSR/characters/splash/Gepard",
+    "created_at": "2026-01-02T17:49:25.098Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_guinaifen",
+    "name": "Guinaifen",
+    "game_name": "HSR",
+    "tier": 39,
+    "iconPath": "/images/HSR/characters/icon/Guinaifen",
+    "splashPath": "/images/HSR/characters/splash/Guinaifen",
+    "created_at": "2026-01-02T17:49:25.112Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_hanya",
+    "name": "Hanya",
+    "game_name": "HSR",
+    "tier": 23,
+    "iconPath": "/images/HSR/characters/icon/Hanya",
+    "splashPath": "/images/HSR/characters/splash/Hanya",
+    "created_at": "2026-01-02T17:49:25.128Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_herta",
+    "name": "Herta",
+    "game_name": "HSR",
+    "tier": 54,
+    "iconPath": "/images/HSR/characters/icon/Herta",
+    "splashPath": "/images/HSR/characters/splash/Herta",
+    "created_at": "2026-01-02T17:49:25.142Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_himeko",
+    "name": "Himeko",
+    "game_name": "HSR",
+    "tier": 52,
+    "iconPath": "/images/HSR/characters/icon/Himeko",
+    "splashPath": "/images/HSR/characters/splash/Himeko",
+    "created_at": "2026-01-02T17:49:25.155Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_hook",
+    "name": "Hook",
+    "game_name": "HSR",
+    "tier": 29,
+    "iconPath": "/images/HSR/characters/icon/Hook",
+    "splashPath": "/images/HSR/characters/splash/Hook",
+    "created_at": "2026-01-02T17:49:25.172Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_huohuo",
+    "name": "Huohuo",
+    "game_name": "HSR",
+    "tier": 97,
+    "iconPath": "/images/HSR/characters/icon/Huohuo",
+    "splashPath": "/images/HSR/characters/splash/Huohuo",
+    "created_at": "2026-01-02T17:49:25.193Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_hyacine",
+    "name": "Hyacine",
+    "game_name": "HSR",
+    "tier": 78,
+    "iconPath": "/images/HSR/characters/icon/Hyacine",
+    "splashPath": "/images/HSR/characters/splash/Hyacine",
+    "created_at": "2026-01-02T17:49:25.211Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_hysilens",
+    "name": "Hysilens",
+    "game_name": "HSR",
+    "tier": 74,
+    "iconPath": "/images/HSR/characters/icon/Hysilens",
+    "splashPath": "/images/HSR/characters/splash/Hysilens",
+    "created_at": "2026-01-02T17:49:25.229Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_jade",
+    "name": "Jade",
+    "game_name": "HSR",
+    "tier": 90,
+    "iconPath": "/images/HSR/characters/icon/Jade",
+    "splashPath": "/images/HSR/characters/splash/Jade",
+    "created_at": "2026-01-02T17:49:25.250Z",
+    "updated_at": "2026-01-03T18:08:29.681Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "crit_rate": 5,
+      "crit_dmg": 50,
+      "dmg_bonus": 0,
+      "speed": 103,
+      "effect_hit_rate": 100,
+      "effect_res": 5
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0
+    },
+    "path": "Erudition",
+    "combat_type": "Quantum",
+    "rarity": "5★",
+    "equipment": {
+      "HSR": {}
+    }
+  },
+  {
+    "id": "hsr_jiaoqiu",
+    "name": "Jiaoqiu",
+    "game_name": "HSR",
+    "tier": 61,
+    "iconPath": "/images/HSR/characters/icon/Jiaoqiu",
+    "splashPath": "/images/HSR/characters/splash/Jiaoqiu",
+    "created_at": "2026-01-02T17:49:25.272Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_jing-yuan",
+    "name": "Jing Yuan",
+    "game_name": "HSR",
+    "tier": 68,
+    "iconPath": "/images/HSR/characters/icon/Jing Yuan",
+    "splashPath": "/images/HSR/characters/splash/Jing Yuan",
+    "created_at": "2026-01-02T17:49:25.304Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_jingliu",
+    "name": "Jingliu",
+    "game_name": "HSR",
+    "tier": 65,
+    "iconPath": "/images/HSR/characters/icon/Jingliu",
+    "splashPath": "/images/HSR/characters/splash/Jingliu",
+    "created_at": "2026-01-02T17:49:25.330Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_kafka",
+    "name": "Kafka",
+    "game_name": "HSR",
+    "tier": 98,
+    "iconPath": "/images/HSR/characters/icon/Kafka",
+    "splashPath": "/images/HSR/characters/splash/Kafka",
+    "created_at": "2026-01-02T17:49:25.354Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_lingsha",
+    "name": "Lingsha",
+    "game_name": "HSR",
+    "tier": 89,
+    "iconPath": "/images/HSR/characters/icon/Lingsha",
+    "splashPath": "/images/HSR/characters/splash/Lingsha",
+    "created_at": "2026-01-02T17:49:25.376Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_luka",
+    "name": "Luka",
+    "game_name": "HSR",
+    "tier": 24,
+    "iconPath": "/images/HSR/characters/icon/Luka",
+    "splashPath": "/images/HSR/characters/splash/Luka",
+    "created_at": "2026-01-02T17:49:25.396Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_luocha",
+    "name": "Luocha",
+    "game_name": "HSR",
+    "tier": 67,
+    "iconPath": "/images/HSR/characters/icon/Luocha",
+    "splashPath": "/images/HSR/characters/splash/Luocha",
+    "created_at": "2026-01-02T17:49:25.412Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_lynx",
+    "name": "Lynx",
+    "game_name": "HSR",
+    "tier": 40,
+    "iconPath": "/images/HSR/characters/icon/Lynx",
+    "splashPath": "/images/HSR/characters/splash/Lynx",
+    "created_at": "2026-01-02T17:49:25.429Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_march-7th",
+    "name": "March 7th",
+    "game_name": "HSR",
+    "tier": 33,
+    "iconPath": "/images/HSR/characters/icon/March 7th",
+    "splashPath": "/images/HSR/characters/splash/March 7th",
+    "created_at": "2026-01-02T17:49:25.446Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_march-7th-the-hunt",
+    "name": "March 7th (The Hunt)",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/March 7th (The Hunt)",
+    "splashPath": "/images/HSR/characters/splash/March 7th (The Hunt)",
+    "created_at": "2026-01-02T17:49:25.460Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_misha",
+    "name": "Misha",
+    "game_name": "HSR",
+    "tier": 21,
+    "iconPath": "/images/HSR/characters/icon/Misha",
+    "splashPath": "/images/HSR/characters/splash/Misha",
+    "created_at": "2026-01-02T17:49:25.471Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_moze",
+    "name": "Moze",
+    "game_name": "HSR",
+    "tier": 38,
+    "iconPath": "/images/HSR/characters/icon/Moze",
+    "splashPath": "/images/HSR/characters/splash/Moze",
+    "created_at": "2026-01-02T17:49:25.486Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_mydei",
+    "name": "Mydei",
+    "game_name": "HSR",
+    "tier": 82,
+    "iconPath": "/images/HSR/characters/icon/Mydei",
+    "splashPath": "/images/HSR/characters/splash/Mydei",
+    "created_at": "2026-01-02T17:49:25.502Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_natasha",
+    "name": "Natasha",
+    "game_name": "HSR",
+    "tier": 30,
+    "iconPath": "/images/HSR/characters/icon/Natasha",
+    "splashPath": "/images/HSR/characters/splash/Natasha",
+    "created_at": "2026-01-02T17:49:25.516Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_pela",
+    "name": "Pela",
+    "game_name": "HSR",
+    "tier": 56,
+    "iconPath": "/images/HSR/characters/icon/Pela",
+    "splashPath": "/images/HSR/characters/splash/Pela",
+    "created_at": "2026-01-02T17:49:25.529Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_phainon",
+    "name": "Phainon",
+    "game_name": "HSR",
+    "tier": 76,
+    "iconPath": "/images/HSR/characters/icon/Phainon",
+    "splashPath": "/images/HSR/characters/splash/Phainon",
+    "created_at": "2026-01-02T17:49:25.544Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_qingque",
+    "name": "Qingque",
+    "game_name": "HSR",
+    "tier": 28,
+    "iconPath": "/images/HSR/characters/icon/Qingque",
+    "splashPath": "/images/HSR/characters/splash/Qingque",
+    "created_at": "2026-01-02T17:49:25.558Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_rappa",
+    "name": "Rappa",
+    "game_name": "HSR",
+    "tier": 88,
+    "iconPath": "/images/HSR/characters/icon/Rappa",
+    "splashPath": "/images/HSR/characters/splash/Rappa",
+    "created_at": "2026-01-02T17:49:25.569Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_robin",
+    "name": "Robin",
+    "game_name": "HSR",
+    "tier": 92,
+    "iconPath": "/images/HSR/characters/icon/Robin",
+    "splashPath": "/images/HSR/characters/splash/Robin",
+    "created_at": "2026-01-02T17:49:25.586Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_ruan-mei",
+    "name": "Ruan Mei",
+    "game_name": "HSR",
+    "tier": 95,
+    "iconPath": "/images/HSR/characters/icon/Ruan Mei",
+    "splashPath": "/images/HSR/characters/splash/Ruan Mei",
+    "created_at": "2026-01-02T17:49:25.601Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": null,
+    "combat_type": "Ice",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 1556,
+      "atk": 996,
+      "def": 1797,
+      "dmg_bonus": 32.82,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 103,
+      "atk": 3985,
+      "def": 1937,
+      "dmg_bonus": 9.47,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_saber",
+    "name": "Saber",
+    "game_name": "HSR",
+    "tier": 77,
+    "iconPath": "/images/HSR/characters/icon/Saber",
+    "splashPath": "/images/HSR/characters/splash/Saber",
+    "created_at": "2026-01-02T17:49:25.616Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_sampo",
+    "name": "Sampo",
+    "game_name": "HSR",
+    "tier": 26,
+    "iconPath": "/images/HSR/characters/icon/Sampo",
+    "splashPath": "/images/HSR/characters/splash/Sampo",
+    "created_at": "2026-01-02T17:49:25.632Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_seele",
+    "name": "Seele",
+    "game_name": "HSR",
+    "tier": 46,
+    "iconPath": "/images/HSR/characters/icon/Seele",
+    "splashPath": "/images/HSR/characters/splash/Seele",
+    "created_at": "2026-01-02T17:49:25.645Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_serval",
+    "name": "Serval",
+    "game_name": "HSR",
+    "tier": 55,
+    "iconPath": "/images/HSR/characters/icon/Serval",
+    "splashPath": "/images/HSR/characters/splash/Serval",
+    "created_at": "2026-01-02T17:49:25.657Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_silver-wolf",
+    "name": "Silver Wolf",
+    "game_name": "HSR",
+    "tier": 99,
+    "iconPath": "/images/HSR/characters/icon/Silver Wolf",
+    "splashPath": "/images/HSR/characters/splash/Silver Wolf",
+    "created_at": "2026-01-02T17:49:25.671Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_sparkle",
+    "name": "Sparkle",
+    "game_name": "HSR",
+    "tier": 94,
+    "iconPath": "/images/HSR/characters/icon/Sparkle",
+    "splashPath": "/images/HSR/characters/splash/Sparkle",
+    "created_at": "2026-01-02T17:49:25.684Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_sunday",
+    "name": "Sunday",
+    "game_name": "HSR",
+    "tier": 87,
+    "iconPath": "/images/HSR/characters/icon/Sunday",
+    "splashPath": "/images/HSR/characters/splash/Sunday",
+    "created_at": "2026-01-02T17:49:25.698Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "path": null,
+    "combat_type": "Imaginary",
+    "rarity": "5★",
+    "base_stats": {
+      "hp": 2264,
+      "atk": 3322,
+      "def": 3862,
+      "dmg_bonus": 6.37,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 3191,
+      "atk": 2452,
+      "def": 2691,
+      "dmg_bonus": 9.84,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_sushang",
+    "name": "Sushang",
+    "game_name": "HSR",
+    "tier": 27,
+    "iconPath": "/images/HSR/characters/icon/Sushang",
+    "splashPath": "/images/HSR/characters/splash/Sushang",
+    "created_at": "2026-01-02T17:49:25.711Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_the-herta",
+    "name": "The Herta",
+    "game_name": "HSR",
+    "tier": 86,
+    "iconPath": "/images/HSR/characters/icon/The Herta",
+    "splashPath": "/images/HSR/characters/splash/The Herta",
+    "created_at": "2026-01-02T17:49:25.726Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_tingyun",
+    "name": "Tingyun",
+    "game_name": "HSR",
+    "tier": 53,
+    "iconPath": "/images/HSR/characters/icon/Tingyun",
+    "splashPath": "/images/HSR/characters/splash/Tingyun",
+    "created_at": "2026-01-02T17:49:25.738Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_topaz-and-numby",
+    "name": "Topaz and Numby",
+    "game_name": "HSR",
+    "tier": 49,
+    "iconPath": "/images/HSR/characters/icon/Topaz and Numby",
+    "splashPath": "/images/HSR/characters/splash/Topaz and Numby",
+    "created_at": "2026-01-02T17:49:25.751Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_trailblazer-fire",
+    "name": "Trailblazer (Fire)",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/Trailblazer (Fire)",
+    "splashPath": "/images/HSR/characters/splash/Trailblazer (Fire)",
+    "created_at": "2026-01-02T17:49:25.769Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_trailblazer-ice",
+    "name": "Trailblazer (Ice)",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/Trailblazer (Ice)",
+    "splashPath": "/images/HSR/characters/splash/Trailblazer (Ice)",
+    "created_at": "2026-01-02T17:49:25.795Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_trailblazer-imaginary",
+    "name": "Trailblazer (Imaginary)",
+    "game_name": "HSR",
+    "tier": 84,
+    "iconPath": "/images/HSR/characters/icon/Trailblazer (Imaginary)",
+    "splashPath": "/images/HSR/characters/splash/Trailblazer (Imaginary)",
+    "created_at": "2026-01-02T17:49:25.821Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_trailblazer-physical",
+    "name": "Trailblazer (Physical)",
+    "game_name": "HSR",
+    "iconPath": "/images/HSR/characters/icon/Trailblazer (Physical)",
+    "splashPath": "/images/HSR/characters/splash/Trailblazer (Physical)",
+    "created_at": "2026-01-02T17:49:25.866Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_tribbie",
+    "name": "Tribbie",
+    "game_name": "HSR",
+    "tier": 83,
+    "iconPath": "/images/HSR/characters/icon/Tribbie",
+    "splashPath": "/images/HSR/characters/splash/Tribbie",
+    "created_at": "2026-01-02T17:49:25.882Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_welt",
+    "name": "Welt",
+    "game_name": "HSR",
+    "tier": 35,
+    "iconPath": "/images/HSR/characters/icon/Welt",
+    "splashPath": "/images/HSR/characters/splash/Welt",
+    "created_at": "2026-01-02T17:49:25.895Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_xueyi",
+    "name": "Xueyi",
+    "game_name": "HSR",
+    "tier": 22,
+    "iconPath": "/images/HSR/characters/icon/Xueyi",
+    "splashPath": "/images/HSR/characters/splash/Xueyi",
+    "created_at": "2026-01-02T17:49:25.911Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_yanqing",
+    "name": "Yanqing",
+    "game_name": "HSR",
+    "tier": 36,
+    "iconPath": "/images/HSR/characters/icon/Yanqing",
+    "splashPath": "/images/HSR/characters/splash/Yanqing",
+    "created_at": "2026-01-02T17:49:25.923Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_yukong",
+    "name": "Yukong",
+    "game_name": "HSR",
+    "tier": 25,
+    "iconPath": "/images/HSR/characters/icon/Yukong",
+    "splashPath": "/images/HSR/characters/splash/Yukong",
+    "created_at": "2026-01-02T17:49:25.937Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  },
+  {
+    "id": "hsr_yunli",
+    "name": "Yunli",
+    "game_name": "HSR",
+    "tier": 60,
+    "iconPath": "/images/HSR/characters/icon/Yunli",
+    "splashPath": "/images/HSR/characters/splash/Yunli",
+    "created_at": "2026-01-02T17:49:25.954Z",
+    "updated_at": "2026-01-02T17:49:25.994Z",
+    "base_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    },
+    "graduation_stats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "dmg_bonus": 0,
+      "energy_recharge": 100
+    }
+  }
+]
