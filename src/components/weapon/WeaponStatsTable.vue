@@ -28,7 +28,7 @@
 
 <script setup lang="ts">
 interface Props {
-  stats: Record<string, string | number>
+  stats: Record<string, any>
   highlightedStats?: string[]
 }
 

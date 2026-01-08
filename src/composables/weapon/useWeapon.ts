@@ -1,4 +1,4 @@
-import { provide, inject, type Ref } from 'vue'
+import { provide, inject, ref, type Ref } from 'vue'
 import type { Weapon } from '../../types/weapon'
 
 const WeaponContextKey = Symbol('weapon')
@@ -20,14 +20,14 @@ export function provideWeaponContext(context?: WeaponContext): WeaponContext {
     return context
   } else {
     // Inject context from parent (or return defaults if not provided)
-    const weapon = inject<Ref<Weapon | null>>(WeaponContextKey, null)
-    const selectedRefinement = inject<Ref<number>>(WeaponRefinementKey, null)
-    const level = inject<Ref<number>>(WeaponLevelKey, null)
+    const weapon = inject<Ref<Weapon | null>>(WeaponContextKey, ref(null))
+    const selectedRefinement = inject<Ref<number>>(WeaponRefinementKey, ref(1))
+    const level = inject<Ref<number>>(WeaponLevelKey, ref(1))
     
     return {
-      weapon: weapon || null,
-      selectedRefinement: selectedRefinement || null,
-      level: level || null
+      weapon,
+      selectedRefinement,
+      level
     }
   }
 }

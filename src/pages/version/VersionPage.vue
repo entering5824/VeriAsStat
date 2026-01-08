@@ -127,7 +127,7 @@
       v-model="showConflictDialog"
       :diff="diff"
       @resolve="handleConflictResolve"
-      @cancel="clearConflict"
+      @cancel="handleCancelConflict"
     />
   </div>
 </template>
@@ -186,14 +186,15 @@ const showVersionModal = ref(false)
 const editingVersion = ref<any>(null)
 const saving = ref(false)
 const deleting = ref(false)
+const showConflictDialog = ref(false)
 
 // Handle query params for editing version
 onMounted(() => {
   const id = route.query.id as string
   if (id && ENABLE_CRUD) {
     // Find version by ID in all games
-    for (const game of ['GI', 'HSR', 'ZZZ']) {
-      const version = versionData[game]?.find((v: any) => (v._id || v.id) === id)
+    for (const game of ['GI', 'HSR', 'ZZZ'] as const) {
+      const version = versionData.value[game]?.find((v: any) => (v._id || v.id) === id)
       if (version) {
         editingVersion.value = version
         showVersionModal.value = true
@@ -209,7 +210,6 @@ const { success, error: showError } = useNotifications()
 
 // Conflict resolution
 const {
-  showConflictDialog,
   diff,
   handleConflict,
   resolveConflict,
@@ -270,7 +270,8 @@ const handleSaveVersion = async (versionData: any) => {
       if (error.isConflict) {
         const conflictInfo = handleConflict(error, versionData)
         if (conflictInfo) {
-          // Dialog will be shown, don't close modal yet
+          // Show conflict dialog
+          showConflictDialog.value = true
           saving.value = false
           return
         }
@@ -285,10 +286,16 @@ const handleSaveVersion = async (versionData: any) => {
   }
 }
 
+const handleCancelConflict = () => {
+  clearConflict()
+  showConflictDialog.value = false
+}
+
 const handleConflictResolve = async (action: 'reload' | 'merge' | 'overwrite') => {
   const resolution = resolveConflict(action)
+  showConflictDialog.value = false
   
-  if (resolution.action === 'reload') {
+  if (resolution === 'reload') {
     // Reload from server - refresh data and close modal
     await fetchVersions()
     showVersionModal.value = false
@@ -297,7 +304,7 @@ const handleConflictResolve = async (action: 'reload' | 'merge' | 'overwrite') =
   }
   
   // Merge or overwrite - retry with merged data
-  const versionDataToSave = resolution.mergedData || editingVersion.value
+  const versionDataToSave = editingVersion.value
   if (!versionDataToSave) return
   
   saving.value = true

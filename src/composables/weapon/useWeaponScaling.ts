@@ -18,7 +18,6 @@ export function useWeaponScaling(weapon: Ref<Weapon | null>, level: Ref<number>)
     }
     
     const w = weapon.value
-    const currentLevel = level.value || 90
     
     // For now, return base stats (scaling calculation can be added later)
     // This is a simplified version - full scaling would require level curve data

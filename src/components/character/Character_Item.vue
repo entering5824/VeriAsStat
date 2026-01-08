@@ -127,7 +127,6 @@ import { useCharacterStats } from '../../composables'
 import { 
   getCharacterIconUrl, 
   getCharacterSplashUrl, 
-  getFallbackIconUrl,
   getCharacterImageCandidates,
   placeholderFor,
   type Game
@@ -150,7 +149,7 @@ export default defineComponent({
     const wrapperRef = ref<HTMLElement | null>(null)
     
     // Sử dụng composable để xử lý stats
-    const { hasStats, statRows } = useCharacterStats(props.character)
+    const { hasStats, statRows } = useCharacterStats(computed(() => props.character))
 
     // Build Guides
     const hasBuildGuides = computed(() => {
@@ -267,8 +266,11 @@ export default defineComponent({
       // Try next candidate
       iconCandidateIndex.value++
       if (iconCandidateIndex.value < candidates.length) {
-        target.src = candidates[iconCandidateIndex.value]
-        return
+        const nextCandidate = candidates[iconCandidateIndex.value]
+        if (nextCandidate) {
+          target.src = nextCandidate
+          return
+        }
       }
       
       // If all candidates failed, try splash as fallback
@@ -294,8 +296,11 @@ export default defineComponent({
       // Try next candidate
       splashCandidateIndex.value++
       if (splashCandidateIndex.value < candidates.length) {
-        target.src = candidates[splashCandidateIndex.value]
-        return
+        const nextCandidate = candidates[splashCandidateIndex.value]
+        if (nextCandidate) {
+          target.src = nextCandidate
+          return
+        }
       }
       
       // If all candidates failed, hide image

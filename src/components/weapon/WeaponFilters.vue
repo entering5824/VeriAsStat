@@ -112,7 +112,7 @@ const availableTags = ['Signature', 'Meta', 'F2P Friendly', 'Limited']
 
 const hasActiveFilters = computed(() => {
   return props.filters.rarity !== null || 
-         props.filters.tags.length > 0 ||
+         (props.filters.tags && props.filters.tags.length > 0) ||
          props.searchQuery !== ''
 })
 

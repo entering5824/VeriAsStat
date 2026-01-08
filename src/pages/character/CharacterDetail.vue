@@ -304,10 +304,9 @@ import BuildSetCombination from '../../components/character/build/BuildSetCombin
 import BuildStatGrid from '../../components/character/build/BuildStatGrid.vue'
 import BuildStatPriority from '../../components/character/build/BuildStatPriority.vue'
 import type { Character } from '../../types/character'
-import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, getCharacterImageCandidates, type Game } from '../../utils/character'
+import { getCharacterIconUrl, getCharacterSplashUrl, makeSrcSet, type Game } from '../../utils/character'
 import { characterService } from '../../services/character'
 import { useScrollRestore } from '../../composables'
-import { resolveBuildComponent } from '../../utils/build/resolveBuildComponent'
 import type { Section } from '../../types/character'
 
 export default defineComponent({
@@ -634,6 +633,23 @@ export default defineComponent({
       return true
     }
 
+    // Feature flag for new build UI (currently disabled, using legacy sections)
+    const useNewBuildUI = ref(false)
+
+    // Helper function to resolve build component name from section type
+    const resolveBuildComponent = (type?: string): string | null => {
+      if (!type) return null
+      
+      const componentMap: Record<string, string> = {
+        'ranked-list': 'BuildRankedList',
+        'set-combination': 'BuildSetCombination',
+        'stat-grid': 'BuildStatGrid',
+        'stat-priority': 'BuildStatPriority'
+      }
+      
+      return componentMap[type] || null
+    }
+
     // Load character
     const loadCharacter = async () => {
       if (!characterId.value || !game.value) {
@@ -760,8 +776,8 @@ export default defineComponent({
       weaponsSection,
       artifactsSection,
       statsSection,
-      useNewBuildUI,
       sections,
+      useNewBuildUI,
       resolveBuildComponent,
       getDefaultTitle,
       shouldRenderSection,

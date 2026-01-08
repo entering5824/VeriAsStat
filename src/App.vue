@@ -26,7 +26,6 @@ import { useAudio, useLoading } from './composables'
 import { onMounted, onUnmounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 
-const isDev = import.meta.env.DEV
 const route = useRoute()
 
 // Initialize background audio

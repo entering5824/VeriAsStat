@@ -173,9 +173,8 @@ const sections = reactive({
 
 const iconUrl = computed(() => {
   if (!weapon.value) return ''
-  const gamePath = weapon.value.game === 'GI' ? 'GI' : weapon.value.game === 'HSR' ? 'HSR' : 'ZZZ'
   const cleanName = weapon.value.name.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '')
-  const gameLower = game.toLowerCase()
+  const gameLower = weapon.value.game.toLowerCase()
   return `/images/${gameLower}/weapons/${cleanName}.png`
 })
 
@@ -187,22 +186,22 @@ const displayStats = computed(() => {
   
   if (isGenshinWeapon(w)) {
     return {
-      main: { label: 'Base ATK', value: w.baseATK },
-      sub: w.subStat ? { label: w.subStat.type, value: w.subStat.value + (typeof w.subStat.value === 'number' && w.subStat.type !== 'Elemental Mastery' ? '%' : '') } : null
+      main: { label: 'Base ATK', value: (w as any).baseATK },
+      sub: (w as any).subStat ? { label: (w as any).subStat.type, value: (w as any).subStat.value + (typeof (w as any).subStat.value === 'number' && (w as any).subStat.type !== 'Elemental Mastery' ? '%' : '') } : null
     }
   }
   
   if (isHSRLightCone(w)) {
     return {
-      main: { label: 'Base HP', value: w.baseHP },
-      sub: { label: 'Base ATK', value: w.baseATK } // Showing ATK as sub for hero
+      main: { label: 'Base HP', value: (w as any).baseHP },
+      sub: { label: 'Base ATK', value: (w as any).baseATK } // Showing ATK as sub for hero
     }
   }
   
   if (isZZZWEngine(w)) {
     return {
-      main: { label: 'Base ATK', value: w.baseATK },
-      sub: w.advancedStat ? { label: w.advancedStat.type, value: w.advancedStat.value } : null
+      main: { label: 'Base ATK', value: (w as any).baseATK },
+      sub: (w as any).advancedStat ? { label: (w as any).advancedStat.type, value: (w as any).advancedStat.value } : null
     }
   }
   
@@ -241,7 +240,7 @@ async function loadWeapon() {
     const loaded = await weaponService.getWeapon(id, game)
     if (loaded) {
       weapon.value = loaded
-      context.setWeapon(loaded)
+      context.weapon.value = loaded
       
       // Đợi DOM update để có image URLs
       await nextTick()

@@ -42,6 +42,10 @@ export default defineComponent({
       type: String,
       default: ''
     },
+    game: {
+      type: String,
+      default: 'GI'
+    },
     position: {
       type: Object as () => { x: number; y: number },
       default: () => ({ x: 0, y: 0 })
@@ -55,11 +59,12 @@ export default defineComponent({
         return props.characterSplashUrl
       }
       
-      // Fallback: construct path from name
+      // Fallback: construct path from name and game
       const cleanName = props.characterName.replace(/\s*\d+★.*$/i, '').replace(/\s*\(.*?\)\s*/g, '').trim()
-      const sanitizedName = cleanName.toLowerCase().replace(/\s+/g, '_')
-      // Note: full character images path - may need to be updated based on actual structure
-      const basePath = `/images/gi/characters/full/${sanitizedName}`
+      const sanitizedName = cleanName.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '')
+      const gameLower = (props.game || 'GI').toLowerCase()
+      // Use splashart folder (not 'full') to match actual structure
+      const basePath = `/images/${gameLower}/characters/splashart/${sanitizedName}`
       // Use WebP with PNG fallback
       return getImageUrlWithWebp(basePath)
     })

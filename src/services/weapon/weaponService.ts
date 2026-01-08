@@ -11,7 +11,6 @@ async function loadWeaponsForGame(game: string): Promise<BaseWeapon[]> {
   }
 
   try {
-    const gameLower = game.toLowerCase()
     let filePath = ''
     
     if (game === 'GI') {

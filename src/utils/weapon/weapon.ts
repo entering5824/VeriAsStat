@@ -17,7 +17,6 @@ export function getWeaponIconUrl(weapon: any): string {
   }
   
   // Fallback: construct from name and game
-  const game = (weapon.game || 'GI').toUpperCase()
   const name = (weapon.name || '').toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '')
   
   if (!name) return ''

@@ -305,7 +305,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { BuildGuide, BuildGuideGI, BuildGuideHSR, BuildGuideZZZ } from '../../types/buildGuide'
-import { isBuildGuideGI, isBuildGuideHSR, isBuildGuideZZZ, getBuildGuideGame, getStatLabel as getStatLabelHelper } from '../../utils/character'
+import { isBuildGuideGI, isBuildGuideHSR, isBuildGuideZZZ, getStatLabel as getStatLabelHelper } from '../../utils/character'
 
 interface Props {
   buildGuide: BuildGuide | null | undefined
@@ -318,23 +318,22 @@ const isHSR = computed(() => props.buildGuide ? isBuildGuideHSR(props.buildGuide
 const isZZZ = computed(() => props.buildGuide ? isBuildGuideZZZ(props.buildGuide) : false)
 
 // Narrowed build guide types
-const giBuildGuide = computed<BuildGuideGI | null>(() => {
-  return props.buildGuide && isBuildGuideGI(props.buildGuide) ? props.buildGuide : null
+const giBuildGuide = computed((): BuildGuideGI | null => {
+  return props.buildGuide && isBuildGuideGI(props.buildGuide) ? (props.buildGuide as BuildGuideGI) : null
 })
 
-const hsrBuildGuide = computed<BuildGuideHSR | null>(() => {
-  return props.buildGuide && isBuildGuideHSR(props.buildGuide) ? props.buildGuide : null
+const hsrBuildGuide = computed((): BuildGuideHSR | null => {
+  return props.buildGuide && isBuildGuideHSR(props.buildGuide) ? (props.buildGuide as BuildGuideHSR) : null
 })
 
-const zzzBuildGuide = computed<BuildGuideZZZ | null>(() => {
-  return props.buildGuide && isBuildGuideZZZ(props.buildGuide) ? props.buildGuide : null
+const zzzBuildGuide = computed((): BuildGuideZZZ | null => {
+  return props.buildGuide && isBuildGuideZZZ(props.buildGuide) ? (props.buildGuide as BuildGuideZZZ) : null
 })
 
 // Helper function to get stat label with game context
 const getStatLabel = (statKey: string): string => {
   if (!props.buildGuide) return statKey
-  const game = getBuildGuideGame(props.buildGuide)
-  return getStatLabelHelper(game, statKey)
+  return getStatLabelHelper(statKey)
 }
 </script>
 

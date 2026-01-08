@@ -1,5 +1,3 @@
-import type { Character } from '../../types/character'
-
 /**
  * Game type for character utilities
  */
@@ -40,7 +38,7 @@ function extractCharacterName(char: any): string {
   if (typeof char === 'string') {
     // If it's a path, extract the filename
     const match = char.match(/\/([^/]+)\.(png|jpg|jpeg|webp)$/i)
-    if (match) return match[1]
+    if (match) return match[1]!
     return char
   }
   
@@ -158,6 +156,7 @@ export function getCharacterIconUrl(char: any): string {
   
   if (iconPath) {
     // Use iconPath from character data (remove extension if present)
+    // Preserve original case from path (file may have uppercase first letter)
     basePath = iconPath.replace(/\.(png|jpg|jpeg|webp)$/i, '')
   } else {
     // Fallback: construct path from name and game (same as VersionCard)
@@ -191,6 +190,7 @@ export function getCharacterSplashUrl(char: any): string {
   if (splashPath) {
     // Use splashPath from character data (remove extension if present)
     // Normalize path: replace /splash/ with /splashart/ if needed
+    // Preserve original case from path (file may have uppercase first letter)
     basePath = splashPath.replace(/\.(png|jpg|jpeg|webp)$/i, '').replace(/\/splash\//g, '/splashart/')
   } else {
     // Fallback: construct path from name and game (same as VersionCard)

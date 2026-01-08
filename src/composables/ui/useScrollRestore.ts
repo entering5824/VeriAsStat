@@ -1,20 +1,13 @@
-import { onMounted, onBeforeUnmount } from 'vue'
-import { useRouter } from 'vue-router'
-
-interface ScrollState {
+export interface ScrollState {
   scrollY: number
-  filters?: Record<string, any>
-  sortBy?: string
+  filters?: {
+    game?: string
+  }
+  sortBy?: any
   searchQuery?: string
 }
 
-/**
- * Composable for saving and restoring scroll position
- * Saves scroll position and filter/sort state to history.state
- * Restores when navigating back
- */
 export function useScrollRestore() {
-  const router = useRouter()
 
   /**
    * Save current scroll position and optional state to history

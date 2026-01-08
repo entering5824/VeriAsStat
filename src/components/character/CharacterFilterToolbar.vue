@@ -76,7 +76,6 @@
 </template>
 
 <script lang="ts" setup>
-import { withDefaults } from 'vue'
 // Props
 interface Props {
   games: string[]
@@ -86,9 +85,7 @@ interface Props {
   searchQuery?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
-  searchQuery: ''
-})
+const props = defineProps<Props>()
 
 // Emits
 const emit = defineEmits<{

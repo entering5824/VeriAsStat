@@ -13,7 +13,7 @@ interface GameConfig {
 
 export function useGamePage() {
   const route = useRoute()
-  const { getGameIcon, getGameName } = useGameConfig()
+  const { getGameIcon } = useGameConfig()
   
   const loading = ref(true)
   
@@ -88,7 +88,6 @@ export function useGamePage() {
       }
       
       // Load weapons/artifacts based on game
-      const gameLower = game.toLowerCase()
       
       // Weapons
       try {

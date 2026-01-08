@@ -66,9 +66,9 @@ export function useHome() {
         const parts = dateStr.split('-')
         if (parts.length !== 3) return true
         
-        const year = parseInt(parts[0], 10)
-        const month = parseInt(parts[1], 10)
-        const day = parseInt(parts[2], 10)
+        const year = parseInt(parts[0]!, 10)
+        const month = parseInt(parts[1]!, 10)
+        const day = parseInt(parts[2]!, 10)
         
         if (isNaN(year) || isNaN(month) || isNaN(day)) return true
         
@@ -86,9 +86,9 @@ export function useHome() {
           const parts = dateStr.split('-')
           if (parts.length !== 3) return Number.MAX_SAFE_INTEGER
           
-          const year = parseInt(parts[0], 10)
-          const month = parseInt(parts[1], 10)
-          const day = parseInt(parts[2], 10)
+          const year = parseInt(parts[0]!, 10)
+          const month = parseInt(parts[1]!, 10)
+          const day = parseInt(parts[2]!, 10)
           
           if (isNaN(year) || isNaN(month) || isNaN(day)) return Number.MAX_SAFE_INTEGER
           

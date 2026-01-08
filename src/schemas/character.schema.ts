@@ -62,15 +62,43 @@ const GraduationStatsSchema = z.union([
 const SubStatsSchema = z.record(z.string(), z.record(z.string(), z.number().nullable()))
 
 // Main character entry schema (what's in the JSON array)
-export const CharacterEntrySchema = z.object({
-  id: z.string(),
-  title: z.string().optional(),
-  character: CharacterObjectSchema,
-  base_stats: StatsSchema.optional(),
-  graduation_stats: GraduationStatsSchema.optional(),
-  sub_stats: SubStatsSchema.optional(),
-  sections: z.array(SectionSchema).optional().default([])
-})
+// Supports both nested structure (with character object) and flat structure
+export const CharacterEntrySchema = z.union([
+  // Nested structure: { id, character: { name, ... }, base_stats, ... }
+  z.object({
+    id: z.string(),
+    title: z.string().optional(),
+    character: CharacterObjectSchema,
+    base_stats: StatsSchema.optional(),
+    graduation_stats: GraduationStatsSchema.optional(),
+    sub_stats: SubStatsSchema.optional(),
+    sections: z.array(SectionSchema).optional().default([])
+  }),
+  // Flat structure: { id, name, iconPath, splashPath, base_stats, ... }
+  z.object({
+    id: z.string(),
+    name: z.string(),
+    title: z.string().optional(),
+    iconPath: z.string().optional(),
+    splashPath: z.string().optional(),
+    element: z.string().optional(),
+    weapon_type: z.string().optional(),
+    weaponType: z.string().optional(),
+    role: z.union([z.string(), z.array(z.string())]).optional(),
+    skill_text: z.string().nullable().optional(),
+    rarity: z.union([z.string(), z.number()]).optional(),
+    tier: z.number().optional(),
+    game_name: z.string().optional(),
+    created_at: z.string().optional(),
+    updated_at: z.string().optional(),
+    equipment: z.any().optional(), // Allow any structure for equipment
+    base_stats: StatsSchema.optional(),
+    graduation_stats: GraduationStatsSchema.optional(),
+    sub_stats: SubStatsSchema.optional(),
+    sections: z.array(SectionSchema).optional().default([]),
+    // Allow any additional fields for backward compatibility
+  }).passthrough()
+])
 
 // Schema for the entire characters.json file (array of character entries)
 export const CharactersFileSchema = z.array(CharacterEntrySchema)

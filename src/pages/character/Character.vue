@@ -86,7 +86,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, nextTick, watch, computed, onMounted, onBeforeUnmount } from 'vue'
+import { defineComponent, ref, nextTick, watch, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useCharacters, useCharacterSort, useSearchDebounce, useScrollRestore, useImagePreloader } from '../../composables'
 import { API_GAMES as GAMES } from '../../config/games'
@@ -114,22 +114,15 @@ export default defineComponent({
       selectedGame,
       loadCharacters,
       changeGame,
+      initialize,
     } = useCharacters()
     
-    // Get game from query param on mount
-    onMounted(() => {
-      const gameFromQuery = route.query.game as string
-      if (gameFromQuery && (gameFromQuery === 'GI' || gameFromQuery === 'HSR' || gameFromQuery === 'ZZZ')) {
-        changeGame(gameFromQuery)
-      }
-    })
-    
-    // Watch route query for game changes
+    // Watch route query for game changes (debounced in composable)
     watch(() => route.query.game, (newGame) => {
       if (newGame && (newGame === 'GI' || newGame === 'HSR' || newGame === 'ZZZ')) {
         changeGame(newGame)
       }
-    })
+    }, { immediate: false })
 
     // Image preloader
     const { preloadImagesFromSelector } = useImagePreloader()
@@ -269,40 +262,48 @@ export default defineComponent({
     })
     
     // Scroll restoration
-    const { saveScrollState, restoreScrollState } = useScrollRestore()
+    const { restoreScrollState } = useScrollRestore()
     
-    // Save scroll state before navigating away
-    const handleBeforeNavigate = () => {
-      saveScrollState({
-        filters: { game: selectedGame.value },
-        sortBy: sortBy.value,
-        searchQuery: searchQuery.value
-      })
-    }
-    
-    // Restore scroll state on mount
-    onMounted(() => {
-      // Get game from query param first
-      const gameFromQuery = route.query.game as string
-      if (gameFromQuery && (gameFromQuery === 'GI' || gameFromQuery === 'HSR' || gameFromQuery === 'ZZZ')) {
-        changeGame(gameFromQuery)
-      }
-      
-      const savedState = restoreScrollState()
-      if (savedState) {
-        // Restore filter/sort state if available (but don't override query param)
-        if (!gameFromQuery && savedState.filters?.game) {
-          changeGame(savedState.filters.game)
+    // Single onMounted hook to handle initialization
+    onMounted(async () => {
+      try {
+        // Restore scroll state first
+        const savedState = restoreScrollState()
+        
+        // Get game from query param first (highest priority)
+        const gameFromQuery = route.query.game as string
+        let gameToLoad: string | null = null
+        
+        if (gameFromQuery && (gameFromQuery === 'GI' || gameFromQuery === 'HSR' || gameFromQuery === 'ZZZ')) {
+          gameToLoad = gameFromQuery.toUpperCase()
+        } else if (savedState?.filters?.game) {
+          // Try to restore from saved state if no query param
+          gameToLoad = savedState.filters.game
         }
-        if (savedState.sortBy) {
-          sortBy.value = savedState.sortBy as any
+        
+        // Set game if we have one (this will trigger watch to load data)
+        if (gameToLoad) {
+          changeGame(gameToLoad)
+          // Wait for watch to trigger (debounced), then check if we need to initialize
+          await nextTick()
+          // Small delay to let debounced watch execute
+          await new Promise(resolve => setTimeout(resolve, 150))
         }
-        if (savedState.searchQuery) {
-          searchQuery.value = savedState.searchQuery
+        
+        // Initialize only if not already loading/loaded (watch may have triggered)
+        await initialize()
+        
+        // Restore other state after data is loaded
+        if (savedState) {
+          if (savedState.sortBy) {
+            sortBy.value = savedState.sortBy as any
+          }
+          if (savedState.searchQuery) {
+            searchQuery.value = savedState.searchQuery
+          }
         }
-      } else if (!gameFromQuery) {
-        // Load characters on initial mount if no query param
-        loadCharacters()
+      } catch (err) {
+        console.error('[Character.vue] Error during initialization:', err)
       }
     })
     
@@ -318,9 +319,12 @@ export default defineComponent({
       showBuildGuideModal.value = true
     }
 
+    // Convert readonly array to mutable array for template
+    const gamesArray = computed(() => [...GAMES])
+
     return {
       // Constants
-      GAMES,
+      GAMES: gamesArray,
       ENABLE_CRUD,
       
       // State

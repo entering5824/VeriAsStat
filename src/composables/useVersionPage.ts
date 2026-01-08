@@ -1,5 +1,4 @@
 import { ref, computed, onMounted } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
 
 interface Version {
   _id?: string
@@ -12,8 +11,6 @@ interface Version {
 }
 
 export function useVersionPage() {
-  const route = useRoute()
-  const router = useRouter()
   
   const currentView = ref<'home' | 'game'>('home')
   const selectedGame = ref<string | null>(null)
@@ -56,7 +53,7 @@ export function useVersionPage() {
       
       // Sort each game's versions by version number (ascending)
       Object.keys(versionData.value).forEach(game => {
-        versionData.value[game].sort((a, b) => {
+        versionData.value[game]!.sort((a, b) => {
           return parseVersionNumber(a.version || '') - parseVersionNumber(b.version || '')
         })
       })

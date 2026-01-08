@@ -82,6 +82,7 @@
       :show="showFullImage"
       :character-name="selectedCharacter"
       :character-splash-url="selectedCharacterSplashUrl"
+      :game="version.game || 'GI'"
       :position="popupPosition"
       @close="hideSplashArt"
     />
