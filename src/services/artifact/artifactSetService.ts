@@ -66,7 +66,7 @@ class ArtifactSetService {
    * @param game - Game code for error messages
    * @returns Array of artifact sets
    */
-  private async loadArtifactFile(filePath: string, game: string): Promise<ArtifactSet[]> {
+  private async loadArtifactFile(filePath: string, _game: string): Promise<ArtifactSet[]> {
     try {
       const response = await fetchWithRetry(filePath, {}, 3, 300, 10000)
       

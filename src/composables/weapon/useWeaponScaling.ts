@@ -11,7 +11,7 @@ interface CalculatedStats {
   }
 }
 
-export function useWeaponScaling(weapon: Ref<Weapon | null>, level: Ref<number>) {
+export function useWeaponScaling(weapon: Ref<Weapon | null>, _level: Ref<number>) {
   const calculatedStats = computed<CalculatedStats>(() => {
     if (!weapon.value) {
       return {}

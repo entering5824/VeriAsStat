@@ -9,8 +9,8 @@ import { join } from 'path'
 function dataFilesPlugin() {
   return {
     name: 'data-files-plugin',
-    configureServer(server) {
-      server.middlewares.use((req, res, next) => {
+    configureServer(server: any) {
+      server.middlewares.use((req: any, res: any, next: any) => {
         // Only handle requests to /data/* paths
         if (req.url?.startsWith('/data/')) {
           try {
