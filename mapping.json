@@ -1,5 +1,0 @@
-[
-  { "from": "src/services/characterService.ts", "to": "src/services/character/characterService.ts" },
-  { "from": "src/services/weaponService.ts", "to": "src/services/weapon/weaponService.ts" },
-  { "from": "src/services/artifactSetService.ts", "to": "src/services/artifact/artifactSetService.ts" }
-]
